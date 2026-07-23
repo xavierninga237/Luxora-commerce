@@ -1,0 +1,180 @@
+/* =========================================================================
+   Luxora Commerce — layout: header, navigation, hero, footer
+   ========================================================================= */
+
+/* ------------------------------------------------------------ announcement */
+.announce {
+  background: var(--lux-black); border-bottom: 1px solid var(--border);
+  font-size: var(--step--2); letter-spacing: .12em; text-transform: uppercase;
+  color: var(--text-2); text-align: center; padding: .6rem var(--gutter);
+}
+.announce strong { color: var(--lux-gold); font-weight: 600; }
+
+/* ----------------------------------------------------------------- header */
+.site-header {
+  position: sticky; top: 0; z-index: var(--z-header);
+  background: rgba(11, 11, 11, .82); backdrop-filter: blur(14px);
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--base) var(--ease), background var(--base) var(--ease);
+}
+.site-header.is-stuck { border-bottom-color: var(--border); background: rgba(11, 11, 11, .95); }
+
+.nav {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--sp-5);
+  min-height: var(--header-h);
+}
+.nav__brand { display: flex; align-items: center; gap: .7rem; flex: none; }
+.nav__brand img { width: 34px; height: 34px; object-fit: contain; }
+.nav__brand-text { display: flex; flex-direction: column; line-height: 1; }
+.nav__brand-name {
+  font-family: var(--font-display); font-size: 1.32rem; font-weight: 500;
+  letter-spacing: var(--tracking-wider); color: var(--lux-ivory);
+}
+.nav__brand-sub {
+  font-size: 8.5px; letter-spacing: .3em; text-transform: uppercase;
+  color: var(--lux-gold); margin-top: 3px;
+}
+
+.nav__links { display: flex; gap: var(--sp-6); align-items: center; list-style: none; margin: 0; padding: 0; }
+.nav__links a {
+  position: relative; font-size: var(--step--1); font-weight: 500;
+  letter-spacing: .1em; text-transform: uppercase; color: var(--text-2); padding: .4rem 0;
+}
+.nav__links a::after {
+  content: ""; position: absolute; left: 0; bottom: 0; height: 1px; width: 0;
+  background: var(--lux-gold); transition: width var(--base) var(--ease);
+}
+.nav__links a:hover, .nav__links a[aria-current="page"] { color: var(--text); }
+.nav__links a:hover::after, .nav__links a[aria-current="page"]::after { width: 100%; }
+
+.nav__tools { display: flex; align-items: center; gap: var(--sp-2); flex: none; }
+.nav__tool {
+  position: relative; width: 42px; height: 42px; display: grid; place-items: center;
+  background: none; border: 0; cursor: pointer; color: var(--text-2); border-radius: var(--radius-btn);
+  transition: color var(--fast) var(--ease), background var(--fast) var(--ease);
+}
+.nav__tool:hover { color: var(--lux-gold); background: var(--surface); }
+.nav__tool svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+.nav__count {
+  position: absolute; top: 4px; right: 3px; min-width: 17px; height: 17px; padding: 0 4px;
+  display: grid; place-items: center; background: var(--lux-gold); color: var(--text-on-gold);
+  border-radius: var(--radius-pill); font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+}
+.nav__count:empty, .nav__count[data-count="0"] { display: none; }
+.nav__burger { display: none; }
+@media (max-width: 1040px) {
+  .nav__links { display: none; }
+  .nav__burger { display: grid; }
+  /* The mega panel is a hover affordance for pointer devices; mobile uses the
+     burger drawer. Left in the DOM its 4-column grid has an intrinsic width
+     wider than a phone viewport, which put the whole page into sideways
+     scroll even though the panel itself was invisible. */
+  .mega { display: none; }
+}
+/* Below ~480px the brand lockup plus the tool row exceeded the viewport and
+   pushed the whole page into horizontal scroll. Tighten both. */
+/* Very narrow phones (320px): shrink the tool buttons rather than drop the
+   wordmark, so the brand lockup survives. */
+@media (max-width: 420px) {
+  .nav__tool { min-width: 34px; width: 34px; height: 34px; padding: 0; }
+  .nav__tools { gap: 0; }
+}
+@media (max-width: 480px) {
+  .nav__brand { gap: .45rem; }
+  .nav__brand img { width: 28px; height: 28px; }
+  .nav__brand-sub { display: none; }
+  .nav__brand-name { font-size: var(--step--1); letter-spacing: .16em; }
+  .nav__tools { gap: 2px; }
+}
+
+/* Mega menu — opens on hover on pointer devices, on click otherwise */
+.mega {
+  position: absolute; left: 0; right: 0; top: 100%;
+  background: var(--bg-deep); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  padding: var(--sp-7) 0; opacity: 0; visibility: hidden; transform: translateY(-8px);
+  transition: opacity var(--base) var(--ease), transform var(--base) var(--ease), visibility var(--base);
+}
+.has-mega:hover .mega, .mega:hover, .mega.is-open { opacity: 1; visibility: visible; transform: none; }
+.mega__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--sp-6); }
+.mega__col h5 {
+  font-size: var(--step--2); letter-spacing: var(--tracking-wide); text-transform: uppercase;
+  color: var(--lux-gold); margin: 0 0 var(--sp-4); font-family: var(--font-body); font-weight: 600;
+}
+.mega__col ul { list-style: none; margin: 0; padding: 0; }
+.mega__col li { margin-bottom: var(--sp-3); }
+.mega__col a { font-size: var(--step--1); color: var(--text-2); }
+.mega__col a:hover { color: var(--lux-gold); padding-left: 4px; }
+.mega__promo { border: 1px solid var(--border); border-radius: var(--radius-card); overflow: hidden; }
+.mega__promo img { aspect-ratio: 4/3; object-fit: cover; width: 100%; }
+.mega__promo div { padding: var(--sp-4); }
+
+/* Mobile drawer navigation */
+.mobile-nav__list { list-style: none; margin: 0; padding: 0; }
+.mobile-nav__list a {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: var(--sp-4) 0; border-bottom: 1px solid var(--border);
+  font-family: var(--font-display); font-size: 1.5rem;
+}
+
+/* ------------------------------------------------------------------- hero */
+.hero { position: relative; min-height: min(90vh, 820px); display: grid; align-items: center; overflow: hidden; background: var(--bg-deep); }
+.hero__media { position: absolute; inset: 0; z-index: 0; }
+.hero__media img { width: 100%; height: 100%; object-fit: cover; opacity: .95; }
+.hero__media::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(11,11,11,.96) 0%, rgba(11,11,11,.72) 44%, rgba(11,11,11,.18) 100%);
+}
+.hero__inner { position: relative; z-index: 1; padding-block: clamp(4rem, 10vw, 8rem); }
+.hero__content { max-width: 40ch; }
+.hero__title { font-size: var(--step-5); line-height: 1.02; margin-bottom: var(--sp-5); }
+.hero__title em { font-style: italic; color: var(--lux-gold); }
+.hero__sub { font-size: var(--step-1); color: var(--text-2); max-width: 48ch; margin-bottom: var(--sp-6); }
+.hero__actions { display: flex; flex-wrap: wrap; gap: var(--sp-3); }
+.hero__scroll {
+  position: absolute; left: 50%; bottom: var(--sp-6); transform: translateX(-50%);
+  display: flex; flex-direction: column; align-items: center; gap: var(--sp-2); z-index: 1;
+  font-size: var(--step--2); letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--text-muted);
+}
+.hero__scroll::after { content: ""; width: 1px; height: 42px; background: linear-gradient(var(--lux-gold), transparent); animation: drop 2.4s var(--ease) infinite; }
+@keyframes drop { 0%, 100% { opacity: .3; transform: scaleY(.6); transform-origin: top; } 50% { opacity: 1; transform: scaleY(1); } }
+
+/* Metric strip beneath the hero */
+.metrics { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: var(--bg-deep); }
+.metrics__grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+.metrics__item { padding: var(--sp-6) var(--sp-4); text-align: center; border-right: 1px solid var(--border); }
+.metrics__item:last-child { border-right: 0; }
+.metrics__value { font-family: var(--font-mono); font-size: clamp(1.6rem, 3vw, 2.3rem); color: var(--lux-gold); letter-spacing: -.02em; }
+.metrics__label { font-size: var(--step--2); letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--text-muted); margin-top: var(--sp-2); }
+@media (max-width: 760px) {
+  .metrics__grid { grid-template-columns: repeat(2, 1fr); }
+  .metrics__item:nth-child(2n) { border-right: 0; }
+  .metrics__item:nth-child(-n+2) { border-bottom: 1px solid var(--border); }
+}
+
+/* ----------------------------------------------------------------- footer */
+.site-footer { background: var(--lux-black); border-top: 1px solid var(--border); padding-top: var(--sp-8); margin-top: var(--sp-8); }
+.footer__grid { display: grid; grid-template-columns: 1.6fr repeat(4, 1fr); gap: var(--sp-6); padding-bottom: var(--sp-7); }
+@media (max-width: 940px) { .footer__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .footer__grid { grid-template-columns: 1fr; } }
+.footer__brand img { width: 150px; margin-bottom: var(--sp-4); }
+.footer__col h5 {
+  font-size: var(--step--2); letter-spacing: var(--tracking-wide); text-transform: uppercase;
+  color: var(--lux-gold); margin: 0 0 var(--sp-4); font-family: var(--font-body); font-weight: 600;
+}
+.footer__col ul { list-style: none; margin: 0; padding: 0; }
+.footer__col li { margin-bottom: var(--sp-3); }
+.footer__col a { font-size: var(--step--1); color: var(--text-2); }
+.footer__bottom {
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--sp-4);
+  align-items: center; padding: var(--sp-5) 0; border-top: 1px solid var(--border);
+  font-size: var(--step--2); color: var(--text-muted);
+}
+.footer__pay { display: flex; gap: var(--sp-3); align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+.footer__pay span {
+  border: 1px solid var(--border); border-radius: 6px; padding: .3rem .6rem;
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: .08em; color: var(--text-2);
+}
+.social { display: flex; gap: var(--sp-3); }
+.social a { width: 36px; height: 36px; display: grid; place-items: center; border: 1px solid var(--border); border-radius: var(--radius-btn); color: var(--text-2); }
+.social a:hover { border-color: var(--gold-line); color: var(--lux-gold); }
+.social svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }

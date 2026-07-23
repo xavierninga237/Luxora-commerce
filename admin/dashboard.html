@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — Luxora Admin</title><meta name="description" content="Luxora admin">
+<link rel="icon" href="../assets/images/logos/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/tokens.css"><link rel="stylesheet" href="../assets/css/base.css"><link rel="stylesheet" href="../assets/css/components.css"><link rel="stylesheet" href="../assets/css/layout.css"><link rel="stylesheet" href="../assets/css/pages.css"><link rel="stylesheet" href="../assets/css/admin.css">
+</head>
+<body>
+<div class="admin">
+
+<aside class="admin__side">
+  <div class="admin__brand"><img src="../assets/images/logos/luxora-mark.png" alt="">
+    <div><b>LUXORA</b><span>Admin</span></div></div>
+  <nav class="admin__nav"><h6>Overview</h6><a href="../admin/dashboard.html" class="is-on" data-ic="grid">Dashboard</a><a href="../admin/analytics.html" class="" data-ic="chart">Analytics</a><h6>Catalogue</h6><a href="../admin/products.html" class="" data-ic="box">Products</a><a href="../admin/inventory.html" class="" data-ic="tag">Inventory</a><a href="../admin/reviews.html" class="" data-ic="star">Reviews</a><a href="../admin/coupons.html" class="" data-ic="tag">Coupons</a><h6>Commerce</h6><a href="../admin/orders.html" class="" data-ic="box">Orders</a><a href="../admin/customers.html" class="" data-ic="users">Customers</a><h6>Intelligence</h6><a href="../admin/ai.html" class="" data-ic="spark">AI Conversations<span class="tag">AI</span></a><a href="../admin/settings.html" class="" data-ic="gear">Settings</a></nav>
+  <div class="admin__user"><div class="avatar" style="width:36px;height:36px">AR</div>
+    <div><b>Admin</b><span>Owner</span></div></div>
+</aside>
+
+<div class="admin__main">
+  <header class="admin__top">
+    <button class="icon-btn admin__burger" id="admin-burger" aria-label="Menu">&#9776;</button>
+    <h1>Dashboard</h1>
+    <div class="admin__search"><input class="input" placeholder="Search…" aria-label="Search"></div>
+    <a class="btn btn--ghost btn--sm" href="../index.html">View store &rarr;</a>
+  </header>
+  <div class="admin__body">
+
+<section id="admin-overview">
+  <div class="kpis" id="admin-kpis"></div>
+  <div class="admin-grid">
+    <div class="panel"><div class="panel__head"><div><h3 class="panel__title">Revenue</h3><span class="panel__sub">Last six months</span></div>
+      <span class="badge">USD</span></div><div id="chart-revenue"></div></div>
+    <div class="panel"><div class="panel__head"><div><h3 class="panel__title">Traffic by channel</h3><span class="panel__sub">This month</span></div></div>
+      <div style="display:grid;place-items:center" id="chart-channels"></div>
+      <div class="legend" id="legend-channels"></div></div>
+  </div>
+  <div class="admin-grid">
+    <div class="panel"><div class="panel__head"><div><h3 class="panel__title">Orders</h3><span class="panel__sub">Monthly volume</span></div></div><div id="chart-orders"></div></div>
+    <div class="panel"><div class="panel__head"><div><h3 class="panel__title">Revenue by region</h3></div></div><div id="chart-regions" style="margin-top:1rem"></div></div>
+  </div>
+  <div class="admin-grid">
+    <div class="panel"><div class="panel__head"><div><h3 class="panel__title">Recent orders</h3></div>
+      <a class="btn btn--ghost btn--sm" href="../admin/orders.html">All orders</a></div>
+      <div class="table-wrap" style="border:0"><table class="table"><thead><tr><th>Order</th><th>Customer</th><th>Date</th><th>Status</th><th>Total</th></tr></thead>
+      <tbody id="admin-recent-orders"></tbody></table></div></div>
+    <div class="panel"><div class="panel__head"><div><h3 class="panel__title">Top products</h3><span class="panel__sub">By revenue</span></div></div>
+      <div id="admin-top-products" style="margin-top:.5rem"></div></div>
+  </div>
+</section>
+
+  </div>
+</div>
+</div>
+<script src="../assets/js/data/luxora-data.js"></script>
+<script src="../assets/js/core/utils.js"></script>
+<script src="../assets/js/core/store.js"></script>
+<script src="../assets/js/core/ui.js"></script>
+<script src="../assets/js/features/ai.js"></script>
+<script src="../assets/js/features/admin.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded",function(){
+  document.querySelectorAll(".admin__nav a[data-ic]").forEach(function(a){
+    if(!a.querySelector("svg")) a.insertAdjacentHTML("afterbegin", window.LX.icon(a.getAttribute("data-ic"),16));
+  });
+});
+</script>
+
+</body></html>

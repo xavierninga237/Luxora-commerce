@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout — Luxora Commerce</title>
+<meta name="description" content="Secure checkout.">
+<meta property="og:title" content="Checkout — Luxora Commerce">
+<meta property="og:description" content="Secure checkout.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="../assets/images/logos/og-image.jpg">
+<meta name="theme-color" content="#0B0B0B">
+<link rel="icon" href="../assets/images/logos/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/images/logos/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/tokens.css"><link rel="stylesheet" href="../assets/css/base.css"><link rel="stylesheet" href="../assets/css/components.css"><link rel="stylesheet" href="../assets/css/layout.css"><link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="header"></div>
+<main id="main">
+
+<section class="page-head"><div class="shell">
+  <div class="breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="../pages/cart.html">Bag</a><span>/</span>Checkout</div>
+  <h1>Checkout</h1>
+</div></section>
+<section class="section section--tight"><div class="shell" id="checkout">
+  <div class="checkout">
+    <div>
+      <div class="steps">
+        <div class="step is-on" data-step="1"><span class="step__num">1</span>Contact</div>
+        <div class="step" data-step="2"><span class="step__num">2</span>Shipping</div>
+        <div class="step" data-step="3"><span class="step__num">3</span>Payment</div>
+      </div>
+
+      <div data-step-panel="1">
+        <h3>Contact details</h3>
+        <div class="grid-2">
+          <label class="field"><span class="field__label">First name</span><input class="input" name="firstName" required><span class="field__error">Required</span></label>
+          <label class="field"><span class="field__label">Last name</span><input class="input" name="lastName" required><span class="field__error">Required</span></label>
+        </div>
+        <label class="field"><span class="field__label">Email</span><input class="input" type="email" name="email" required><span class="field__error">Enter a valid email</span></label>
+        <label class="field"><span class="field__label">Phone</span><input class="input" type="tel" name="phone"></label>
+        <button class="btn btn--primary btn--lg" id="to-shipping">Continue to shipping</button>
+      </div>
+
+      <div data-step-panel="2" hidden>
+        <h3>Shipping address</h3>
+        <label class="field"><span class="field__label">Address</span><input class="input" name="address" required><span class="field__error">Required</span></label>
+        <div class="grid-2">
+          <label class="field"><span class="field__label">City</span><input class="input" name="city" required><span class="field__error">Required</span></label>
+          <label class="field"><span class="field__label">Postal code</span><input class="input" name="postal" required><span class="field__error">Required</span></label>
+        </div>
+        <div class="grid-2">
+          <label class="field"><span class="field__label">Country</span>
+            <select class="select" name="country" required>
+              <option value="">Select…</option><option>United States</option><option>United Kingdom</option>
+              <option>Switzerland</option><option>Germany</option><option>France</option><option>United Arab Emirates</option>
+              <option>Singapore</option><option>Canada</option><option>Australia</option><option>Japan</option>
+            </select><span class="field__error">Required</span></label>
+          <label class="field"><span class="field__label">Shipping method</span>
+            <select class="select" name="shipping"><option>Express (1–4 days) — free over $500</option><option>Standard (3–7 days)</option></select></label>
+        </div>
+        <div class="cluster" style="gap:.75rem">
+          <button class="btn btn--ghost" data-back-step="1">Back</button>
+          <button class="btn btn--primary btn--lg" id="to-payment">Continue to payment</button>
+        </div>
+      </div>
+
+      <div data-step-panel="3" hidden>
+        <h3>Payment</h3>
+        <div class="pay-option is-on" data-pay="Card"><input type="radio" name="pay" checked><span class="pay-option__label">Credit or debit card</span><span class="pay-option__tag">Visa · MC · Amex</span></div>
+        <div class="pay-option" data-pay="PayPal"><input type="radio" name="pay"><span class="pay-option__label">PayPal</span></div>
+        <div class="pay-option" data-pay="Apple Pay"><input type="radio" name="pay"><span class="pay-option__label">Apple Pay</span><span class="pay-option__tag">UI demo</span></div>
+        <div class="pay-option" data-pay="Google Pay"><input type="radio" name="pay"><span class="pay-option__label">Google Pay</span><span class="pay-option__tag">UI demo</span></div>
+        <div class="grid-2" style="margin-top:1rem">
+          <label class="field"><span class="field__label">Card number</span><input class="input mono" name="card" placeholder="4242 4242 4242 4242" required><span class="field__error">Required</span></label>
+          <div class="grid-2">
+            <label class="field"><span class="field__label">Expiry</span><input class="input mono" name="expiry" placeholder="12 / 28" required><span class="field__error">Required</span></label>
+            <label class="field"><span class="field__label">CVC</span><input class="input mono" name="cvc" placeholder="123" required><span class="field__error">Required</span></label>
+          </div>
+        </div>
+        <label class="check" style="margin:1rem 0"><input type="checkbox" name="terms" required><span>I agree to the terms of sale and the return policy.</span></label>
+        <div class="cluster" style="gap:.75rem">
+          <button class="btn btn--ghost" data-back-step="2">Back</button>
+          <button class="btn btn--primary btn--lg" id="place-order">Place order</button>
+        </div>
+        <p class="field__hint" style="margin-top:1rem">This is a portfolio demo. No card is charged and no data leaves your browser.</p>
+      </div>
+    </div>
+
+    <div class="summary">
+      <div class="card">
+        <h3 style="font-size:1.4rem">Your order</h3>
+        <div id="checkout-items" style="margin:1rem 0"></div>
+        <div id="checkout-summary"></div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+</main>
+<div data-chrome="footer"></div>
+<div data-chrome="drawers"></div>
+<script src="../assets/js/data/luxora-data.js"></script>
+<script src="../assets/js/core/utils.js"></script>
+<script src="../assets/js/core/store.js"></script>
+<script src="../assets/js/core/ui.js"></script>
+<script src="../assets/js/core/chrome.js"></script>
+<script src="../assets/js/features/ai.js"></script>
+<script src="../assets/js/features/checkout.js"></script>
+</body>
+</html>

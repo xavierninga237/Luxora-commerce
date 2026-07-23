@@ -1,0 +1,112 @@
+/* =========================================================================
+   Luxora Commerce — design tokens
+   Every value here comes from the brand brief. Change a token, change the
+   whole platform: nothing downstream hard-codes a colour or a size.
+   ========================================================================= */
+
+:root {
+  /* ---- Colour ---------------------------------------------------------- */
+  --lux-black:        #0B0B0B;   /* Luxury Black — primary */
+  --lux-gold:         #C9A14A;   /* Rich Gold — secondary */
+  --lux-ivory:        #F8F7F3;   /* Ivory White — accent */
+
+  --bg:               #111111;
+  --bg-deep:          #0B0B0B;
+  --surface:          #1A1A1A;
+  --surface-2:        #212121;
+  --surface-3:        #272727;
+  --border:           #2B2B2B;
+  --border-strong:    #3A3A3A;
+
+  --success:          #2E7D32;
+  --error:            #C62828;
+  --warning:          #B8860B;
+  --info:             #2E5FA3;
+
+  --text:             #FFFFFF;
+  --text-2:           #BDBDBD;
+  --text-muted:       #7D7D7D;
+  --text-on-gold:     #0B0B0B;
+
+  /* Gold, worked into gradients and washes */
+  --gold-100:         #F2DFA8;
+  --gold-600:         #C9A14A;
+  --gold-800:         #8A6A22;
+  --gold-line:        rgba(201, 161, 74, .22);
+  --gold-line-soft:   rgba(201, 161, 74, .12);
+  --gold-wash:        rgba(201, 161, 74, .06);
+  --metal: linear-gradient(135deg, var(--gold-800) 0%, var(--gold-100) 32%,
+                                   var(--gold-600) 55%, var(--gold-100) 78%,
+                                   var(--gold-800) 100%);
+
+  /* ---- Type ------------------------------------------------------------ */
+  --font-display: "Cormorant Garamond", "Times New Roman", Georgia, serif;
+  --font-body:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono:    "Geist Mono", ui-monospace, "SF Mono", "Roboto Mono", Menlo, monospace;
+
+  --step--2: .6875rem;   /* 11px — eyebrows, table meta */
+  --step--1: .8125rem;   /* 13px — captions, labels     */
+  --step-0:  .9375rem;   /* 15px — body                 */
+  --step-1:  1.0625rem;  /* 17px — lead                 */
+  --step-2:  clamp(1.35rem, 1.1rem + .8vw,  1.75rem);
+  --step-3:  clamp(1.8rem,  1.4rem + 1.6vw, 2.6rem);
+  --step-4:  clamp(2.4rem,  1.7rem + 3.1vw, 4rem);
+  --step-5:  clamp(3rem,    1.9rem + 5.2vw, 5.75rem);
+
+  --tracking-wide:  .18em;   /* eyebrows and nav        */
+  --tracking-wider: .32em;   /* the wordmark treatment  */
+
+  /* ---- Space ----------------------------------------------------------- */
+  --sp-1: .25rem;  --sp-2: .5rem;   --sp-3: .75rem;  --sp-4: 1rem;
+  --sp-5: 1.5rem;  --sp-6: 2rem;    --sp-7: 3rem;    --sp-8: 4rem;
+  --sp-9: 6rem;    --sp-10: 8rem;
+
+  --shell:       1320px;
+  --shell-tight: 1080px;
+  --shell-prose: 68ch;
+  --gutter: clamp(1.15rem, 4vw, 3rem);
+
+  /* ---- Shape ----------------------------------------------------------- */
+  --radius:     12px;
+  --radius-card:16px;
+  --radius-btn: 10px;
+  --radius-pill:999px;
+
+  /* ---- Depth ----------------------------------------------------------- */
+  --shadow:      0 8px 30px rgba(0, 0, 0, .2);
+  --shadow-lift: 0 18px 48px rgba(0, 0, 0, .38);
+  --shadow-gold: 0 14px 40px rgba(201, 161, 74, .14);
+
+  /* ---- Motion ---------------------------------------------------------- */
+  --ease:   cubic-bezier(.22, .61, .36, 1);
+  --fast:   140ms;
+  --base:   200ms;
+  --slow:   420ms;
+  --reveal: 700ms;
+
+  --header-h: 76px;
+  --z-header: 60;
+  --z-drawer: 80;
+  --z-modal:  90;
+  --z-toast:  100;
+}
+
+/* The platform ships dark. The light token set exists so the same components
+   can be dropped into a light client build without touching a component file. */
+[data-theme="light"] {
+  --bg: #F8F7F3;
+  --bg-deep: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F2F0EA;
+  --surface-3: #E9E6DD;
+  --border: #E2DED3;
+  --border-strong: #CFC9BA;
+  --text: #0B0B0B;
+  --text-2: #4A4A4A;
+  --text-muted: #8A8A8A;
+  --gold-line: rgba(138, 106, 34, .28);
+  --gold-line-soft: rgba(138, 106, 34, .14);
+  --gold-wash: rgba(201, 161, 74, .09);
+  --shadow: 0 8px 30px rgba(0, 0, 0, .08);
+  --shadow-lift: 0 18px 48px rgba(0, 0, 0, .12);
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://luxora.example/index.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/about.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/ai-assistant.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/cart.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/checkout.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/collections.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/compare.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/contact.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/faq.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/gift-finder.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/journal.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/order-confirmation.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/product.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/shop.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/pages/wishlist.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/auth/forgot-password.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/auth/login.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/auth/register.html</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://luxora.example/auth/reset-password.html</loc><lastmod>2026-07-22</lastmod></url>
+</urlset>

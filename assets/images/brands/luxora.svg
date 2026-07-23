@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120" role="img" aria-label="Luxora">
+<defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="120">
+<stop offset="0%" stop-color="#8A6A22"/><stop offset="35%" stop-color="#F2DFA8"/>
+<stop offset="65%" stop-color="#C9A14A"/><stop offset="100%" stop-color="#8A6A22"/></linearGradient></defs>
+<text x="210.0" y="62.0" text-anchor="middle" dominant-baseline="middle" fill="url(#g)"
+  font-family="Cormorant Garamond, Georgia, serif" font-size="42" letter-spacing="2">L U X O R A</text>
+<line x1="120.0" y1="90.0" x2="300.0" y2="90.0" stroke="#C9A14A" stroke-opacity=".45"/>
+<path d="M203.0 90.0 L210.0 83.0 L217.0 90.0 L210.0 97.0 Z" fill="#C9A14A" opacity=".8"/>
+</svg>

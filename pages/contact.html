@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Luxora Commerce</title>
+<meta name="description" content="Reach the Luxora client team.">
+<meta property="og:title" content="Contact — Luxora Commerce">
+<meta property="og:description" content="Reach the Luxora client team.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="../assets/images/logos/og-image.jpg">
+<meta name="theme-color" content="#0B0B0B">
+<link rel="icon" href="../assets/images/logos/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/images/logos/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/tokens.css"><link rel="stylesheet" href="../assets/css/base.css"><link rel="stylesheet" href="../assets/css/components.css"><link rel="stylesheet" href="../assets/css/layout.css"><link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="header"></div>
+<main id="main">
+
+<section class="page-head"><div class="shell">
+  <div class="breadcrumb"><a href="../index.html">Home</a><span>/</span>Contact</div>
+  <h1>Contact</h1>
+  <p class="lead">A private client team, not a queue.</p>
+</div></section>
+<section class="section section--tight"><div class="shell">
+  <div class="editorial">
+    <div>
+      <form onsubmit="event.preventDefault();window.LX.toast('Message sent','Our client team will reply within one business day.');this.reset();">
+        <div class="grid-2">
+          <label class="field"><span class="field__label">Name</span><input class="input" required></label>
+          <label class="field"><span class="field__label">Email</span><input class="input" type="email" required></label>
+        </div>
+        <label class="field"><span class="field__label">Subject</span><input class="input"></label>
+        <label class="field"><span class="field__label">Message</span><textarea class="textarea" required></textarea></label>
+        <button class="btn btn--primary btn--lg" type="submit">Send message</button>
+      </form>
+    </div>
+    <div class="card">
+      <h3>Client care</h3>
+      <p class="muted">Monday to Saturday, 9am–7pm CET.</p>
+      <div class="rule rule--left rule--tight"><i></i></div>
+      <p><strong>Email</strong><br>care@luxora.example</p>
+      <p><strong>Phone</strong><br>+41 22 000 0000</p>
+      <p><strong>Atelier</strong><br>Rue du Rhône 00<br>1204 Geneva, Switzerland</p>
+    </div>
+  </div>
+</div></section>
+
+</main>
+<div data-chrome="footer"></div>
+<div data-chrome="drawers"></div>
+<script src="../assets/js/data/luxora-data.js"></script>
+<script src="../assets/js/core/utils.js"></script>
+<script src="../assets/js/core/store.js"></script>
+<script src="../assets/js/core/ui.js"></script>
+<script src="../assets/js/core/chrome.js"></script>
+<script src="../assets/js/features/ai.js"></script>
+</body>
+</html>

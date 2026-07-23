@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Journal — Luxora Commerce</title>
+<meta name="description" content="Notes on craft and materials.">
+<meta property="og:title" content="Journal — Luxora Commerce">
+<meta property="og:description" content="Notes on craft and materials.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="../assets/images/logos/og-image.jpg">
+<meta name="theme-color" content="#0B0B0B">
+<link rel="icon" href="../assets/images/logos/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/images/logos/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/tokens.css"><link rel="stylesheet" href="../assets/css/base.css"><link rel="stylesheet" href="../assets/css/components.css"><link rel="stylesheet" href="../assets/css/layout.css"><link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="header"></div>
+<main id="main">
+
+<section class="page-head"><div class="shell">
+  <div class="breadcrumb"><a href="../index.html">Home</a><span>/</span>Journal</div>
+  <h1>The Journal</h1>
+  <p class="lead">Notes on craft, materials and how to buy well.</p>
+</div></section>
+<section class="section section--tight"><div class="shell">
+  <div class="grid grid--3" id="journal-grid"></div>
+</div></section>
+<script>
+document.addEventListener("DOMContentLoaded",function(){
+  var host=document.getElementById("journal-grid");
+  host.innerHTML=window.LUXORA.journal.map(function(j){
+    return '<a class="tile reveal" href="../pages/journal.html" style="aspect-ratio:auto">'+
+      '<img src="../'+j.image+'" alt="" loading="lazy" style="aspect-ratio:16/10">'+
+      '<div class="tile__body"><div class="tile__meta">'+window.LX.dateShort(j.date)+' · '+j.read+'</div>'+
+      '<h3 class="tile__title" style="font-size:1.3rem">'+j.title+'</h3>'+
+      '<p class="muted" style="font-size:var(--step--2);margin:.4rem 0 0">'+j.excerpt+'</p></div></a>';
+  }).join("");
+  window.LX.revealScan(host);
+});
+</script>
+
+</main>
+<div data-chrome="footer"></div>
+<div data-chrome="drawers"></div>
+<script src="../assets/js/data/luxora-data.js"></script>
+<script src="../assets/js/core/utils.js"></script>
+<script src="../assets/js/core/store.js"></script>
+<script src="../assets/js/core/ui.js"></script>
+<script src="../assets/js/core/chrome.js"></script>
+<script src="../assets/js/features/ai.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="novaire-slimline-36"><defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0%" stop-color="#1C1B18"/>
+      <stop offset="55%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="44%" r="46%">
+      <stop offset="0%" stop-color="#C6CBD2" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#C6CBD2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" gradientUnits="userSpaceOnUse" x1="150" y1="220" x2="650" y2="790">
+      <stop offset="0%" stop-color="#7E858E"/>
+      <stop offset="26%" stop-color="#F4F7FA"/>
+      <stop offset="52%" stop-color="#C6CBD2"/>
+      <stop offset="74%" stop-color="#F4F7FA"/>
+      <stop offset="100%" stop-color="#7E858E"/>
+    </linearGradient>
+    <linearGradient id="metalv" gradientUnits="userSpaceOnUse" x1="0" y1="240" x2="0" y2="820">
+      <stop offset="0%" stop-color="#F4F7FA"/>
+      <stop offset="45%" stop-color="#C6CBD2"/>
+      <stop offset="100%" stop-color="#7E858E"/>
+    </linearGradient>
+    <linearGradient id="glass" gradientUnits="userSpaceOnUse" x1="240" y1="280" x2="600" y2="700">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".16"/>
+      <stop offset="42%" stop-color="#FFFFFF" stop-opacity=".03"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".10"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs><rect width="800" height="1000" fill="url(#bg)"/><rect width="800" height="1000" fill="url(#halo)"/><rect x="26" y="26" width="748" height="948" fill="none" stroke="#C9A14A" stroke-opacity=".13" stroke-width="1"/><ellipse cx="400" cy="902" rx="236" ry="22" fill="#000" opacity=".45" filter="url(#soft)"/><rect x="325" y="241" width="150" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="325" y="637" width="150" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="329" y="185" width="142" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="329" y="693" width="142" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="333" y="129" width="134" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="333" y="749" width="134" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="337" y="73" width="126" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="337" y="805" width="126" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="341" y="17" width="118" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="341" y="861" width="118" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="345" y="-39" width="110" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="345" y="917" width="110" height="42" rx="8" fill="url(#metal)" opacity=".9"/><rect x="561" y="441" width="30" height="38" rx="7" fill="url(#metal)"/><circle cx="400" cy="460" r="165" fill="url(#metal)"/><circle cx="400" cy="460" r="149" fill="#0C0C0C"/><circle cx="400" cy="460" r="139" fill="none" stroke="url(#metal)" stroke-width="3"/><line x1="400.0" y1="335.0" x2="400.0" y2="357.0" stroke="url(#metal)" stroke-width="6" stroke-linecap="round"/><line x1="462.5" y1="351.7" x2="451.5" y2="370.8" stroke="url(#metal)" stroke-width="3" stroke-linecap="round"/><line x1="508.3" y1="397.5" x2="489.2" y2="408.5" stroke="url(#metal)" stroke-width="3" stroke-linecap="round"/><line x1="525.0" y1="460.0" x2="503.0" y2="460.0" stroke="url(#metal)" stroke-width="6" stroke-linecap="round"/><line x1="508.3" y1="522.5" x2="489.2" y2="511.5" stroke="url(#metal)" stroke-width="3" stroke-linecap="round"/><line x1="462.5" y1="568.3" x2="451.5" y2="549.2" stroke="url(#metal)" stroke-width="3" stroke-linecap="round"/><line x1="400.0" y1="585.0" x2="400.0" y2="563.0" stroke="url(#metal)" stroke-width="6" stroke-linecap="round"/><line x1="337.5" y1="568.3" x2="348.5" y2="549.2" stroke="url(#metal)" stroke-width="3" stroke-linecap="round"/><line x1="291.7" y1="522.5" x2="310.8" y2="511.5" stroke="url(#metal)" stroke-width="3" stroke-linecap="round"/><line x1="275.0" y1="460.0" x2="297.0" y2="460.0" stroke="url(#metal)" stroke-width="6" stroke-linecap="round"/><line x1="291.7" y1="397.5" x2="310.8" y2="408.5" stroke="url(#metal)" stroke-width="3" stroke-linecap="round"/><line x1="337.5" y1="351.7" x2="348.5" y2="370.8" stroke="url(#metal)" stroke-width="3" stroke-linecap="round"/><circle cx="338" cy="460" r="34" fill="none" stroke="url(#metal)" stroke-opacity=".55" stroke-width="2"/><circle cx="462" cy="460" r="34" fill="none" stroke="url(#metal)" stroke-opacity=".55" stroke-width="2"/><circle cx="400" cy="524" r="34" fill="none" stroke="url(#metal)" stroke-opacity=".55" stroke-width="2"/><line x1="400" y1="460" x2="452.9" y2="391.0" stroke="url(#metal)" stroke-width="9" stroke-linecap="round"/><line x1="400" y1="460" x2="516.7" y2="468.7" stroke="url(#metal)" stroke-width="6" stroke-linecap="round"/><circle cx="400" cy="460" r="9" fill="url(#metal)"/><circle cx="400" cy="460" r="149" fill="url(#glass)"/></svg>

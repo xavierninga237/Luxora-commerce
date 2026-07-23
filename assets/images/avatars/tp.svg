@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="TP">
+<defs><radialGradient id="a" cx="38%" cy="30%" r="80%">
+<stop offset="0%" stop-color="#7E858E" stop-opacity=".55"/><stop offset="100%" stop-color="#141414"/></radialGradient>
+<linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="200" y2="200">
+<stop offset="0%" stop-color="#F2DFA8"/><stop offset="100%" stop-color="#8A6A22"/></linearGradient></defs>
+<rect width="200" height="200" fill="url(#a)"/>
+<circle cx="100" cy="100" r="78" fill="none" stroke="#C9A14A" stroke-opacity=".35"/>
+<text x="100" y="104" text-anchor="middle" dominant-baseline="middle" fill="url(#g)"
+ font-family="Cormorant Garamond, Georgia, serif" font-size="70" letter-spacing="3">TP</text>
+</svg>

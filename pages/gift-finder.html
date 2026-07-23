@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gift Finder — Luxora Commerce</title>
+<meta name="description" content="Answer four questions and find the perfect gift.">
+<meta property="og:title" content="Gift Finder — Luxora Commerce">
+<meta property="og:description" content="Answer four questions and find the perfect gift.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="../assets/images/logos/og-image.jpg">
+<meta name="theme-color" content="#0B0B0B">
+<link rel="icon" href="../assets/images/logos/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/images/logos/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/tokens.css"><link rel="stylesheet" href="../assets/css/base.css"><link rel="stylesheet" href="../assets/css/components.css"><link rel="stylesheet" href="../assets/css/layout.css"><link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="header"></div>
+<main id="main">
+
+<section class="page-head"><div class="shell">
+  <div class="breadcrumb"><a href="../index.html">Home</a><span>/</span>Gift Finder</div>
+  <h1>Gift finder</h1>
+  <p class="lead">Four questions. The right piece at the end.</p>
+</div></section>
+<section class="section"><div class="shell shell--tight" id="gift-finder">
+  <div id="gift-quiz">
+    <div style="height:3px;background:var(--surface-3);border-radius:3px;margin-bottom:3rem;overflow:hidden">
+      <div id="gift-progress" style="height:100%;background:var(--metal);width:0;transition:width .4s var(--ease)"></div>
+    </div>
+
+    <div data-gift-step data-gift-key="recipient">
+      <div class="center"><span class="eyebrow eyebrow--center">Question 1 of 4</span><h2>Who is it for?</h2></div>
+      <div class="grid grid--2" style="margin-top:2rem">
+        <button class="card card--hover center" data-gift-opt="him" style="cursor:pointer"><h3>For him</h3><p class="muted">Watches, signets, cufflink-adjacent pieces.</p></button>
+        <button class="card card--hover center" data-gift-opt="her" style="cursor:pointer"><h3>For her</h3><p class="muted">Necklaces, earrings, rings and bracelets.</p></button>
+        <button class="card card--hover center" data-gift-opt="self" style="cursor:pointer"><h3>For myself</h3><p class="muted">No judgement here.</p></button>
+        <button class="card card--hover center" data-gift-opt="any" style="cursor:pointer"><h3>Not sure yet</h3><p class="muted">Show me a bit of everything.</p></button>
+      </div>
+    </div>
+
+    <div data-gift-step data-gift-key="occasion" hidden>
+      <div class="center"><span class="eyebrow eyebrow--center">Question 2 of 4</span><h2>What is the occasion?</h2></div>
+      <div class="grid grid--3" style="margin-top:2rem">
+        <button class="card card--hover center" data-gift-opt="wedding" style="cursor:pointer"><h3>Wedding</h3></button>
+        <button class="card card--hover center" data-gift-opt="anniversary" style="cursor:pointer"><h3>Anniversary</h3></button>
+        <button class="card card--hover center" data-gift-opt="birthday" style="cursor:pointer"><h3>Birthday</h3></button>
+        <button class="card card--hover center" data-gift-opt="work" style="cursor:pointer"><h3>Work milestone</h3></button>
+        <button class="card card--hover center" data-gift-opt="travel" style="cursor:pointer"><h3>Travel</h3></button>
+        <button class="card card--hover center" data-gift-opt="everyday" style="cursor:pointer"><h3>Just because</h3></button>
+      </div>
+      <div class="center" style="margin-top:1.5rem"><button class="btn btn--ghost" data-gift-back>Back</button></div>
+    </div>
+
+    <div data-gift-step data-gift-key="budget" hidden>
+      <div class="center"><span class="eyebrow eyebrow--center">Question 3 of 4</span><h2>What is your budget?</h2></div>
+      <div class="grid grid--2" style="margin-top:2rem">
+        <button class="card card--hover center" data-gift-opt="500" style="cursor:pointer"><h3>Under $500</h3></button>
+        <button class="card card--hover center" data-gift-opt="1500" style="cursor:pointer"><h3>$500 – $1,500</h3></button>
+        <button class="card card--hover center" data-gift-opt="4000" style="cursor:pointer"><h3>$1,500 – $4,000</h3></button>
+        <button class="card card--hover center" data-gift-opt="12000" style="cursor:pointer"><h3>$4,000 and up</h3></button>
+      </div>
+      <div class="center" style="margin-top:1.5rem"><button class="btn btn--ghost" data-gift-back>Back</button></div>
+    </div>
+
+    <div data-gift-step data-gift-key="style" hidden>
+      <div class="center"><span class="eyebrow eyebrow--center">Question 4 of 4</span><h2>What is their style?</h2></div>
+      <div class="grid grid--2" style="margin-top:2rem">
+        <button class="card card--hover center" data-gift-opt="minimal" style="cursor:pointer"><h3>Understated</h3><p class="muted">Quiet, clean, nothing shouting.</p></button>
+        <button class="card card--hover center" data-gift-opt="bold" style="cursor:pointer"><h3>A statement</h3><p class="muted">Meant to be noticed.</p></button>
+        <button class="card card--hover center" data-gift-opt="classic" style="cursor:pointer"><h3>Classic</h3><p class="muted">Timeless, traditional.</p></button>
+        <button class="card card--hover center" data-gift-opt="modern" style="cursor:pointer"><h3>Modern</h3><p class="muted">Contemporary and technical.</p></button>
+      </div>
+      <div class="center" style="margin-top:1.5rem"><button class="btn btn--ghost" data-gift-back>Back</button></div>
+    </div>
+  </div>
+  <div id="gift-results" hidden></div>
+</div></section>
+
+</main>
+<div data-chrome="footer"></div>
+<div data-chrome="drawers"></div>
+<script src="../assets/js/data/luxora-data.js"></script>
+<script src="../assets/js/core/utils.js"></script>
+<script src="../assets/js/core/store.js"></script>
+<script src="../assets/js/core/ui.js"></script>
+<script src="../assets/js/core/chrome.js"></script>
+<script src="../assets/js/features/ai.js"></script>
+<script src="../assets/js/features/ai-pages.js"></script>
+</body>
+</html>

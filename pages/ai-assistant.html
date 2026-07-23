@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Concierge — Luxora Commerce</title>
+<meta name="description" content="Describe the occasion and the concierge finds the piece.">
+<meta property="og:title" content="AI Concierge — Luxora Commerce">
+<meta property="og:description" content="Describe the occasion and the concierge finds the piece.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="../assets/images/logos/og-image.jpg">
+<meta name="theme-color" content="#0B0B0B">
+<link rel="icon" href="../assets/images/logos/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/images/logos/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/tokens.css"><link rel="stylesheet" href="../assets/css/base.css"><link rel="stylesheet" href="../assets/css/components.css"><link rel="stylesheet" href="../assets/css/layout.css"><link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="header"></div>
+<main id="main">
+
+<section class="page-head"><div class="shell">
+  <div class="breadcrumb"><a href="../index.html">Home</a><span>/</span>Concierge</div>
+  <h1>The Luxora Concierge</h1>
+  <p class="lead">Describe who you are buying for, the occasion, and your budget. The concierge searches the whole catalogue and answers with pieces — and the reason behind each one.</p>
+</div></section>
+<section class="section section--tight"><div class="shell">
+  <div class="ai-shell">
+    <aside>
+      <div class="card">
+        <h4 style="margin-bottom:1rem">Try asking</h4>
+        <div class="stack">
+          <button class="chip" data-prompt="I need a wedding gift under $4000" style="width:100%;justify-content:flex-start">A wedding gift under $4,000</button>
+          <button class="chip" data-prompt="A luxury watch under $1000" style="width:100%;justify-content:flex-start">A luxury watch under $1,000</button>
+          <button class="chip" data-prompt="Compare automatic watches" style="width:100%;justify-content:flex-start">Compare automatic watches</button>
+          <button class="chip" data-prompt="Something in titanium for my husband" style="width:100%;justify-content:flex-start">Titanium, for my husband</button>
+          <button class="chip" data-prompt="Rose gold earrings under $1500" style="width:100%;justify-content:flex-start">Rose gold earrings under $1,500</button>
+          <button class="chip" data-prompt="What is your return policy?" style="width:100%;justify-content:flex-start">Your return policy?</button>
+        </div>
+      </div>
+      <div class="card" style="margin-top:1rem">
+        <h4 style="margin-bottom:.5rem">Also useful</h4>
+        <p class="muted" style="font-size:var(--step--2);margin-bottom:1rem">Prefer a guided flow? The gift finder walks through it step by step.</p>
+        <a class="btn btn--secondary btn--sm btn--block" href="../pages/gift-finder.html">Open the gift finder</a>
+      </div>
+    </aside>
+    <div class="chat">
+      <div class="chat__head"><span class="chat__dot"></span><strong style="font-size:var(--step--1)">Luxora Concierge</strong>
+        <span class="muted" style="font-size:var(--step--2);margin-left:auto">Runs on your device</span></div>
+      <div class="chat__log" id="chat-log"></div>
+      <div class="chat__foot">
+        <form class="chat__form" id="chat-form">
+          <input class="input" id="chat-input" placeholder="Describe what you are looking for…" autocomplete="off" aria-label="Message the concierge">
+          <button class="btn btn--primary" type="submit" aria-label="Send">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+</main>
+<div data-chrome="footer"></div>
+<div data-chrome="drawers"></div>
+<script src="../assets/js/data/luxora-data.js"></script>
+<script src="../assets/js/core/utils.js"></script>
+<script src="../assets/js/core/store.js"></script>
+<script src="../assets/js/core/ui.js"></script>
+<script src="../assets/js/core/chrome.js"></script>
+<script src="../assets/js/features/ai.js"></script>
+<script src="../assets/js/features/ai-pages.js"></script>
+</body>
+</html>

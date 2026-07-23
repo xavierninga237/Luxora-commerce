@@ -1,0 +1,4674 @@
+[
+ {
+  "id": "LX-ORD-10486",
+  "customerId": "CU-2141",
+  "customer": "Viktor Osei",
+  "email": "viktor.osei@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-07-22",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "WAT-LU-1008",
+    "slug": "luxora-gmt-traveler",
+    "name": "Luxora GMT Traveler",
+    "qty": 2,
+    "unit": 4720,
+    "image": "assets/images/products/luxora-gmt-traveler.svg"
+   },
+   {
+    "sku": "WAT-KR-1012",
+    "slug": "kronique-tourbillon-noir",
+    "name": "Kronique Tourbillon Noir",
+    "qty": 1,
+    "unit": 9350,
+    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+   },
+   {
+    "sku": "WAT-LU-1001",
+    "slug": "luxora-chronograph-gold",
+    "name": "Luxora Chronograph Gold",
+    "qty": 2,
+    "unit": 7900,
+    "image": "assets/images/products/luxora-chronograph-gold.svg"
+   }
+  ],
+  "subtotal": 34590,
+  "shipping": 0,
+  "tax": 2767,
+  "total": 37357,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW126292343"
+ },
+ {
+  "id": "LX-ORD-10488",
+  "customerId": "CU-2127",
+  "customer": "Andre Novak",
+  "email": "andre.novak@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-07-22",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "ACC-AR-1060",
+    "slug": "passport-holder",
+    "name": "Passport Holder",
+    "qty": 1,
+    "unit": 160,
+    "image": "assets/images/products/passport-holder.svg"
+   },
+   {
+    "sku": "BRA-AU-1036",
+    "slug": "cuban-link-bracelet",
+    "name": "Cuban Link Bracelet",
+    "qty": 1,
+    "unit": 1645,
+    "image": "assets/images/products/cuban-link-bracelet.svg"
+   },
+   {
+    "sku": "ACC-AR-1062",
+    "slug": "ardent-document-folio",
+    "name": "Ardent Document Folio",
+    "qty": 1,
+    "unit": 420,
+    "image": "assets/images/products/ardent-document-folio.svg"
+   }
+  ],
+  "subtotal": 2225,
+  "shipping": 0,
+  "tax": 178,
+  "total": 2403,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW144446407"
+ },
+ {
+  "id": "LX-ORD-10471",
+  "customerId": "CU-2137",
+  "customer": "Henrik Brandt",
+  "email": "henrik.brandt@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-07-20",
+  "status": "Pending",
+  "items": [
+   {
+    "sku": "WAT-EL-1013",
+    "slug": "elvaro-field-40",
+    "name": "Elvaro Field 40",
+    "qty": 1,
+    "unit": 450,
+    "image": "assets/images/products/elvaro-field-40.svg"
+   }
+  ],
+  "subtotal": 450,
+  "shipping": 35,
+  "tax": 36,
+  "total": 521,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW369743691"
+ },
+ {
+  "id": "LX-ORD-10542",
+  "customerId": "CU-2106",
+  "customer": "Andre Laurent",
+  "email": "andre.laurent@example.com",
+  "city": "Paris",
+  "country": "FR",
+  "date": "2026-07-20",
+  "status": "Refunded",
+  "items": [
+   {
+    "sku": "RIN-NO-1025",
+    "slug": "novaire-facet-ring",
+    "name": "Novaire Facet Ring",
+    "qty": 2,
+    "unit": 640,
+    "image": "assets/images/products/novaire-facet-ring.svg"
+   },
+   {
+    "sku": "RIN-EL-1014",
+    "slug": "black-titanium-ring",
+    "name": "Black Titanium Ring",
+    "qty": 2,
+    "unit": 320,
+    "image": "assets/images/products/black-titanium-ring.svg"
+   }
+  ],
+  "subtotal": 1920,
+  "shipping": 0,
+  "tax": 154,
+  "total": 2074,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW321651842"
+ },
+ {
+  "id": "LX-ORD-10500",
+  "customerId": "CU-2132",
+  "customer": "Henrik Ferreira",
+  "email": "henrik.ferreira@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-07-19",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-EL-1017",
+    "slug": "carbon-fiber-ring",
+    "name": "Carbon Fiber Ring",
+    "qty": 1,
+    "unit": 280,
+    "image": "assets/images/products/carbon-fiber-ring.svg"
+   }
+  ],
+  "subtotal": 280,
+  "shipping": 35,
+  "tax": 22,
+  "total": 337,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW105672531"
+ },
+ {
+  "id": "LX-ORD-10573",
+  "customerId": "CU-2103",
+  "customer": "Julian Lindqvist",
+  "email": "julian.lindqvist@example.com",
+  "city": "Zurich",
+  "country": "CH",
+  "date": "2026-07-19",
+  "status": "Refunded",
+  "items": [
+   {
+    "sku": "WAT-LU-1002",
+    "slug": "luxora-heritage-automatic",
+    "name": "Luxora Heritage Automatic",
+    "qty": 1,
+    "unit": 6200,
+    "image": "assets/images/products/luxora-heritage-automatic.svg"
+   },
+   {
+    "sku": "BRA-AU-1036",
+    "slug": "cuban-link-bracelet",
+    "name": "Cuban Link Bracelet",
+    "qty": 1,
+    "unit": 1645,
+    "image": "assets/images/products/cuban-link-bracelet.svg"
+   }
+  ],
+  "subtotal": 7845,
+  "shipping": 0,
+  "tax": 628,
+  "total": 8473,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW280233956"
+ },
+ {
+  "id": "LX-ORD-10493",
+  "customerId": "CU-2123",
+  "customer": "Jonathan Lindqvist",
+  "email": "jonathan.lindqvist@example.com",
+  "city": "London",
+  "country": "UK",
+  "date": "2026-07-18",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-EL-1014",
+    "slug": "black-titanium-ring",
+    "name": "Black Titanium Ring",
+    "qty": 1,
+    "unit": 320,
+    "image": "assets/images/products/black-titanium-ring.svg"
+   }
+  ],
+  "subtotal": 320,
+  "shipping": 35,
+  "tax": 26,
+  "total": 381,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW996879320"
+ },
+ {
+  "id": "LX-ORD-10527",
+  "customerId": "CU-2107",
+  "customer": "Amara Rousseau",
+  "email": "amara.rousseau@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-07-18",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "BRA-AR-1039",
+    "slug": "leather-bracelet",
+    "name": "Leather Bracelet",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/leather-bracelet.svg"
+   },
+   {
+    "sku": "ACC-AR-1060",
+    "slug": "passport-holder",
+    "name": "Passport Holder",
+    "qty": 1,
+    "unit": 160,
+    "image": "assets/images/products/passport-holder.svg"
+   },
+   {
+    "sku": "WAT-EL-1013",
+    "slug": "elvaro-field-40",
+    "name": "Elvaro Field 40",
+    "qty": 2,
+    "unit": 450,
+    "image": "assets/images/products/elvaro-field-40.svg"
+   }
+  ],
+  "subtotal": 1240,
+  "shipping": 0,
+  "tax": 99,
+  "total": 1339,
+  "payment": "Google Pay",
+  "tracking": "LXW291483314"
+ },
+ {
+  "id": "LX-ORD-10518",
+  "customerId": "CU-2119",
+  "customer": "Aisha Novak",
+  "email": "aisha.novak@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-07-17",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "ACC-AR-1060",
+    "slug": "passport-holder",
+    "name": "Passport Holder",
+    "qty": 1,
+    "unit": 160,
+    "image": "assets/images/products/passport-holder.svg"
+   },
+   {
+    "sku": "NEC-CE-1031",
+    "slug": "sapphire-pendant",
+    "name": "Sapphire Pendant",
+    "qty": 1,
+    "unit": 4400,
+    "image": "assets/images/products/sapphire-pendant.svg"
+   }
+  ],
+  "subtotal": 4560,
+  "shipping": 0,
+  "tax": 365,
+  "total": 4925,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW562977732"
+ },
+ {
+  "id": "LX-ORD-10548",
+  "customerId": "CU-2112",
+  "customer": "Daniel Brandt",
+  "email": "daniel.brandt@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-07-16",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-AU-1015",
+    "slug": "gold-signet-ring",
+    "name": "Gold Signet Ring",
+    "qty": 1,
+    "unit": 1490,
+    "image": "assets/images/products/gold-signet-ring.svg"
+   },
+   {
+    "sku": "BRA-EL-1044",
+    "slug": "elvaro-carbon-cuff",
+    "name": "Elvaro Carbon Cuff",
+    "qty": 1,
+    "unit": 405,
+    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+   },
+   {
+    "sku": "ACC-AR-1054",
+    "slug": "premium-watch-box",
+    "name": "Premium Watch Box",
+    "qty": 2,
+    "unit": 380,
+    "image": "assets/images/products/premium-watch-box.svg"
+   }
+  ],
+  "subtotal": 2655,
+  "shipping": 0,
+  "tax": 212,
+  "total": 2867,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW587903579"
+ },
+ {
+  "id": "LX-ORD-10502",
+  "customerId": "CU-2135",
+  "customer": "Amara Reyes",
+  "email": "amara.reyes@example.com",
+  "city": "Paris",
+  "country": "FR",
+  "date": "2026-07-15",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "EAR-VE-1052",
+    "slug": "luxury-diamond-drops",
+    "name": "Luxury Diamond Drops",
+    "qty": 2,
+    "unit": 7400,
+    "image": "assets/images/products/luxury-diamond-drops.svg"
+   }
+  ],
+  "subtotal": 14800,
+  "shipping": 0,
+  "tax": 1184,
+  "total": 15984,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW268763534"
+ },
+ {
+  "id": "LX-ORD-10572",
+  "customerId": "CU-2114",
+  "customer": "Mei Nakamura",
+  "email": "mei.nakamura@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-07-11",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "EAR-NO-1048",
+    "slug": "white-gold-hoops",
+    "name": "White Gold Hoops",
+    "qty": 2,
+    "unit": 1050,
+    "image": "assets/images/products/white-gold-hoops.svg"
+   },
+   {
+    "sku": "ACC-AR-1059",
+    "slug": "leather-wallet",
+    "name": "Leather Wallet",
+    "qty": 1,
+    "unit": 240,
+    "image": "assets/images/products/leather-wallet.svg"
+   }
+  ],
+  "subtotal": 2340,
+  "shipping": 0,
+  "tax": 187,
+  "total": 2527,
+  "payment": "PayPal",
+  "tracking": "LXW522874167"
+ },
+ {
+  "id": "LX-ORD-10483",
+  "customerId": "CU-2142",
+  "customer": "Omar Reyes",
+  "email": "omar.reyes@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-07-07",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "NEC-NO-1033",
+    "slug": "luxury-layered-necklace",
+    "name": "Luxury Layered Necklace",
+    "qty": 1,
+    "unit": 2950,
+    "image": "assets/images/products/luxury-layered-necklace.svg"
+   }
+  ],
+  "subtotal": 2950,
+  "shipping": 0,
+  "tax": 236,
+  "total": 3186,
+  "payment": "Google Pay",
+  "tracking": "LXW743393214"
+ },
+ {
+  "id": "LX-ORD-10571",
+  "customerId": "CU-2143",
+  "customer": "Rafael Duarte",
+  "email": "rafael.duarte@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-07-06",
+  "status": "Pending",
+  "items": [
+   {
+    "sku": "RIN-EL-1017",
+    "slug": "carbon-fiber-ring",
+    "name": "Carbon Fiber Ring",
+    "qty": 1,
+    "unit": 280,
+    "image": "assets/images/products/carbon-fiber-ring.svg"
+   },
+   {
+    "sku": "RIN-AU-1024",
+    "slug": "aurelius-roman-band",
+    "name": "Aurelius Roman Band",
+    "qty": 1,
+    "unit": 1240,
+    "image": "assets/images/products/aurelius-roman-band.svg"
+   },
+   {
+    "sku": "BRA-AU-1038",
+    "slug": "gold-bangle",
+    "name": "Gold Bangle",
+    "qty": 1,
+    "unit": 1450,
+    "image": "assets/images/products/gold-bangle.svg"
+   }
+  ],
+  "subtotal": 2970,
+  "shipping": 0,
+  "tax": 238,
+  "total": 3208,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW404413462"
+ },
+ {
+  "id": "LX-ORD-10492",
+  "customerId": "CU-2100",
+  "customer": "Mei Lindqvist",
+  "email": "mei.lindqvist@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-07-05",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-AU-1024",
+    "slug": "aurelius-roman-band",
+    "name": "Aurelius Roman Band",
+    "qty": 1,
+    "unit": 1240,
+    "image": "assets/images/products/aurelius-roman-band.svg"
+   }
+  ],
+  "subtotal": 1240,
+  "shipping": 0,
+  "tax": 99,
+  "total": 1339,
+  "payment": "PayPal",
+  "tracking": "LXW182330405"
+ },
+ {
+  "id": "LX-ORD-10583",
+  "customerId": "CU-2134",
+  "customer": "Jonathan Lindqvist",
+  "email": "jonathan.lindqvist@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-07-04",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "ACC-AR-1060",
+    "slug": "passport-holder",
+    "name": "Passport Holder",
+    "qty": 1,
+    "unit": 160,
+    "image": "assets/images/products/passport-holder.svg"
+   },
+   {
+    "sku": "BRA-EL-1044",
+    "slug": "elvaro-carbon-cuff",
+    "name": "Elvaro Carbon Cuff",
+    "qty": 1,
+    "unit": 405,
+    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+   }
+  ],
+  "subtotal": 565,
+  "shipping": 0,
+  "tax": 45,
+  "total": 610,
+  "payment": "Apple Pay",
+  "tracking": "LXW235186685"
+ },
+ {
+  "id": "LX-ORD-10513",
+  "customerId": "CU-2125",
+  "customer": "Aisha Kaufman",
+  "email": "aisha.kaufman@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-07-03",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "EAR-AU-1047",
+    "slug": "gold-hoops",
+    "name": "Gold Hoops",
+    "qty": 1,
+    "unit": 1150,
+    "image": "assets/images/products/gold-hoops.svg"
+   },
+   {
+    "sku": "WAT-EL-1005",
+    "slug": "luxora-elite-diver",
+    "name": "Luxora Elite Diver",
+    "qty": 1,
+    "unit": 3300,
+    "image": "assets/images/products/luxora-elite-diver.svg"
+   },
+   {
+    "sku": "BRA-EL-1044",
+    "slug": "elvaro-carbon-cuff",
+    "name": "Elvaro Carbon Cuff",
+    "qty": 1,
+    "unit": 405,
+    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+   }
+  ],
+  "subtotal": 4855,
+  "shipping": 0,
+  "tax": 388,
+  "total": 5243,
+  "payment": "PayPal",
+  "tracking": "LXW275929858"
+ },
+ {
+  "id": "LX-ORD-10570",
+  "customerId": "CU-2126",
+  "customer": "Nadia Sharma",
+  "email": "nadia.sharma@example.com",
+  "city": "London",
+  "country": "UK",
+  "date": "2026-07-03",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-CE-1020",
+    "slug": "emerald-halo-ring",
+    "name": "Emerald Halo Ring",
+    "qty": 1,
+    "unit": 4300,
+    "image": "assets/images/products/emerald-halo-ring.svg"
+   },
+   {
+    "sku": "NEC-AU-1032",
+    "slug": "cross-necklace",
+    "name": "Cross Necklace",
+    "qty": 1,
+    "unit": 1450,
+    "image": "assets/images/products/cross-necklace.svg"
+   }
+  ],
+  "subtotal": 5750,
+  "shipping": 0,
+  "tax": 460,
+  "total": 6210,
+  "payment": "Google Pay",
+  "tracking": "LXW524331276"
+ },
+ {
+  "id": "LX-ORD-10461",
+  "customerId": "CU-2134",
+  "customer": "Jonathan Lindqvist",
+  "email": "jonathan.lindqvist@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-07-01",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "WAT-KR-1012",
+    "slug": "kronique-tourbillon-noir",
+    "name": "Kronique Tourbillon Noir",
+    "qty": 1,
+    "unit": 9350,
+    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+   },
+   {
+    "sku": "EAR-CE-1050",
+    "slug": "sapphire-earrings",
+    "name": "Sapphire Earrings",
+    "qty": 1,
+    "unit": 3665,
+    "image": "assets/images/products/sapphire-earrings.svg"
+   }
+  ],
+  "subtotal": 13015,
+  "shipping": 0,
+  "tax": 1041,
+  "total": 14056,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW636382138"
+ },
+ {
+  "id": "LX-ORD-10543",
+  "customerId": "CU-2138",
+  "customer": "Rafael Whitfield",
+  "email": "rafael.whitfield@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-06-30",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "BRA-EL-1044",
+    "slug": "elvaro-carbon-cuff",
+    "name": "Elvaro Carbon Cuff",
+    "qty": 1,
+    "unit": 405,
+    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+   },
+   {
+    "sku": "RIN-EL-1017",
+    "slug": "carbon-fiber-ring",
+    "name": "Carbon Fiber Ring",
+    "qty": 2,
+    "unit": 280,
+    "image": "assets/images/products/carbon-fiber-ring.svg"
+   },
+   {
+    "sku": "ACC-AR-1056",
+    "slug": "jewelry-organizer",
+    "name": "Jewelry Organizer",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/jewelry-organizer.svg"
+   }
+  ],
+  "subtotal": 1145,
+  "shipping": 0,
+  "tax": 92,
+  "total": 1237,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW316229554"
+ },
+ {
+  "id": "LX-ORD-10586",
+  "customerId": "CU-2126",
+  "customer": "Nadia Sharma",
+  "email": "nadia.sharma@example.com",
+  "city": "London",
+  "country": "UK",
+  "date": "2026-06-24",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "BRA-CE-1042",
+    "slug": "charm-bracelet",
+    "name": "Charm Bracelet",
+    "qty": 1,
+    "unit": 660,
+    "image": "assets/images/products/charm-bracelet.svg"
+   }
+  ],
+  "subtotal": 660,
+  "shipping": 0,
+  "tax": 53,
+  "total": 713,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW628066694"
+ },
+ {
+  "id": "LX-ORD-10519",
+  "customerId": "CU-2134",
+  "customer": "Jonathan Lindqvist",
+  "email": "jonathan.lindqvist@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-06-21",
+  "status": "Refunded",
+  "items": [
+   {
+    "sku": "WAT-EL-1006",
+    "slug": "luxora-titanium-sport",
+    "name": "Luxora Titanium Sport",
+    "qty": 2,
+    "unit": 2450,
+    "image": "assets/images/products/luxora-titanium-sport.svg"
+   },
+   {
+    "sku": "BRA-CE-1043",
+    "slug": "pearl-bracelet",
+    "name": "Pearl Bracelet",
+    "qty": 1,
+    "unit": 760,
+    "image": "assets/images/products/pearl-bracelet.svg"
+   }
+  ],
+  "subtotal": 5660,
+  "shipping": 0,
+  "tax": 453,
+  "total": 6113,
+  "payment": "Google Pay",
+  "tracking": "LXW924193654"
+ },
+ {
+  "id": "LX-ORD-10458",
+  "customerId": "CU-2131",
+  "customer": "Nadia Sharma",
+  "email": "nadia.sharma@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-06-18",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "NEC-AU-1032",
+    "slug": "cross-necklace",
+    "name": "Cross Necklace",
+    "qty": 1,
+    "unit": 1450,
+    "image": "assets/images/products/cross-necklace.svg"
+   },
+   {
+    "sku": "EAR-VE-1045",
+    "slug": "diamond-stud-earrings",
+    "name": "Diamond Stud Earrings",
+    "qty": 1,
+    "unit": 2485,
+    "image": "assets/images/products/diamond-stud-earrings.svg"
+   }
+  ],
+  "subtotal": 3935,
+  "shipping": 0,
+  "tax": 315,
+  "total": 4250,
+  "payment": "PayPal",
+  "tracking": "LXW973384979"
+ },
+ {
+  "id": "LX-ORD-10509",
+  "customerId": "CU-2116",
+  "customer": "Julian Reyes",
+  "email": "julian.reyes@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-06-18",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1056",
+    "slug": "jewelry-organizer",
+    "name": "Jewelry Organizer",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/jewelry-organizer.svg"
+   },
+   {
+    "sku": "RIN-AU-1015",
+    "slug": "gold-signet-ring",
+    "name": "Gold Signet Ring",
+    "qty": 1,
+    "unit": 1490,
+    "image": "assets/images/products/gold-signet-ring.svg"
+   },
+   {
+    "sku": "BRA-VE-1037",
+    "slug": "diamond-tennis-bracelet",
+    "name": "Diamond Tennis Bracelet",
+    "qty": 1,
+    "unit": 4900,
+    "image": "assets/images/products/diamond-tennis-bracelet.svg"
+   }
+  ],
+  "subtotal": 6570,
+  "shipping": 0,
+  "tax": 526,
+  "total": 7096,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW295620207"
+ },
+ {
+  "id": "LX-ORD-10565",
+  "customerId": "CU-2138",
+  "customer": "Rafael Whitfield",
+  "email": "rafael.whitfield@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-06-14",
+  "status": "Pending",
+  "items": [
+   {
+    "sku": "RIN-VE-1018",
+    "slug": "diamond-accent-ring",
+    "name": "Diamond Accent Ring",
+    "qty": 1,
+    "unit": 1650,
+    "image": "assets/images/products/diamond-accent-ring.svg"
+   }
+  ],
+  "subtotal": 1650,
+  "shipping": 0,
+  "tax": 132,
+  "total": 1782,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW896288108"
+ },
+ {
+  "id": "LX-ORD-10589",
+  "customerId": "CU-2100",
+  "customer": "Mei Lindqvist",
+  "email": "mei.lindqvist@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-06-14",
+  "status": "Refunded",
+  "items": [
+   {
+    "sku": "NEC-VE-1026",
+    "slug": "diamond-pendant",
+    "name": "Diamond Pendant",
+    "qty": 1,
+    "unit": 3900,
+    "image": "assets/images/products/diamond-pendant.svg"
+   }
+  ],
+  "subtotal": 3900,
+  "shipping": 0,
+  "tax": 312,
+  "total": 4212,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW728077363"
+ },
+ {
+  "id": "LX-ORD-10531",
+  "customerId": "CU-2131",
+  "customer": "Nadia Sharma",
+  "email": "nadia.sharma@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-06-10",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "RIN-VE-1019",
+    "slug": "solitaire-diamond-ring",
+    "name": "Solitaire Diamond Ring",
+    "qty": 1,
+    "unit": 5900,
+    "image": "assets/images/products/solitaire-diamond-ring.svg"
+   },
+   {
+    "sku": "RIN-NO-1016",
+    "slug": "platinum-band",
+    "name": "Platinum Band",
+    "qty": 2,
+    "unit": 2400,
+    "image": "assets/images/products/platinum-band.svg"
+   },
+   {
+    "sku": "BRA-NO-1040",
+    "slug": "silver-chain-bracelet",
+    "name": "Silver Chain Bracelet",
+    "qty": 1,
+    "unit": 380,
+    "image": "assets/images/products/silver-chain-bracelet.svg"
+   }
+  ],
+  "subtotal": 11080,
+  "shipping": 0,
+  "tax": 886,
+  "total": 11966,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW832487075"
+ },
+ {
+  "id": "LX-ORD-10462",
+  "customerId": "CU-2145",
+  "customer": "Viktor Ferreira",
+  "email": "viktor.ferreira@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-06-09",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "BRA-EL-1044",
+    "slug": "elvaro-carbon-cuff",
+    "name": "Elvaro Carbon Cuff",
+    "qty": 1,
+    "unit": 405,
+    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+   }
+  ],
+  "subtotal": 405,
+  "shipping": 35,
+  "tax": 32,
+  "total": 472,
+  "payment": "PayPal",
+  "tracking": "LXW906020281"
+ },
+ {
+  "id": "LX-ORD-10495",
+  "customerId": "CU-2133",
+  "customer": "Rafael Chen",
+  "email": "rafael.chen@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-06-09",
+  "status": "Refunded",
+  "items": [
+   {
+    "sku": "WAT-LU-1002",
+    "slug": "luxora-heritage-automatic",
+    "name": "Luxora Heritage Automatic",
+    "qty": 2,
+    "unit": 6200,
+    "image": "assets/images/products/luxora-heritage-automatic.svg"
+   }
+  ],
+  "subtotal": 12400,
+  "shipping": 0,
+  "tax": 992,
+  "total": 13392,
+  "payment": "PayPal",
+  "tracking": "LXW735982644"
+ },
+ {
+  "id": "LX-ORD-10472",
+  "customerId": "CU-2114",
+  "customer": "Mei Nakamura",
+  "email": "mei.nakamura@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-06-08",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "EAR-NO-1053",
+    "slug": "novaire-bar-studs",
+    "name": "Novaire Bar Studs",
+    "qty": 2,
+    "unit": 250,
+    "image": "assets/images/products/novaire-bar-studs.svg"
+   }
+  ],
+  "subtotal": 500,
+  "shipping": 35,
+  "tax": 40,
+  "total": 575,
+  "payment": "Google Pay",
+  "tracking": "LXW870275192"
+ },
+ {
+  "id": "LX-ORD-10521",
+  "customerId": "CU-2126",
+  "customer": "Nadia Sharma",
+  "email": "nadia.sharma@example.com",
+  "city": "London",
+  "country": "UK",
+  "date": "2026-06-07",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "BRA-EL-1044",
+    "slug": "elvaro-carbon-cuff",
+    "name": "Elvaro Carbon Cuff",
+    "qty": 1,
+    "unit": 405,
+    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+   },
+   {
+    "sku": "WAT-AU-1011",
+    "slug": "aurelius-regent-automatic",
+    "name": "Aurelius Regent Automatic",
+    "qty": 1,
+    "unit": 6575,
+    "image": "assets/images/products/aurelius-regent-automatic.svg"
+   },
+   {
+    "sku": "WAT-KR-1003",
+    "slug": "luxora-skeleton-edition",
+    "name": "Luxora Skeleton Edition",
+    "qty": 2,
+    "unit": 11800,
+    "image": "assets/images/products/luxora-skeleton-edition.svg"
+   }
+  ],
+  "subtotal": 30580,
+  "shipping": 0,
+  "tax": 2446,
+  "total": 33026,
+  "payment": "Google Pay",
+  "tracking": "LXW616962052"
+ },
+ {
+  "id": "LX-ORD-10465",
+  "customerId": "CU-2122",
+  "customer": "Priya Bello",
+  "email": "priya.bello@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-06-06",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "NEC-VE-1034",
+    "slug": "velmont-rivi-re-necklace",
+    "name": "Velmont Rivi\u00e8re Necklace",
+    "qty": 1,
+    "unit": 7415,
+    "image": "assets/images/products/velmont-rivi-re-necklace.svg"
+   },
+   {
+    "sku": "WAT-KR-1004",
+    "slug": "luxora-moonphase",
+    "name": "Luxora Moonphase",
+    "qty": 1,
+    "unit": 9400,
+    "image": "assets/images/products/luxora-moonphase.svg"
+   }
+  ],
+  "subtotal": 16815,
+  "shipping": 0,
+  "tax": 1345,
+  "total": 18160,
+  "payment": "PayPal",
+  "tracking": "LXW273020302"
+ },
+ {
+  "id": "LX-ORD-10588",
+  "customerId": "CU-2127",
+  "customer": "Andre Novak",
+  "email": "andre.novak@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-06-06",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "BRA-CE-1042",
+    "slug": "charm-bracelet",
+    "name": "Charm Bracelet",
+    "qty": 1,
+    "unit": 660,
+    "image": "assets/images/products/charm-bracelet.svg"
+   },
+   {
+    "sku": "ACC-AR-1056",
+    "slug": "jewelry-organizer",
+    "name": "Jewelry Organizer",
+    "qty": 2,
+    "unit": 180,
+    "image": "assets/images/products/jewelry-organizer.svg"
+   }
+  ],
+  "subtotal": 1020,
+  "shipping": 0,
+  "tax": 82,
+  "total": 1102,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW848634809"
+ },
+ {
+  "id": "LX-ORD-10526",
+  "customerId": "CU-2124",
+  "customer": "Rafael Bello",
+  "email": "rafael.bello@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-05-30",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "NEC-NO-1028",
+    "slug": "white-gold-chain",
+    "name": "White Gold Chain",
+    "qty": 2,
+    "unit": 2100,
+    "image": "assets/images/products/white-gold-chain.svg"
+   },
+   {
+    "sku": "RIN-VE-1023",
+    "slug": "white-gold-eternity-ring",
+    "name": "White Gold Eternity Ring",
+    "qty": 2,
+    "unit": 4600,
+    "image": "assets/images/products/white-gold-eternity-ring.svg"
+   },
+   {
+    "sku": "ACC-AR-1062",
+    "slug": "ardent-document-folio",
+    "name": "Ardent Document Folio",
+    "qty": 1,
+    "unit": 420,
+    "image": "assets/images/products/ardent-document-folio.svg"
+   }
+  ],
+  "subtotal": 13820,
+  "shipping": 0,
+  "tax": 1106,
+  "total": 14926,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW991043151"
+ },
+ {
+  "id": "LX-ORD-10559",
+  "customerId": "CU-2115",
+  "customer": "Nadia Kaufman",
+  "email": "nadia.kaufman@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-05-29",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1062",
+    "slug": "ardent-document-folio",
+    "name": "Ardent Document Folio",
+    "qty": 2,
+    "unit": 420,
+    "image": "assets/images/products/ardent-document-folio.svg"
+   },
+   {
+    "sku": "RIN-NO-1016",
+    "slug": "platinum-band",
+    "name": "Platinum Band",
+    "qty": 2,
+    "unit": 2400,
+    "image": "assets/images/products/platinum-band.svg"
+   }
+  ],
+  "subtotal": 5640,
+  "shipping": 0,
+  "tax": 451,
+  "total": 6091,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW288388465"
+ },
+ {
+  "id": "LX-ORD-10455",
+  "customerId": "CU-2138",
+  "customer": "Rafael Whitfield",
+  "email": "rafael.whitfield@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-05-27",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "ACC-AR-1054",
+    "slug": "premium-watch-box",
+    "name": "Premium Watch Box",
+    "qty": 1,
+    "unit": 380,
+    "image": "assets/images/products/premium-watch-box.svg"
+   },
+   {
+    "sku": "WAT-KR-1003",
+    "slug": "luxora-skeleton-edition",
+    "name": "Luxora Skeleton Edition",
+    "qty": 2,
+    "unit": 11800,
+    "image": "assets/images/products/luxora-skeleton-edition.svg"
+   }
+  ],
+  "subtotal": 23980,
+  "shipping": 0,
+  "tax": 1918,
+  "total": 25898,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW982168426"
+ },
+ {
+  "id": "LX-ORD-10517",
+  "customerId": "CU-2140",
+  "customer": "Lucia Brandt",
+  "email": "lucia.brandt@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-05-27",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "EAR-AU-1051",
+    "slug": "rose-gold-drops",
+    "name": "Rose Gold Drops",
+    "qty": 2,
+    "unit": 1350,
+    "image": "assets/images/products/rose-gold-drops.svg"
+   },
+   {
+    "sku": "WAT-LU-1001",
+    "slug": "luxora-chronograph-gold",
+    "name": "Luxora Chronograph Gold",
+    "qty": 1,
+    "unit": 7900,
+    "image": "assets/images/products/luxora-chronograph-gold.svg"
+   },
+   {
+    "sku": "RIN-AU-1015",
+    "slug": "gold-signet-ring",
+    "name": "Gold Signet Ring",
+    "qty": 1,
+    "unit": 1490,
+    "image": "assets/images/products/gold-signet-ring.svg"
+   }
+  ],
+  "subtotal": 12090,
+  "shipping": 0,
+  "tax": 967,
+  "total": 13057,
+  "payment": "PayPal",
+  "tracking": "LXW285178149"
+ },
+ {
+  "id": "LX-ORD-10451",
+  "customerId": "CU-2102",
+  "customer": "Tomas Petrov",
+  "email": "tomas.petrov@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-05-26",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "NEC-NO-1028",
+    "slug": "white-gold-chain",
+    "name": "White Gold Chain",
+    "qty": 2,
+    "unit": 2100,
+    "image": "assets/images/products/white-gold-chain.svg"
+   }
+  ],
+  "subtotal": 4200,
+  "shipping": 0,
+  "tax": 336,
+  "total": 4536,
+  "payment": "PayPal",
+  "tracking": "LXW401642670"
+ },
+ {
+  "id": "LX-ORD-10520",
+  "customerId": "CU-2146",
+  "customer": "Viktor Whitfield",
+  "email": "viktor.whitfield@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-05-26",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "WAT-LU-1007",
+    "slug": "luxora-classic-leather",
+    "name": "Luxora Classic Leather",
+    "qty": 2,
+    "unit": 1850,
+    "image": "assets/images/products/luxora-classic-leather.svg"
+   },
+   {
+    "sku": "RIN-VE-1018",
+    "slug": "diamond-accent-ring",
+    "name": "Diamond Accent Ring",
+    "qty": 1,
+    "unit": 1650,
+    "image": "assets/images/products/diamond-accent-ring.svg"
+   },
+   {
+    "sku": "ACC-AR-1055",
+    "slug": "leather-watch-roll",
+    "name": "Leather Watch Roll",
+    "qty": 2,
+    "unit": 220,
+    "image": "assets/images/products/leather-watch-roll.svg"
+   }
+  ],
+  "subtotal": 5790,
+  "shipping": 0,
+  "tax": 463,
+  "total": 6253,
+  "payment": "Google Pay",
+  "tracking": "LXW204048260"
+ },
+ {
+  "id": "LX-ORD-10546",
+  "customerId": "CU-2113",
+  "customer": "Daniel Sharma",
+  "email": "daniel.sharma@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-05-24",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "WAT-LU-1001",
+    "slug": "luxora-chronograph-gold",
+    "name": "Luxora Chronograph Gold",
+    "qty": 1,
+    "unit": 7900,
+    "image": "assets/images/products/luxora-chronograph-gold.svg"
+   },
+   {
+    "sku": "EAR-AU-1047",
+    "slug": "gold-hoops",
+    "name": "Gold Hoops",
+    "qty": 1,
+    "unit": 1150,
+    "image": "assets/images/products/gold-hoops.svg"
+   },
+   {
+    "sku": "NEC-VE-1034",
+    "slug": "velmont-rivi-re-necklace",
+    "name": "Velmont Rivi\u00e8re Necklace",
+    "qty": 2,
+    "unit": 7415,
+    "image": "assets/images/products/velmont-rivi-re-necklace.svg"
+   }
+  ],
+  "subtotal": 23880,
+  "shipping": 0,
+  "tax": 1910,
+  "total": 25790,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW830297069"
+ },
+ {
+  "id": "LX-ORD-10533",
+  "customerId": "CU-2124",
+  "customer": "Rafael Bello",
+  "email": "rafael.bello@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-05-23",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "WAT-LU-1000",
+    "slug": "luxora-chronograph-black",
+    "name": "Luxora Chronograph Black",
+    "qty": 1,
+    "unit": 4850,
+    "image": "assets/images/products/luxora-chronograph-black.svg"
+   }
+  ],
+  "subtotal": 4850,
+  "shipping": 0,
+  "tax": 388,
+  "total": 5238,
+  "payment": "Apple Pay",
+  "tracking": "LXW842010128"
+ },
+ {
+  "id": "LX-ORD-10466",
+  "customerId": "CU-2121",
+  "customer": "Rafael Nakamura",
+  "email": "rafael.nakamura@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-05-22",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "WAT-KR-1012",
+    "slug": "kronique-tourbillon-noir",
+    "name": "Kronique Tourbillon Noir",
+    "qty": 2,
+    "unit": 9350,
+    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+   }
+  ],
+  "subtotal": 18700,
+  "shipping": 0,
+  "tax": 1496,
+  "total": 20196,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW834493057"
+ },
+ {
+  "id": "LX-ORD-10476",
+  "customerId": "CU-2106",
+  "customer": "Andre Laurent",
+  "email": "andre.laurent@example.com",
+  "city": "Paris",
+  "country": "FR",
+  "date": "2026-05-18",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "RIN-VE-1018",
+    "slug": "diamond-accent-ring",
+    "name": "Diamond Accent Ring",
+    "qty": 1,
+    "unit": 1650,
+    "image": "assets/images/products/diamond-accent-ring.svg"
+   }
+  ],
+  "subtotal": 1650,
+  "shipping": 0,
+  "tax": 132,
+  "total": 1782,
+  "payment": "PayPal",
+  "tracking": "LXW804195618"
+ },
+ {
+  "id": "LX-ORD-10529",
+  "customerId": "CU-2136",
+  "customer": "Marcus Chen",
+  "email": "marcus.chen@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-05-18",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1061",
+    "slug": "key-holder",
+    "name": "Key Holder",
+    "qty": 2,
+    "unit": 80,
+    "image": "assets/images/products/key-holder.svg"
+   },
+   {
+    "sku": "NEC-VE-1026",
+    "slug": "diamond-pendant",
+    "name": "Diamond Pendant",
+    "qty": 2,
+    "unit": 3900,
+    "image": "assets/images/products/diamond-pendant.svg"
+   },
+   {
+    "sku": "RIN-EL-1017",
+    "slug": "carbon-fiber-ring",
+    "name": "Carbon Fiber Ring",
+    "qty": 1,
+    "unit": 280,
+    "image": "assets/images/products/carbon-fiber-ring.svg"
+   }
+  ],
+  "subtotal": 8240,
+  "shipping": 0,
+  "tax": 659,
+  "total": 8899,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW851623145"
+ },
+ {
+  "id": "LX-ORD-10525",
+  "customerId": "CU-2137",
+  "customer": "Henrik Brandt",
+  "email": "henrik.brandt@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-05-17",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "NEC-VE-1034",
+    "slug": "velmont-rivi-re-necklace",
+    "name": "Velmont Rivi\u00e8re Necklace",
+    "qty": 2,
+    "unit": 7415,
+    "image": "assets/images/products/velmont-rivi-re-necklace.svg"
+   },
+   {
+    "sku": "BRA-NO-1040",
+    "slug": "silver-chain-bracelet",
+    "name": "Silver Chain Bracelet",
+    "qty": 2,
+    "unit": 380,
+    "image": "assets/images/products/silver-chain-bracelet.svg"
+   },
+   {
+    "sku": "BRA-AR-1039",
+    "slug": "leather-bracelet",
+    "name": "Leather Bracelet",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/leather-bracelet.svg"
+   }
+  ],
+  "subtotal": 15770,
+  "shipping": 0,
+  "tax": 1262,
+  "total": 17032,
+  "payment": "PayPal",
+  "tracking": "LXW287898260"
+ },
+ {
+  "id": "LX-ORD-10569",
+  "customerId": "CU-2123",
+  "customer": "Jonathan Lindqvist",
+  "email": "jonathan.lindqvist@example.com",
+  "city": "London",
+  "country": "UK",
+  "date": "2026-05-17",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "RIN-NO-1016",
+    "slug": "platinum-band",
+    "name": "Platinum Band",
+    "qty": 1,
+    "unit": 2400,
+    "image": "assets/images/products/platinum-band.svg"
+   },
+   {
+    "sku": "WAT-KR-1012",
+    "slug": "kronique-tourbillon-noir",
+    "name": "Kronique Tourbillon Noir",
+    "qty": 2,
+    "unit": 9350,
+    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+   }
+  ],
+  "subtotal": 21100,
+  "shipping": 0,
+  "tax": 1688,
+  "total": 22788,
+  "payment": "Apple Pay",
+  "tracking": "LXW491572066"
+ },
+ {
+  "id": "LX-ORD-10582",
+  "customerId": "CU-2128",
+  "customer": "Henrik Lindqvist",
+  "email": "henrik.lindqvist@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-05-16",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "ACC-AR-1056",
+    "slug": "jewelry-organizer",
+    "name": "Jewelry Organizer",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/jewelry-organizer.svg"
+   },
+   {
+    "sku": "RIN-NO-1025",
+    "slug": "novaire-facet-ring",
+    "name": "Novaire Facet Ring",
+    "qty": 1,
+    "unit": 640,
+    "image": "assets/images/products/novaire-facet-ring.svg"
+   }
+  ],
+  "subtotal": 820,
+  "shipping": 0,
+  "tax": 66,
+  "total": 886,
+  "payment": "Google Pay",
+  "tracking": "LXW644721108"
+ },
+ {
+  "id": "LX-ORD-10562",
+  "customerId": "CU-2111",
+  "customer": "Mei Rousseau",
+  "email": "mei.rousseau@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-05-15",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "NEC-VE-1026",
+    "slug": "diamond-pendant",
+    "name": "Diamond Pendant",
+    "qty": 1,
+    "unit": 3900,
+    "image": "assets/images/products/diamond-pendant.svg"
+   }
+  ],
+  "subtotal": 3900,
+  "shipping": 0,
+  "tax": 312,
+  "total": 4212,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW437080262"
+ },
+ {
+  "id": "LX-ORD-10478",
+  "customerId": "CU-2107",
+  "customer": "Amara Rousseau",
+  "email": "amara.rousseau@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-05-14",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "RIN-VE-1023",
+    "slug": "white-gold-eternity-ring",
+    "name": "White Gold Eternity Ring",
+    "qty": 1,
+    "unit": 4600,
+    "image": "assets/images/products/white-gold-eternity-ring.svg"
+   },
+   {
+    "sku": "ACC-AR-1059",
+    "slug": "leather-wallet",
+    "name": "Leather Wallet",
+    "qty": 1,
+    "unit": 240,
+    "image": "assets/images/products/leather-wallet.svg"
+   }
+  ],
+  "subtotal": 4840,
+  "shipping": 0,
+  "tax": 387,
+  "total": 5227,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW821412608"
+ },
+ {
+  "id": "LX-ORD-10484",
+  "customerId": "CU-2120",
+  "customer": "Omar Ashcroft",
+  "email": "omar.ashcroft@example.com",
+  "city": "Zurich",
+  "country": "CH",
+  "date": "2026-05-14",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "NEC-NO-1028",
+    "slug": "white-gold-chain",
+    "name": "White Gold Chain",
+    "qty": 1,
+    "unit": 2100,
+    "image": "assets/images/products/white-gold-chain.svg"
+   },
+   {
+    "sku": "BRA-CE-1043",
+    "slug": "pearl-bracelet",
+    "name": "Pearl Bracelet",
+    "qty": 1,
+    "unit": 760,
+    "image": "assets/images/products/pearl-bracelet.svg"
+   },
+   {
+    "sku": "ACC-AR-1058",
+    "slug": "watch-cleaning-kit",
+    "name": "Watch Cleaning Kit",
+    "qty": 1,
+    "unit": 70,
+    "image": "assets/images/products/watch-cleaning-kit.svg"
+   }
+  ],
+  "subtotal": 2930,
+  "shipping": 0,
+  "tax": 234,
+  "total": 3164,
+  "payment": "PayPal",
+  "tracking": "LXW527180501"
+ },
+ {
+  "id": "LX-ORD-10505",
+  "customerId": "CU-2100",
+  "customer": "Mei Lindqvist",
+  "email": "mei.lindqvist@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-05-13",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "NEC-VE-1034",
+    "slug": "velmont-rivi-re-necklace",
+    "name": "Velmont Rivi\u00e8re Necklace",
+    "qty": 1,
+    "unit": 7415,
+    "image": "assets/images/products/velmont-rivi-re-necklace.svg"
+   }
+  ],
+  "subtotal": 7415,
+  "shipping": 0,
+  "tax": 593,
+  "total": 8008,
+  "payment": "Apple Pay",
+  "tracking": "LXW994277437"
+ },
+ {
+  "id": "LX-ORD-10469",
+  "customerId": "CU-2117",
+  "customer": "Amara Moretti",
+  "email": "amara.moretti@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-05-11",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "NEC-AU-1032",
+    "slug": "cross-necklace",
+    "name": "Cross Necklace",
+    "qty": 1,
+    "unit": 1450,
+    "image": "assets/images/products/cross-necklace.svg"
+   }
+  ],
+  "subtotal": 1450,
+  "shipping": 0,
+  "tax": 116,
+  "total": 1566,
+  "payment": "PayPal",
+  "tracking": "LXW885231585"
+ },
+ {
+  "id": "LX-ORD-10482",
+  "customerId": "CU-2113",
+  "customer": "Daniel Sharma",
+  "email": "daniel.sharma@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-05-10",
+  "status": "Pending",
+  "items": [
+   {
+    "sku": "EAR-VE-1045",
+    "slug": "diamond-stud-earrings",
+    "name": "Diamond Stud Earrings",
+    "qty": 2,
+    "unit": 2485,
+    "image": "assets/images/products/diamond-stud-earrings.svg"
+   },
+   {
+    "sku": "ACC-AR-1057",
+    "slug": "luxury-travel-case",
+    "name": "Luxury Travel Case",
+    "qty": 1,
+    "unit": 650,
+    "image": "assets/images/products/luxury-travel-case.svg"
+   }
+  ],
+  "subtotal": 5620,
+  "shipping": 0,
+  "tax": 450,
+  "total": 6070,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW415023324"
+ },
+ {
+  "id": "LX-ORD-10496",
+  "customerId": "CU-2119",
+  "customer": "Aisha Novak",
+  "email": "aisha.novak@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-05-09",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-NO-1016",
+    "slug": "platinum-band",
+    "name": "Platinum Band",
+    "qty": 1,
+    "unit": 2400,
+    "image": "assets/images/products/platinum-band.svg"
+   },
+   {
+    "sku": "NEC-VE-1034",
+    "slug": "velmont-rivi-re-necklace",
+    "name": "Velmont Rivi\u00e8re Necklace",
+    "qty": 1,
+    "unit": 7415,
+    "image": "assets/images/products/velmont-rivi-re-necklace.svg"
+   }
+  ],
+  "subtotal": 9815,
+  "shipping": 0,
+  "tax": 785,
+  "total": 10600,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW263978542"
+ },
+ {
+  "id": "LX-ORD-10540",
+  "customerId": "CU-2142",
+  "customer": "Omar Reyes",
+  "email": "omar.reyes@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-05-09",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "WAT-NO-1010",
+    "slug": "novaire-slimline-36",
+    "name": "Novaire Slimline 36",
+    "qty": 2,
+    "unit": 1450,
+    "image": "assets/images/products/novaire-slimline-36.svg"
+   },
+   {
+    "sku": "RIN-NO-1025",
+    "slug": "novaire-facet-ring",
+    "name": "Novaire Facet Ring",
+    "qty": 1,
+    "unit": 640,
+    "image": "assets/images/products/novaire-facet-ring.svg"
+   },
+   {
+    "sku": "RIN-VE-1023",
+    "slug": "white-gold-eternity-ring",
+    "name": "White Gold Eternity Ring",
+    "qty": 1,
+    "unit": 4600,
+    "image": "assets/images/products/white-gold-eternity-ring.svg"
+   }
+  ],
+  "subtotal": 8140,
+  "shipping": 0,
+  "tax": 651,
+  "total": 8791,
+  "payment": "PayPal",
+  "tracking": "LXW742530391"
+ },
+ {
+  "id": "LX-ORD-10475",
+  "customerId": "CU-2134",
+  "customer": "Jonathan Lindqvist",
+  "email": "jonathan.lindqvist@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-05-08",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-EL-1017",
+    "slug": "carbon-fiber-ring",
+    "name": "Carbon Fiber Ring",
+    "qty": 1,
+    "unit": 280,
+    "image": "assets/images/products/carbon-fiber-ring.svg"
+   }
+  ],
+  "subtotal": 280,
+  "shipping": 35,
+  "tax": 22,
+  "total": 337,
+  "payment": "Google Pay",
+  "tracking": "LXW207224252"
+ },
+ {
+  "id": "LX-ORD-10532",
+  "customerId": "CU-2141",
+  "customer": "Viktor Osei",
+  "email": "viktor.osei@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-05-08",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "BRA-EL-1041",
+    "slug": "black-titanium-bracelet",
+    "name": "Black Titanium Bracelet",
+    "qty": 1,
+    "unit": 345,
+    "image": "assets/images/products/black-titanium-bracelet.svg"
+   }
+  ],
+  "subtotal": 345,
+  "shipping": 35,
+  "tax": 28,
+  "total": 408,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW281567923"
+ },
+ {
+  "id": "LX-ORD-10491",
+  "customerId": "CU-2132",
+  "customer": "Henrik Ferreira",
+  "email": "henrik.ferreira@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-05-06",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "BRA-EL-1041",
+    "slug": "black-titanium-bracelet",
+    "name": "Black Titanium Bracelet",
+    "qty": 1,
+    "unit": 345,
+    "image": "assets/images/products/black-titanium-bracelet.svg"
+   }
+  ],
+  "subtotal": 345,
+  "shipping": 35,
+  "tax": 28,
+  "total": 408,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW338769970"
+ },
+ {
+  "id": "LX-ORD-10544",
+  "customerId": "CU-2115",
+  "customer": "Nadia Kaufman",
+  "email": "nadia.kaufman@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-05-06",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "ACC-AR-1063",
+    "slug": "ardent-watch-winder",
+    "name": "Ardent Watch Winder",
+    "qty": 2,
+    "unit": 560,
+    "image": "assets/images/products/ardent-watch-winder.svg"
+   }
+  ],
+  "subtotal": 1120,
+  "shipping": 0,
+  "tax": 90,
+  "total": 1210,
+  "payment": "Apple Pay",
+  "tracking": "LXW908771361"
+ },
+ {
+  "id": "LX-ORD-10567",
+  "customerId": "CU-2129",
+  "customer": "Omar Duarte",
+  "email": "omar.duarte@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-05-03",
+  "status": "Refunded",
+  "items": [
+   {
+    "sku": "NEC-AU-1032",
+    "slug": "cross-necklace",
+    "name": "Cross Necklace",
+    "qty": 1,
+    "unit": 1450,
+    "image": "assets/images/products/cross-necklace.svg"
+   },
+   {
+    "sku": "ACC-AR-1062",
+    "slug": "ardent-document-folio",
+    "name": "Ardent Document Folio",
+    "qty": 1,
+    "unit": 420,
+    "image": "assets/images/products/ardent-document-folio.svg"
+   },
+   {
+    "sku": "RIN-CE-1022",
+    "slug": "sapphire-ring",
+    "name": "Sapphire Ring",
+    "qty": 1,
+    "unit": 3200,
+    "image": "assets/images/products/sapphire-ring.svg"
+   }
+  ],
+  "subtotal": 5070,
+  "shipping": 0,
+  "tax": 406,
+  "total": 5476,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW488265194"
+ },
+ {
+  "id": "LX-ORD-10503",
+  "customerId": "CU-2126",
+  "customer": "Nadia Sharma",
+  "email": "nadia.sharma@example.com",
+  "city": "London",
+  "country": "UK",
+  "date": "2026-05-02",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "NEC-CE-1029",
+    "slug": "pearl-necklace",
+    "name": "Pearl Necklace",
+    "qty": 1,
+    "unit": 1585,
+    "image": "assets/images/products/pearl-necklace.svg"
+   },
+   {
+    "sku": "RIN-VE-1019",
+    "slug": "solitaire-diamond-ring",
+    "name": "Solitaire Diamond Ring",
+    "qty": 1,
+    "unit": 5900,
+    "image": "assets/images/products/solitaire-diamond-ring.svg"
+   },
+   {
+    "sku": "BRA-CE-1042",
+    "slug": "charm-bracelet",
+    "name": "Charm Bracelet",
+    "qty": 1,
+    "unit": 660,
+    "image": "assets/images/products/charm-bracelet.svg"
+   }
+  ],
+  "subtotal": 8145,
+  "shipping": 0,
+  "tax": 652,
+  "total": 8797,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW287306861"
+ },
+ {
+  "id": "LX-ORD-10585",
+  "customerId": "CU-2132",
+  "customer": "Henrik Ferreira",
+  "email": "henrik.ferreira@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-05-02",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "NEC-CE-1030",
+    "slug": "emerald-pendant",
+    "name": "Emerald Pendant",
+    "qty": 1,
+    "unit": 4105,
+    "image": "assets/images/products/emerald-pendant.svg"
+   },
+   {
+    "sku": "BRA-CE-1043",
+    "slug": "pearl-bracelet",
+    "name": "Pearl Bracelet",
+    "qty": 1,
+    "unit": 760,
+    "image": "assets/images/products/pearl-bracelet.svg"
+   }
+  ],
+  "subtotal": 4865,
+  "shipping": 0,
+  "tax": 389,
+  "total": 5254,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW941261070"
+ },
+ {
+  "id": "LX-ORD-10481",
+  "customerId": "CU-2110",
+  "customer": "Nadia Moretti",
+  "email": "nadia.moretti@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-04-30",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "RIN-VE-1023",
+    "slug": "white-gold-eternity-ring",
+    "name": "White Gold Eternity Ring",
+    "qty": 2,
+    "unit": 4600,
+    "image": "assets/images/products/white-gold-eternity-ring.svg"
+   }
+  ],
+  "subtotal": 9200,
+  "shipping": 0,
+  "tax": 736,
+  "total": 9936,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW809344603"
+ },
+ {
+  "id": "LX-ORD-10490",
+  "customerId": "CU-2145",
+  "customer": "Viktor Ferreira",
+  "email": "viktor.ferreira@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-04-30",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "RIN-VE-1018",
+    "slug": "diamond-accent-ring",
+    "name": "Diamond Accent Ring",
+    "qty": 1,
+    "unit": 1650,
+    "image": "assets/images/products/diamond-accent-ring.svg"
+   }
+  ],
+  "subtotal": 1650,
+  "shipping": 0,
+  "tax": 132,
+  "total": 1782,
+  "payment": "Apple Pay",
+  "tracking": "LXW313287886"
+ },
+ {
+  "id": "LX-ORD-10511",
+  "customerId": "CU-2116",
+  "customer": "Julian Reyes",
+  "email": "julian.reyes@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-04-30",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "NEC-AU-1032",
+    "slug": "cross-necklace",
+    "name": "Cross Necklace",
+    "qty": 1,
+    "unit": 1450,
+    "image": "assets/images/products/cross-necklace.svg"
+   }
+  ],
+  "subtotal": 1450,
+  "shipping": 0,
+  "tax": 116,
+  "total": 1566,
+  "payment": "PayPal",
+  "tracking": "LXW913654613"
+ },
+ {
+  "id": "LX-ORD-10549",
+  "customerId": "CU-2147",
+  "customer": "Julian Lindqvist",
+  "email": "julian.lindqvist@example.com",
+  "city": "Stockholm",
+  "country": "SE",
+  "date": "2026-04-28",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "EAR-CE-1050",
+    "slug": "sapphire-earrings",
+    "name": "Sapphire Earrings",
+    "qty": 2,
+    "unit": 3665,
+    "image": "assets/images/products/sapphire-earrings.svg"
+   },
+   {
+    "sku": "ACC-AR-1055",
+    "slug": "leather-watch-roll",
+    "name": "Leather Watch Roll",
+    "qty": 1,
+    "unit": 220,
+    "image": "assets/images/products/leather-watch-roll.svg"
+   }
+  ],
+  "subtotal": 7550,
+  "shipping": 0,
+  "tax": 604,
+  "total": 8154,
+  "payment": "Apple Pay",
+  "tracking": "LXW542316191"
+ },
+ {
+  "id": "LX-ORD-10528",
+  "customerId": "CU-2113",
+  "customer": "Daniel Sharma",
+  "email": "daniel.sharma@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-04-26",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "RIN-VE-1019",
+    "slug": "solitaire-diamond-ring",
+    "name": "Solitaire Diamond Ring",
+    "qty": 1,
+    "unit": 5900,
+    "image": "assets/images/products/solitaire-diamond-ring.svg"
+   }
+  ],
+  "subtotal": 5900,
+  "shipping": 0,
+  "tax": 472,
+  "total": 6372,
+  "payment": "Apple Pay",
+  "tracking": "LXW487988474"
+ },
+ {
+  "id": "LX-ORD-10463",
+  "customerId": "CU-2104",
+  "customer": "Viktor Moretti",
+  "email": "viktor.moretti@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-04-25",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "WAT-KR-1004",
+    "slug": "luxora-moonphase",
+    "name": "Luxora Moonphase",
+    "qty": 1,
+    "unit": 9400,
+    "image": "assets/images/products/luxora-moonphase.svg"
+   }
+  ],
+  "subtotal": 9400,
+  "shipping": 0,
+  "tax": 752,
+  "total": 10152,
+  "payment": "Apple Pay",
+  "tracking": "LXW439433719"
+ },
+ {
+  "id": "LX-ORD-10564",
+  "customerId": "CU-2120",
+  "customer": "Omar Ashcroft",
+  "email": "omar.ashcroft@example.com",
+  "city": "Zurich",
+  "country": "CH",
+  "date": "2026-04-24",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "RIN-AU-1021",
+    "slug": "rose-gold-infinity-ring",
+    "name": "Rose Gold Infinity Ring",
+    "qty": 1,
+    "unit": 980,
+    "image": "assets/images/products/rose-gold-infinity-ring.svg"
+   },
+   {
+    "sku": "NEC-CE-1031",
+    "slug": "sapphire-pendant",
+    "name": "Sapphire Pendant",
+    "qty": 1,
+    "unit": 4400,
+    "image": "assets/images/products/sapphire-pendant.svg"
+   }
+  ],
+  "subtotal": 5380,
+  "shipping": 0,
+  "tax": 430,
+  "total": 5810,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW727965204"
+ },
+ {
+  "id": "LX-ORD-10558",
+  "customerId": "CU-2139",
+  "customer": "Lucia Dahl",
+  "email": "lucia.dahl@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-04-21",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-EL-1017",
+    "slug": "carbon-fiber-ring",
+    "name": "Carbon Fiber Ring",
+    "qty": 2,
+    "unit": 280,
+    "image": "assets/images/products/carbon-fiber-ring.svg"
+   },
+   {
+    "sku": "RIN-VE-1023",
+    "slug": "white-gold-eternity-ring",
+    "name": "White Gold Eternity Ring",
+    "qty": 2,
+    "unit": 4600,
+    "image": "assets/images/products/white-gold-eternity-ring.svg"
+   },
+   {
+    "sku": "EAR-CE-1046",
+    "slug": "pearl-earrings",
+    "name": "Pearl Earrings",
+    "qty": 1,
+    "unit": 680,
+    "image": "assets/images/products/pearl-earrings.svg"
+   }
+  ],
+  "subtotal": 10440,
+  "shipping": 0,
+  "tax": 835,
+  "total": 11275,
+  "payment": "PayPal",
+  "tracking": "LXW166007800"
+ },
+ {
+  "id": "LX-ORD-10587",
+  "customerId": "CU-2139",
+  "customer": "Lucia Dahl",
+  "email": "lucia.dahl@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-04-21",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "BRA-AU-1036",
+    "slug": "cuban-link-bracelet",
+    "name": "Cuban Link Bracelet",
+    "qty": 1,
+    "unit": 1645,
+    "image": "assets/images/products/cuban-link-bracelet.svg"
+   },
+   {
+    "sku": "ACC-AR-1063",
+    "slug": "ardent-watch-winder",
+    "name": "Ardent Watch Winder",
+    "qty": 1,
+    "unit": 560,
+    "image": "assets/images/products/ardent-watch-winder.svg"
+   }
+  ],
+  "subtotal": 2205,
+  "shipping": 0,
+  "tax": 176,
+  "total": 2381,
+  "payment": "PayPal",
+  "tracking": "LXW382109495"
+ },
+ {
+  "id": "LX-ORD-10504",
+  "customerId": "CU-2146",
+  "customer": "Viktor Whitfield",
+  "email": "viktor.whitfield@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-04-19",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "WAT-EL-1005",
+    "slug": "luxora-elite-diver",
+    "name": "Luxora Elite Diver",
+    "qty": 1,
+    "unit": 3300,
+    "image": "assets/images/products/luxora-elite-diver.svg"
+   },
+   {
+    "sku": "EAR-VE-1045",
+    "slug": "diamond-stud-earrings",
+    "name": "Diamond Stud Earrings",
+    "qty": 1,
+    "unit": 2485,
+    "image": "assets/images/products/diamond-stud-earrings.svg"
+   }
+  ],
+  "subtotal": 5785,
+  "shipping": 0,
+  "tax": 463,
+  "total": 6248,
+  "payment": "Google Pay",
+  "tracking": "LXW457828489"
+ },
+ {
+  "id": "LX-ORD-10539",
+  "customerId": "CU-2128",
+  "customer": "Henrik Lindqvist",
+  "email": "henrik.lindqvist@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-04-18",
+  "status": "Pending",
+  "items": [
+   {
+    "sku": "ACC-AR-1056",
+    "slug": "jewelry-organizer",
+    "name": "Jewelry Organizer",
+    "qty": 2,
+    "unit": 180,
+    "image": "assets/images/products/jewelry-organizer.svg"
+   },
+   {
+    "sku": "RIN-EL-1017",
+    "slug": "carbon-fiber-ring",
+    "name": "Carbon Fiber Ring",
+    "qty": 1,
+    "unit": 280,
+    "image": "assets/images/products/carbon-fiber-ring.svg"
+   }
+  ],
+  "subtotal": 640,
+  "shipping": 0,
+  "tax": 51,
+  "total": 691,
+  "payment": "Google Pay",
+  "tracking": "LXW451701533"
+ },
+ {
+  "id": "LX-ORD-10550",
+  "customerId": "CU-2147",
+  "customer": "Julian Lindqvist",
+  "email": "julian.lindqvist@example.com",
+  "city": "Stockholm",
+  "country": "SE",
+  "date": "2026-04-18",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "EAR-NO-1053",
+    "slug": "novaire-bar-studs",
+    "name": "Novaire Bar Studs",
+    "qty": 1,
+    "unit": 250,
+    "image": "assets/images/products/novaire-bar-studs.svg"
+   },
+   {
+    "sku": "RIN-AU-1024",
+    "slug": "aurelius-roman-band",
+    "name": "Aurelius Roman Band",
+    "qty": 1,
+    "unit": 1240,
+    "image": "assets/images/products/aurelius-roman-band.svg"
+   }
+  ],
+  "subtotal": 1490,
+  "shipping": 0,
+  "tax": 119,
+  "total": 1609,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW383440601"
+ },
+ {
+  "id": "LX-ORD-10576",
+  "customerId": "CU-2121",
+  "customer": "Rafael Nakamura",
+  "email": "rafael.nakamura@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-04-18",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "EAR-VE-1052",
+    "slug": "luxury-diamond-drops",
+    "name": "Luxury Diamond Drops",
+    "qty": 1,
+    "unit": 7400,
+    "image": "assets/images/products/luxury-diamond-drops.svg"
+   }
+  ],
+  "subtotal": 7400,
+  "shipping": 0,
+  "tax": 592,
+  "total": 7992,
+  "payment": "Apple Pay",
+  "tracking": "LXW885937546"
+ },
+ {
+  "id": "LX-ORD-10553",
+  "customerId": "CU-2133",
+  "customer": "Rafael Chen",
+  "email": "rafael.chen@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-04-17",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "WAT-EL-1005",
+    "slug": "luxora-elite-diver",
+    "name": "Luxora Elite Diver",
+    "qty": 1,
+    "unit": 3300,
+    "image": "assets/images/products/luxora-elite-diver.svg"
+   }
+  ],
+  "subtotal": 3300,
+  "shipping": 0,
+  "tax": 264,
+  "total": 3564,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW187489014"
+ },
+ {
+  "id": "LX-ORD-10487",
+  "customerId": "CU-2109",
+  "customer": "Jonathan Sharma",
+  "email": "jonathan.sharma@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-04-16",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "WAT-LU-1000",
+    "slug": "luxora-chronograph-black",
+    "name": "Luxora Chronograph Black",
+    "qty": 1,
+    "unit": 4850,
+    "image": "assets/images/products/luxora-chronograph-black.svg"
+   },
+   {
+    "sku": "BRA-AR-1039",
+    "slug": "leather-bracelet",
+    "name": "Leather Bracelet",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/leather-bracelet.svg"
+   },
+   {
+    "sku": "ACC-AR-1062",
+    "slug": "ardent-document-folio",
+    "name": "Ardent Document Folio",
+    "qty": 1,
+    "unit": 420,
+    "image": "assets/images/products/ardent-document-folio.svg"
+   }
+  ],
+  "subtotal": 5450,
+  "shipping": 0,
+  "tax": 436,
+  "total": 5886,
+  "payment": "PayPal",
+  "tracking": "LXW429685370"
+ },
+ {
+  "id": "LX-ORD-10515",
+  "customerId": "CU-2121",
+  "customer": "Rafael Nakamura",
+  "email": "rafael.nakamura@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-04-16",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "EAR-AU-1047",
+    "slug": "gold-hoops",
+    "name": "Gold Hoops",
+    "qty": 1,
+    "unit": 1150,
+    "image": "assets/images/products/gold-hoops.svg"
+   },
+   {
+    "sku": "RIN-VE-1023",
+    "slug": "white-gold-eternity-ring",
+    "name": "White Gold Eternity Ring",
+    "qty": 1,
+    "unit": 4600,
+    "image": "assets/images/products/white-gold-eternity-ring.svg"
+   }
+  ],
+  "subtotal": 5750,
+  "shipping": 0,
+  "tax": 460,
+  "total": 6210,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW823433738"
+ },
+ {
+  "id": "LX-ORD-10566",
+  "customerId": "CU-2126",
+  "customer": "Nadia Sharma",
+  "email": "nadia.sharma@example.com",
+  "city": "London",
+  "country": "UK",
+  "date": "2026-04-16",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "EAR-CE-1050",
+    "slug": "sapphire-earrings",
+    "name": "Sapphire Earrings",
+    "qty": 1,
+    "unit": 3665,
+    "image": "assets/images/products/sapphire-earrings.svg"
+   },
+   {
+    "sku": "ACC-AR-1061",
+    "slug": "key-holder",
+    "name": "Key Holder",
+    "qty": 1,
+    "unit": 80,
+    "image": "assets/images/products/key-holder.svg"
+   }
+  ],
+  "subtotal": 3745,
+  "shipping": 0,
+  "tax": 300,
+  "total": 4045,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW318849855"
+ },
+ {
+  "id": "LX-ORD-10524",
+  "customerId": "CU-2133",
+  "customer": "Rafael Chen",
+  "email": "rafael.chen@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-04-11",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "EAR-NO-1048",
+    "slug": "white-gold-hoops",
+    "name": "White Gold Hoops",
+    "qty": 2,
+    "unit": 1050,
+    "image": "assets/images/products/white-gold-hoops.svg"
+   }
+  ],
+  "subtotal": 2100,
+  "shipping": 0,
+  "tax": 168,
+  "total": 2268,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW980764794"
+ },
+ {
+  "id": "LX-ORD-10557",
+  "customerId": "CU-2107",
+  "customer": "Amara Rousseau",
+  "email": "amara.rousseau@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-04-09",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "WAT-LU-1007",
+    "slug": "luxora-classic-leather",
+    "name": "Luxora Classic Leather",
+    "qty": 1,
+    "unit": 1850,
+    "image": "assets/images/products/luxora-classic-leather.svg"
+   },
+   {
+    "sku": "BRA-AR-1039",
+    "slug": "leather-bracelet",
+    "name": "Leather Bracelet",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/leather-bracelet.svg"
+   }
+  ],
+  "subtotal": 2030,
+  "shipping": 0,
+  "tax": 162,
+  "total": 2192,
+  "payment": "PayPal",
+  "tracking": "LXW249234759"
+ },
+ {
+  "id": "LX-ORD-10510",
+  "customerId": "CU-2134",
+  "customer": "Jonathan Lindqvist",
+  "email": "jonathan.lindqvist@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-04-05",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-EL-1014",
+    "slug": "black-titanium-ring",
+    "name": "Black Titanium Ring",
+    "qty": 1,
+    "unit": 320,
+    "image": "assets/images/products/black-titanium-ring.svg"
+   }
+  ],
+  "subtotal": 320,
+  "shipping": 35,
+  "tax": 26,
+  "total": 381,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW801935146"
+ },
+ {
+  "id": "LX-ORD-10584",
+  "customerId": "CU-2106",
+  "customer": "Andre Laurent",
+  "email": "andre.laurent@example.com",
+  "city": "Paris",
+  "country": "FR",
+  "date": "2026-04-04",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "ACC-AR-1063",
+    "slug": "ardent-watch-winder",
+    "name": "Ardent Watch Winder",
+    "qty": 1,
+    "unit": 560,
+    "image": "assets/images/products/ardent-watch-winder.svg"
+   }
+  ],
+  "subtotal": 560,
+  "shipping": 0,
+  "tax": 45,
+  "total": 605,
+  "payment": "Apple Pay",
+  "tracking": "LXW385645021"
+ },
+ {
+  "id": "LX-ORD-10516",
+  "customerId": "CU-2107",
+  "customer": "Amara Rousseau",
+  "email": "amara.rousseau@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-04-03",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "ACC-AR-1061",
+    "slug": "key-holder",
+    "name": "Key Holder",
+    "qty": 2,
+    "unit": 80,
+    "image": "assets/images/products/key-holder.svg"
+   },
+   {
+    "sku": "RIN-CE-1020",
+    "slug": "emerald-halo-ring",
+    "name": "Emerald Halo Ring",
+    "qty": 1,
+    "unit": 4300,
+    "image": "assets/images/products/emerald-halo-ring.svg"
+   },
+   {
+    "sku": "WAT-EL-1005",
+    "slug": "luxora-elite-diver",
+    "name": "Luxora Elite Diver",
+    "qty": 2,
+    "unit": 3300,
+    "image": "assets/images/products/luxora-elite-diver.svg"
+   }
+  ],
+  "subtotal": 11060,
+  "shipping": 0,
+  "tax": 885,
+  "total": 11945,
+  "payment": "PayPal",
+  "tracking": "LXW563502075"
+ },
+ {
+  "id": "LX-ORD-10497",
+  "customerId": "CU-2128",
+  "customer": "Henrik Lindqvist",
+  "email": "henrik.lindqvist@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-04-01",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "BRA-EL-1044",
+    "slug": "elvaro-carbon-cuff",
+    "name": "Elvaro Carbon Cuff",
+    "qty": 1,
+    "unit": 405,
+    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+   }
+  ],
+  "subtotal": 405,
+  "shipping": 35,
+  "tax": 32,
+  "total": 472,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW763688934"
+ },
+ {
+  "id": "LX-ORD-10454",
+  "customerId": "CU-2130",
+  "customer": "Omar Chen",
+  "email": "omar.chen@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-03-30",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "RIN-CE-1022",
+    "slug": "sapphire-ring",
+    "name": "Sapphire Ring",
+    "qty": 1,
+    "unit": 3200,
+    "image": "assets/images/products/sapphire-ring.svg"
+   },
+   {
+    "sku": "BRA-NO-1040",
+    "slug": "silver-chain-bracelet",
+    "name": "Silver Chain Bracelet",
+    "qty": 1,
+    "unit": 380,
+    "image": "assets/images/products/silver-chain-bracelet.svg"
+   },
+   {
+    "sku": "NEC-NO-1028",
+    "slug": "white-gold-chain",
+    "name": "White Gold Chain",
+    "qty": 1,
+    "unit": 2100,
+    "image": "assets/images/products/white-gold-chain.svg"
+   }
+  ],
+  "subtotal": 5680,
+  "shipping": 0,
+  "tax": 454,
+  "total": 6134,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW110735296"
+ },
+ {
+  "id": "LX-ORD-10468",
+  "customerId": "CU-2111",
+  "customer": "Mei Rousseau",
+  "email": "mei.rousseau@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-03-30",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "WAT-EL-1005",
+    "slug": "luxora-elite-diver",
+    "name": "Luxora Elite Diver",
+    "qty": 2,
+    "unit": 3300,
+    "image": "assets/images/products/luxora-elite-diver.svg"
+   },
+   {
+    "sku": "WAT-EL-1006",
+    "slug": "luxora-titanium-sport",
+    "name": "Luxora Titanium Sport",
+    "qty": 2,
+    "unit": 2450,
+    "image": "assets/images/products/luxora-titanium-sport.svg"
+   },
+   {
+    "sku": "RIN-AU-1015",
+    "slug": "gold-signet-ring",
+    "name": "Gold Signet Ring",
+    "qty": 1,
+    "unit": 1490,
+    "image": "assets/images/products/gold-signet-ring.svg"
+   }
+  ],
+  "subtotal": 12990,
+  "shipping": 0,
+  "tax": 1039,
+  "total": 14029,
+  "payment": "Google Pay",
+  "tracking": "LXW468401008"
+ },
+ {
+  "id": "LX-ORD-10537",
+  "customerId": "CU-2127",
+  "customer": "Andre Novak",
+  "email": "andre.novak@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-03-30",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "EAR-CE-1050",
+    "slug": "sapphire-earrings",
+    "name": "Sapphire Earrings",
+    "qty": 1,
+    "unit": 3665,
+    "image": "assets/images/products/sapphire-earrings.svg"
+   }
+  ],
+  "subtotal": 3665,
+  "shipping": 0,
+  "tax": 293,
+  "total": 3958,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW331894154"
+ },
+ {
+  "id": "LX-ORD-10577",
+  "customerId": "CU-2118",
+  "customer": "Isabelle Rousseau",
+  "email": "isabelle.rousseau@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-03-28",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-EL-1017",
+    "slug": "carbon-fiber-ring",
+    "name": "Carbon Fiber Ring",
+    "qty": 1,
+    "unit": 280,
+    "image": "assets/images/products/carbon-fiber-ring.svg"
+   },
+   {
+    "sku": "RIN-AU-1015",
+    "slug": "gold-signet-ring",
+    "name": "Gold Signet Ring",
+    "qty": 1,
+    "unit": 1490,
+    "image": "assets/images/products/gold-signet-ring.svg"
+   }
+  ],
+  "subtotal": 1770,
+  "shipping": 0,
+  "tax": 142,
+  "total": 1912,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW390765689"
+ },
+ {
+  "id": "LX-ORD-10452",
+  "customerId": "CU-2125",
+  "customer": "Aisha Kaufman",
+  "email": "aisha.kaufman@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-03-27",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "WAT-LU-1008",
+    "slug": "luxora-gmt-traveler",
+    "name": "Luxora GMT Traveler",
+    "qty": 1,
+    "unit": 4720,
+    "image": "assets/images/products/luxora-gmt-traveler.svg"
+   },
+   {
+    "sku": "WAT-EL-1013",
+    "slug": "elvaro-field-40",
+    "name": "Elvaro Field 40",
+    "qty": 1,
+    "unit": 450,
+    "image": "assets/images/products/elvaro-field-40.svg"
+   }
+  ],
+  "subtotal": 5170,
+  "shipping": 0,
+  "tax": 414,
+  "total": 5584,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW264013673"
+ },
+ {
+  "id": "LX-ORD-10547",
+  "customerId": "CU-2110",
+  "customer": "Nadia Moretti",
+  "email": "nadia.moretti@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-03-27",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "RIN-VE-1019",
+    "slug": "solitaire-diamond-ring",
+    "name": "Solitaire Diamond Ring",
+    "qty": 1,
+    "unit": 5900,
+    "image": "assets/images/products/solitaire-diamond-ring.svg"
+   },
+   {
+    "sku": "ACC-AR-1063",
+    "slug": "ardent-watch-winder",
+    "name": "Ardent Watch Winder",
+    "qty": 1,
+    "unit": 560,
+    "image": "assets/images/products/ardent-watch-winder.svg"
+   }
+  ],
+  "subtotal": 6460,
+  "shipping": 0,
+  "tax": 517,
+  "total": 6977,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW885232932"
+ },
+ {
+  "id": "LX-ORD-10456",
+  "customerId": "CU-2116",
+  "customer": "Julian Reyes",
+  "email": "julian.reyes@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-03-25",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1054",
+    "slug": "premium-watch-box",
+    "name": "Premium Watch Box",
+    "qty": 1,
+    "unit": 380,
+    "image": "assets/images/products/premium-watch-box.svg"
+   },
+   {
+    "sku": "ACC-AR-1058",
+    "slug": "watch-cleaning-kit",
+    "name": "Watch Cleaning Kit",
+    "qty": 1,
+    "unit": 70,
+    "image": "assets/images/products/watch-cleaning-kit.svg"
+   },
+   {
+    "sku": "RIN-NO-1016",
+    "slug": "platinum-band",
+    "name": "Platinum Band",
+    "qty": 1,
+    "unit": 2400,
+    "image": "assets/images/products/platinum-band.svg"
+   }
+  ],
+  "subtotal": 2850,
+  "shipping": 0,
+  "tax": 228,
+  "total": 3078,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW883053354"
+ },
+ {
+  "id": "LX-ORD-10581",
+  "customerId": "CU-2125",
+  "customer": "Aisha Kaufman",
+  "email": "aisha.kaufman@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-03-25",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "BRA-AR-1039",
+    "slug": "leather-bracelet",
+    "name": "Leather Bracelet",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/leather-bracelet.svg"
+   },
+   {
+    "sku": "ACC-AR-1056",
+    "slug": "jewelry-organizer",
+    "name": "Jewelry Organizer",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/jewelry-organizer.svg"
+   },
+   {
+    "sku": "WAT-EL-1006",
+    "slug": "luxora-titanium-sport",
+    "name": "Luxora Titanium Sport",
+    "qty": 2,
+    "unit": 2450,
+    "image": "assets/images/products/luxora-titanium-sport.svg"
+   }
+  ],
+  "subtotal": 5260,
+  "shipping": 0,
+  "tax": 421,
+  "total": 5681,
+  "payment": "PayPal",
+  "tracking": "LXW689221220"
+ },
+ {
+  "id": "LX-ORD-10479",
+  "customerId": "CU-2133",
+  "customer": "Rafael Chen",
+  "email": "rafael.chen@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-03-24",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1060",
+    "slug": "passport-holder",
+    "name": "Passport Holder",
+    "qty": 1,
+    "unit": 160,
+    "image": "assets/images/products/passport-holder.svg"
+   },
+   {
+    "sku": "EAR-AU-1047",
+    "slug": "gold-hoops",
+    "name": "Gold Hoops",
+    "qty": 1,
+    "unit": 1150,
+    "image": "assets/images/products/gold-hoops.svg"
+   }
+  ],
+  "subtotal": 1310,
+  "shipping": 0,
+  "tax": 105,
+  "total": 1415,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW219602564"
+ },
+ {
+  "id": "LX-ORD-10450",
+  "customerId": "CU-2111",
+  "customer": "Mei Rousseau",
+  "email": "mei.rousseau@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-03-22",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "BRA-AU-1036",
+    "slug": "cuban-link-bracelet",
+    "name": "Cuban Link Bracelet",
+    "qty": 1,
+    "unit": 1645,
+    "image": "assets/images/products/cuban-link-bracelet.svg"
+   },
+   {
+    "sku": "WAT-NO-1010",
+    "slug": "novaire-slimline-36",
+    "name": "Novaire Slimline 36",
+    "qty": 2,
+    "unit": 1450,
+    "image": "assets/images/products/novaire-slimline-36.svg"
+   }
+  ],
+  "subtotal": 4545,
+  "shipping": 0,
+  "tax": 364,
+  "total": 4909,
+  "payment": "Google Pay",
+  "tracking": "LXW676242889"
+ },
+ {
+  "id": "LX-ORD-10489",
+  "customerId": "CU-2126",
+  "customer": "Nadia Sharma",
+  "email": "nadia.sharma@example.com",
+  "city": "London",
+  "country": "UK",
+  "date": "2026-03-22",
+  "status": "Refunded",
+  "items": [
+   {
+    "sku": "NEC-CE-1030",
+    "slug": "emerald-pendant",
+    "name": "Emerald Pendant",
+    "qty": 1,
+    "unit": 4105,
+    "image": "assets/images/products/emerald-pendant.svg"
+   },
+   {
+    "sku": "ACC-AR-1060",
+    "slug": "passport-holder",
+    "name": "Passport Holder",
+    "qty": 1,
+    "unit": 160,
+    "image": "assets/images/products/passport-holder.svg"
+   }
+  ],
+  "subtotal": 4265,
+  "shipping": 0,
+  "tax": 341,
+  "total": 4606,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW692559983"
+ },
+ {
+  "id": "LX-ORD-10560",
+  "customerId": "CU-2122",
+  "customer": "Priya Bello",
+  "email": "priya.bello@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-03-21",
+  "status": "Refunded",
+  "items": [
+   {
+    "sku": "EAR-CE-1049",
+    "slug": "emerald-earrings",
+    "name": "Emerald Earrings",
+    "qty": 1,
+    "unit": 4335,
+    "image": "assets/images/products/emerald-earrings.svg"
+   },
+   {
+    "sku": "RIN-AU-1021",
+    "slug": "rose-gold-infinity-ring",
+    "name": "Rose Gold Infinity Ring",
+    "qty": 1,
+    "unit": 980,
+    "image": "assets/images/products/rose-gold-infinity-ring.svg"
+   }
+  ],
+  "subtotal": 5315,
+  "shipping": 0,
+  "tax": 425,
+  "total": 5740,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW272393941"
+ },
+ {
+  "id": "LX-ORD-10561",
+  "customerId": "CU-2119",
+  "customer": "Aisha Novak",
+  "email": "aisha.novak@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-03-16",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "NEC-CE-1029",
+    "slug": "pearl-necklace",
+    "name": "Pearl Necklace",
+    "qty": 2,
+    "unit": 1585,
+    "image": "assets/images/products/pearl-necklace.svg"
+   },
+   {
+    "sku": "ACC-AR-1054",
+    "slug": "premium-watch-box",
+    "name": "Premium Watch Box",
+    "qty": 1,
+    "unit": 380,
+    "image": "assets/images/products/premium-watch-box.svg"
+   }
+  ],
+  "subtotal": 3550,
+  "shipping": 0,
+  "tax": 284,
+  "total": 3834,
+  "payment": "Google Pay",
+  "tracking": "LXW381973454"
+ },
+ {
+  "id": "LX-ORD-10579",
+  "customerId": "CU-2117",
+  "customer": "Amara Moretti",
+  "email": "amara.moretti@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-03-14",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "RIN-AU-1021",
+    "slug": "rose-gold-infinity-ring",
+    "name": "Rose Gold Infinity Ring",
+    "qty": 1,
+    "unit": 980,
+    "image": "assets/images/products/rose-gold-infinity-ring.svg"
+   },
+   {
+    "sku": "EAR-NO-1053",
+    "slug": "novaire-bar-studs",
+    "name": "Novaire Bar Studs",
+    "qty": 1,
+    "unit": 250,
+    "image": "assets/images/products/novaire-bar-studs.svg"
+   }
+  ],
+  "subtotal": 1230,
+  "shipping": 0,
+  "tax": 98,
+  "total": 1328,
+  "payment": "PayPal",
+  "tracking": "LXW991533426"
+ },
+ {
+  "id": "LX-ORD-10460",
+  "customerId": "CU-2134",
+  "customer": "Jonathan Lindqvist",
+  "email": "jonathan.lindqvist@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-03-12",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "EAR-NO-1053",
+    "slug": "novaire-bar-studs",
+    "name": "Novaire Bar Studs",
+    "qty": 1,
+    "unit": 250,
+    "image": "assets/images/products/novaire-bar-studs.svg"
+   },
+   {
+    "sku": "BRA-AR-1039",
+    "slug": "leather-bracelet",
+    "name": "Leather Bracelet",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/leather-bracelet.svg"
+   }
+  ],
+  "subtotal": 430,
+  "shipping": 35,
+  "tax": 34,
+  "total": 499,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW904858604"
+ },
+ {
+  "id": "LX-ORD-10523",
+  "customerId": "CU-2112",
+  "customer": "Daniel Brandt",
+  "email": "daniel.brandt@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-03-12",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1057",
+    "slug": "luxury-travel-case",
+    "name": "Luxury Travel Case",
+    "qty": 2,
+    "unit": 650,
+    "image": "assets/images/products/luxury-travel-case.svg"
+   },
+   {
+    "sku": "RIN-CE-1022",
+    "slug": "sapphire-ring",
+    "name": "Sapphire Ring",
+    "qty": 2,
+    "unit": 3200,
+    "image": "assets/images/products/sapphire-ring.svg"
+   }
+  ],
+  "subtotal": 7700,
+  "shipping": 0,
+  "tax": 616,
+  "total": 8316,
+  "payment": "PayPal",
+  "tracking": "LXW435392098"
+ },
+ {
+  "id": "LX-ORD-10535",
+  "customerId": "CU-2110",
+  "customer": "Nadia Moretti",
+  "email": "nadia.moretti@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-03-10",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "RIN-CE-1020",
+    "slug": "emerald-halo-ring",
+    "name": "Emerald Halo Ring",
+    "qty": 1,
+    "unit": 4300,
+    "image": "assets/images/products/emerald-halo-ring.svg"
+   }
+  ],
+  "subtotal": 4300,
+  "shipping": 0,
+  "tax": 344,
+  "total": 4644,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW421259186"
+ },
+ {
+  "id": "LX-ORD-10575",
+  "customerId": "CU-2142",
+  "customer": "Omar Reyes",
+  "email": "omar.reyes@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-03-09",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "WAT-KR-1012",
+    "slug": "kronique-tourbillon-noir",
+    "name": "Kronique Tourbillon Noir",
+    "qty": 1,
+    "unit": 9350,
+    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+   },
+   {
+    "sku": "NEC-NO-1035",
+    "slug": "novaire-bar-pendant",
+    "name": "Novaire Bar Pendant",
+    "qty": 2,
+    "unit": 340,
+    "image": "assets/images/products/novaire-bar-pendant.svg"
+   }
+  ],
+  "subtotal": 10030,
+  "shipping": 0,
+  "tax": 802,
+  "total": 10832,
+  "payment": "Google Pay",
+  "tracking": "LXW824727245"
+ },
+ {
+  "id": "LX-ORD-10512",
+  "customerId": "CU-2141",
+  "customer": "Viktor Osei",
+  "email": "viktor.osei@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-03-08",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "WAT-AU-1011",
+    "slug": "aurelius-regent-automatic",
+    "name": "Aurelius Regent Automatic",
+    "qty": 1,
+    "unit": 6575,
+    "image": "assets/images/products/aurelius-regent-automatic.svg"
+   },
+   {
+    "sku": "EAR-CE-1050",
+    "slug": "sapphire-earrings",
+    "name": "Sapphire Earrings",
+    "qty": 2,
+    "unit": 3665,
+    "image": "assets/images/products/sapphire-earrings.svg"
+   },
+   {
+    "sku": "NEC-CE-1031",
+    "slug": "sapphire-pendant",
+    "name": "Sapphire Pendant",
+    "qty": 2,
+    "unit": 4400,
+    "image": "assets/images/products/sapphire-pendant.svg"
+   }
+  ],
+  "subtotal": 22705,
+  "shipping": 0,
+  "tax": 1816,
+  "total": 24521,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW783570348"
+ },
+ {
+  "id": "LX-ORD-10580",
+  "customerId": "CU-2131",
+  "customer": "Nadia Sharma",
+  "email": "nadia.sharma@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-03-07",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-NO-1016",
+    "slug": "platinum-band",
+    "name": "Platinum Band",
+    "qty": 1,
+    "unit": 2400,
+    "image": "assets/images/products/platinum-band.svg"
+   }
+  ],
+  "subtotal": 2400,
+  "shipping": 0,
+  "tax": 192,
+  "total": 2592,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW871275970"
+ },
+ {
+  "id": "LX-ORD-10473",
+  "customerId": "CU-2106",
+  "customer": "Andre Laurent",
+  "email": "andre.laurent@example.com",
+  "city": "Paris",
+  "country": "FR",
+  "date": "2026-03-05",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "EAR-CE-1049",
+    "slug": "emerald-earrings",
+    "name": "Emerald Earrings",
+    "qty": 1,
+    "unit": 4335,
+    "image": "assets/images/products/emerald-earrings.svg"
+   },
+   {
+    "sku": "ACC-AR-1054",
+    "slug": "premium-watch-box",
+    "name": "Premium Watch Box",
+    "qty": 1,
+    "unit": 380,
+    "image": "assets/images/products/premium-watch-box.svg"
+   }
+  ],
+  "subtotal": 4715,
+  "shipping": 0,
+  "tax": 377,
+  "total": 5092,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW117605073"
+ },
+ {
+  "id": "LX-ORD-10501",
+  "customerId": "CU-2137",
+  "customer": "Henrik Brandt",
+  "email": "henrik.brandt@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-03-05",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "RIN-CE-1020",
+    "slug": "emerald-halo-ring",
+    "name": "Emerald Halo Ring",
+    "qty": 1,
+    "unit": 4300,
+    "image": "assets/images/products/emerald-halo-ring.svg"
+   },
+   {
+    "sku": "ACC-AR-1060",
+    "slug": "passport-holder",
+    "name": "Passport Holder",
+    "qty": 1,
+    "unit": 160,
+    "image": "assets/images/products/passport-holder.svg"
+   }
+  ],
+  "subtotal": 4460,
+  "shipping": 0,
+  "tax": 357,
+  "total": 4817,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW321759671"
+ },
+ {
+  "id": "LX-ORD-10568",
+  "customerId": "CU-2132",
+  "customer": "Henrik Ferreira",
+  "email": "henrik.ferreira@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-03-05",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "EAR-CE-1049",
+    "slug": "emerald-earrings",
+    "name": "Emerald Earrings",
+    "qty": 1,
+    "unit": 4335,
+    "image": "assets/images/products/emerald-earrings.svg"
+   },
+   {
+    "sku": "RIN-AU-1021",
+    "slug": "rose-gold-infinity-ring",
+    "name": "Rose Gold Infinity Ring",
+    "qty": 1,
+    "unit": 980,
+    "image": "assets/images/products/rose-gold-infinity-ring.svg"
+   },
+   {
+    "sku": "EAR-CE-1049",
+    "slug": "emerald-earrings",
+    "name": "Emerald Earrings",
+    "qty": 1,
+    "unit": 4335,
+    "image": "assets/images/products/emerald-earrings.svg"
+   }
+  ],
+  "subtotal": 9650,
+  "shipping": 0,
+  "tax": 772,
+  "total": 10422,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW342620588"
+ },
+ {
+  "id": "LX-ORD-10574",
+  "customerId": "CU-2114",
+  "customer": "Mei Nakamura",
+  "email": "mei.nakamura@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-03-03",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "BRA-CE-1042",
+    "slug": "charm-bracelet",
+    "name": "Charm Bracelet",
+    "qty": 2,
+    "unit": 660,
+    "image": "assets/images/products/charm-bracelet.svg"
+   }
+  ],
+  "subtotal": 1320,
+  "shipping": 0,
+  "tax": 106,
+  "total": 1426,
+  "payment": "PayPal",
+  "tracking": "LXW449798739"
+ },
+ {
+  "id": "LX-ORD-10534",
+  "customerId": "CU-2147",
+  "customer": "Julian Lindqvist",
+  "email": "julian.lindqvist@example.com",
+  "city": "Stockholm",
+  "country": "SE",
+  "date": "2026-02-28",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1056",
+    "slug": "jewelry-organizer",
+    "name": "Jewelry Organizer",
+    "qty": 2,
+    "unit": 180,
+    "image": "assets/images/products/jewelry-organizer.svg"
+   },
+   {
+    "sku": "BRA-CE-1043",
+    "slug": "pearl-bracelet",
+    "name": "Pearl Bracelet",
+    "qty": 1,
+    "unit": 760,
+    "image": "assets/images/products/pearl-bracelet.svg"
+   },
+   {
+    "sku": "WAT-KR-1004",
+    "slug": "luxora-moonphase",
+    "name": "Luxora Moonphase",
+    "qty": 1,
+    "unit": 9400,
+    "image": "assets/images/products/luxora-moonphase.svg"
+   }
+  ],
+  "subtotal": 10520,
+  "shipping": 0,
+  "tax": 842,
+  "total": 11362,
+  "payment": "PayPal",
+  "tracking": "LXW979876035"
+ },
+ {
+  "id": "LX-ORD-10480",
+  "customerId": "CU-2101",
+  "customer": "Henrik Bello",
+  "email": "henrik.bello@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-02-27",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "WAT-LU-1008",
+    "slug": "luxora-gmt-traveler",
+    "name": "Luxora GMT Traveler",
+    "qty": 1,
+    "unit": 4720,
+    "image": "assets/images/products/luxora-gmt-traveler.svg"
+   }
+  ],
+  "subtotal": 4720,
+  "shipping": 0,
+  "tax": 378,
+  "total": 5098,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW152785208"
+ },
+ {
+  "id": "LX-ORD-10554",
+  "customerId": "CU-2120",
+  "customer": "Omar Ashcroft",
+  "email": "omar.ashcroft@example.com",
+  "city": "Zurich",
+  "country": "CH",
+  "date": "2026-02-27",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "WAT-LU-1007",
+    "slug": "luxora-classic-leather",
+    "name": "Luxora Classic Leather",
+    "qty": 1,
+    "unit": 1850,
+    "image": "assets/images/products/luxora-classic-leather.svg"
+   },
+   {
+    "sku": "NEC-AU-1027",
+    "slug": "gold-chain",
+    "name": "Gold Chain",
+    "qty": 1,
+    "unit": 2600,
+    "image": "assets/images/products/gold-chain.svg"
+   }
+  ],
+  "subtotal": 4450,
+  "shipping": 0,
+  "tax": 356,
+  "total": 4806,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW980062171"
+ },
+ {
+  "id": "LX-ORD-10536",
+  "customerId": "CU-2102",
+  "customer": "Tomas Petrov",
+  "email": "tomas.petrov@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-02-23",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "BRA-NO-1040",
+    "slug": "silver-chain-bracelet",
+    "name": "Silver Chain Bracelet",
+    "qty": 1,
+    "unit": 380,
+    "image": "assets/images/products/silver-chain-bracelet.svg"
+   }
+  ],
+  "subtotal": 380,
+  "shipping": 35,
+  "tax": 30,
+  "total": 445,
+  "payment": "Apple Pay",
+  "tracking": "LXW930613104"
+ },
+ {
+  "id": "LX-ORD-10453",
+  "customerId": "CU-2145",
+  "customer": "Viktor Ferreira",
+  "email": "viktor.ferreira@example.com",
+  "city": "Toronto",
+  "country": "CA",
+  "date": "2026-02-22",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "NEC-AU-1027",
+    "slug": "gold-chain",
+    "name": "Gold Chain",
+    "qty": 1,
+    "unit": 2600,
+    "image": "assets/images/products/gold-chain.svg"
+   },
+   {
+    "sku": "BRA-CE-1043",
+    "slug": "pearl-bracelet",
+    "name": "Pearl Bracelet",
+    "qty": 1,
+    "unit": 760,
+    "image": "assets/images/products/pearl-bracelet.svg"
+   }
+  ],
+  "subtotal": 3360,
+  "shipping": 0,
+  "tax": 269,
+  "total": 3629,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW574659625"
+ },
+ {
+  "id": "LX-ORD-10508",
+  "customerId": "CU-2133",
+  "customer": "Rafael Chen",
+  "email": "rafael.chen@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-02-22",
+  "status": "Shipped",
+  "items": [
+   {
+    "sku": "WAT-EL-1013",
+    "slug": "elvaro-field-40",
+    "name": "Elvaro Field 40",
+    "qty": 1,
+    "unit": 450,
+    "image": "assets/images/products/elvaro-field-40.svg"
+   }
+  ],
+  "subtotal": 450,
+  "shipping": 35,
+  "tax": 36,
+  "total": 521,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW839609961"
+ },
+ {
+  "id": "LX-ORD-10552",
+  "customerId": "CU-2121",
+  "customer": "Rafael Nakamura",
+  "email": "rafael.nakamura@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-02-22",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "EAR-CE-1046",
+    "slug": "pearl-earrings",
+    "name": "Pearl Earrings",
+    "qty": 1,
+    "unit": 680,
+    "image": "assets/images/products/pearl-earrings.svg"
+   },
+   {
+    "sku": "EAR-CE-1046",
+    "slug": "pearl-earrings",
+    "name": "Pearl Earrings",
+    "qty": 1,
+    "unit": 680,
+    "image": "assets/images/products/pearl-earrings.svg"
+   }
+  ],
+  "subtotal": 1360,
+  "shipping": 0,
+  "tax": 109,
+  "total": 1469,
+  "payment": "PayPal",
+  "tracking": "LXW480073517"
+ },
+ {
+  "id": "LX-ORD-10498",
+  "customerId": "CU-2142",
+  "customer": "Omar Reyes",
+  "email": "omar.reyes@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-02-18",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "EAR-NO-1048",
+    "slug": "white-gold-hoops",
+    "name": "White Gold Hoops",
+    "qty": 1,
+    "unit": 1050,
+    "image": "assets/images/products/white-gold-hoops.svg"
+   },
+   {
+    "sku": "ACC-AR-1058",
+    "slug": "watch-cleaning-kit",
+    "name": "Watch Cleaning Kit",
+    "qty": 1,
+    "unit": 70,
+    "image": "assets/images/products/watch-cleaning-kit.svg"
+   }
+  ],
+  "subtotal": 1120,
+  "shipping": 0,
+  "tax": 90,
+  "total": 1210,
+  "payment": "PayPal",
+  "tracking": "LXW922888329"
+ },
+ {
+  "id": "LX-ORD-10522",
+  "customerId": "CU-2114",
+  "customer": "Mei Nakamura",
+  "email": "mei.nakamura@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-02-18",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "WAT-AU-1011",
+    "slug": "aurelius-regent-automatic",
+    "name": "Aurelius Regent Automatic",
+    "qty": 1,
+    "unit": 6575,
+    "image": "assets/images/products/aurelius-regent-automatic.svg"
+   },
+   {
+    "sku": "RIN-VE-1019",
+    "slug": "solitaire-diamond-ring",
+    "name": "Solitaire Diamond Ring",
+    "qty": 1,
+    "unit": 5900,
+    "image": "assets/images/products/solitaire-diamond-ring.svg"
+   },
+   {
+    "sku": "WAT-KR-1012",
+    "slug": "kronique-tourbillon-noir",
+    "name": "Kronique Tourbillon Noir",
+    "qty": 1,
+    "unit": 9350,
+    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+   }
+  ],
+  "subtotal": 21825,
+  "shipping": 0,
+  "tax": 1746,
+  "total": 23571,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW590427640"
+ },
+ {
+  "id": "LX-ORD-10494",
+  "customerId": "CU-2126",
+  "customer": "Nadia Sharma",
+  "email": "nadia.sharma@example.com",
+  "city": "London",
+  "country": "UK",
+  "date": "2026-02-17",
+  "status": "Pending",
+  "items": [
+   {
+    "sku": "WAT-AU-1011",
+    "slug": "aurelius-regent-automatic",
+    "name": "Aurelius Regent Automatic",
+    "qty": 1,
+    "unit": 6575,
+    "image": "assets/images/products/aurelius-regent-automatic.svg"
+   },
+   {
+    "sku": "WAT-EL-1006",
+    "slug": "luxora-titanium-sport",
+    "name": "Luxora Titanium Sport",
+    "qty": 1,
+    "unit": 2450,
+    "image": "assets/images/products/luxora-titanium-sport.svg"
+   }
+  ],
+  "subtotal": 9025,
+  "shipping": 0,
+  "tax": 722,
+  "total": 9747,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW524746351"
+ },
+ {
+  "id": "LX-ORD-10506",
+  "customerId": "CU-2141",
+  "customer": "Viktor Osei",
+  "email": "viktor.osei@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-02-16",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "BRA-CE-1043",
+    "slug": "pearl-bracelet",
+    "name": "Pearl Bracelet",
+    "qty": 2,
+    "unit": 760,
+    "image": "assets/images/products/pearl-bracelet.svg"
+   }
+  ],
+  "subtotal": 1520,
+  "shipping": 0,
+  "tax": 122,
+  "total": 1642,
+  "payment": "Apple Pay",
+  "tracking": "LXW904412556"
+ },
+ {
+  "id": "LX-ORD-10514",
+  "customerId": "CU-2146",
+  "customer": "Viktor Whitfield",
+  "email": "viktor.whitfield@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-02-15",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-AU-1024",
+    "slug": "aurelius-roman-band",
+    "name": "Aurelius Roman Band",
+    "qty": 1,
+    "unit": 1240,
+    "image": "assets/images/products/aurelius-roman-band.svg"
+   },
+   {
+    "sku": "NEC-NO-1033",
+    "slug": "luxury-layered-necklace",
+    "name": "Luxury Layered Necklace",
+    "qty": 1,
+    "unit": 2950,
+    "image": "assets/images/products/luxury-layered-necklace.svg"
+   }
+  ],
+  "subtotal": 4190,
+  "shipping": 0,
+  "tax": 335,
+  "total": 4525,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW394552954"
+ },
+ {
+  "id": "LX-ORD-10467",
+  "customerId": "CU-2129",
+  "customer": "Omar Duarte",
+  "email": "omar.duarte@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-02-14",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "WAT-NO-1010",
+    "slug": "novaire-slimline-36",
+    "name": "Novaire Slimline 36",
+    "qty": 2,
+    "unit": 1450,
+    "image": "assets/images/products/novaire-slimline-36.svg"
+   },
+   {
+    "sku": "WAT-LU-1007",
+    "slug": "luxora-classic-leather",
+    "name": "Luxora Classic Leather",
+    "qty": 1,
+    "unit": 1850,
+    "image": "assets/images/products/luxora-classic-leather.svg"
+   }
+  ],
+  "subtotal": 4750,
+  "shipping": 0,
+  "tax": 380,
+  "total": 5130,
+  "payment": "Google Pay",
+  "tracking": "LXW628171939"
+ },
+ {
+  "id": "LX-ORD-10470",
+  "customerId": "CU-2125",
+  "customer": "Aisha Kaufman",
+  "email": "aisha.kaufman@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-02-14",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1058",
+    "slug": "watch-cleaning-kit",
+    "name": "Watch Cleaning Kit",
+    "qty": 1,
+    "unit": 70,
+    "image": "assets/images/products/watch-cleaning-kit.svg"
+   }
+  ],
+  "subtotal": 70,
+  "shipping": 35,
+  "tax": 6,
+  "total": 111,
+  "payment": "Google Pay",
+  "tracking": "LXW101117003"
+ },
+ {
+  "id": "LX-ORD-10485",
+  "customerId": "CU-2136",
+  "customer": "Marcus Chen",
+  "email": "marcus.chen@example.com",
+  "city": "Milan",
+  "country": "IT",
+  "date": "2026-02-14",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "ACC-AR-1054",
+    "slug": "premium-watch-box",
+    "name": "Premium Watch Box",
+    "qty": 2,
+    "unit": 380,
+    "image": "assets/images/products/premium-watch-box.svg"
+   },
+   {
+    "sku": "EAR-VE-1045",
+    "slug": "diamond-stud-earrings",
+    "name": "Diamond Stud Earrings",
+    "qty": 1,
+    "unit": 2485,
+    "image": "assets/images/products/diamond-stud-earrings.svg"
+   },
+   {
+    "sku": "WAT-LU-1008",
+    "slug": "luxora-gmt-traveler",
+    "name": "Luxora GMT Traveler",
+    "qty": 1,
+    "unit": 4720,
+    "image": "assets/images/products/luxora-gmt-traveler.svg"
+   }
+  ],
+  "subtotal": 7965,
+  "shipping": 0,
+  "tax": 637,
+  "total": 8602,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW778603877"
+ },
+ {
+  "id": "LX-ORD-10499",
+  "customerId": "CU-2134",
+  "customer": "Jonathan Lindqvist",
+  "email": "jonathan.lindqvist@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-02-14",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "EAR-CE-1049",
+    "slug": "emerald-earrings",
+    "name": "Emerald Earrings",
+    "qty": 2,
+    "unit": 4335,
+    "image": "assets/images/products/emerald-earrings.svg"
+   },
+   {
+    "sku": "ACC-AR-1061",
+    "slug": "key-holder",
+    "name": "Key Holder",
+    "qty": 1,
+    "unit": 80,
+    "image": "assets/images/products/key-holder.svg"
+   },
+   {
+    "sku": "RIN-AU-1024",
+    "slug": "aurelius-roman-band",
+    "name": "Aurelius Roman Band",
+    "qty": 1,
+    "unit": 1240,
+    "image": "assets/images/products/aurelius-roman-band.svg"
+   }
+  ],
+  "subtotal": 9990,
+  "shipping": 0,
+  "tax": 799,
+  "total": 10789,
+  "payment": "Apple Pay",
+  "tracking": "LXW706584680"
+ },
+ {
+  "id": "LX-ORD-10541",
+  "customerId": "CU-2144",
+  "customer": "Omar Lindqvist",
+  "email": "omar.lindqvist@example.com",
+  "city": "Zurich",
+  "country": "CH",
+  "date": "2026-02-12",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "BRA-AU-1036",
+    "slug": "cuban-link-bracelet",
+    "name": "Cuban Link Bracelet",
+    "qty": 1,
+    "unit": 1645,
+    "image": "assets/images/products/cuban-link-bracelet.svg"
+   }
+  ],
+  "subtotal": 1645,
+  "shipping": 0,
+  "tax": 132,
+  "total": 1777,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW425832088"
+ },
+ {
+  "id": "LX-ORD-10563",
+  "customerId": "CU-2128",
+  "customer": "Henrik Lindqvist",
+  "email": "henrik.lindqvist@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-02-12",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-NO-1016",
+    "slug": "platinum-band",
+    "name": "Platinum Band",
+    "qty": 1,
+    "unit": 2400,
+    "image": "assets/images/products/platinum-band.svg"
+   },
+   {
+    "sku": "ACC-AR-1060",
+    "slug": "passport-holder",
+    "name": "Passport Holder",
+    "qty": 1,
+    "unit": 160,
+    "image": "assets/images/products/passport-holder.svg"
+   }
+  ],
+  "subtotal": 2560,
+  "shipping": 0,
+  "tax": 205,
+  "total": 2765,
+  "payment": "PayPal",
+  "tracking": "LXW597984608"
+ },
+ {
+  "id": "LX-ORD-10530",
+  "customerId": "CU-2140",
+  "customer": "Lucia Brandt",
+  "email": "lucia.brandt@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-02-10",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1058",
+    "slug": "watch-cleaning-kit",
+    "name": "Watch Cleaning Kit",
+    "qty": 1,
+    "unit": 70,
+    "image": "assets/images/products/watch-cleaning-kit.svg"
+   }
+  ],
+  "subtotal": 70,
+  "shipping": 35,
+  "tax": 6,
+  "total": 111,
+  "payment": "Apple Pay",
+  "tracking": "LXW879054193"
+ },
+ {
+  "id": "LX-ORD-10477",
+  "customerId": "CU-2118",
+  "customer": "Isabelle Rousseau",
+  "email": "isabelle.rousseau@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-02-09",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "WAT-EL-1006",
+    "slug": "luxora-titanium-sport",
+    "name": "Luxora Titanium Sport",
+    "qty": 1,
+    "unit": 2450,
+    "image": "assets/images/products/luxora-titanium-sport.svg"
+   },
+   {
+    "sku": "ACC-AR-1063",
+    "slug": "ardent-watch-winder",
+    "name": "Ardent Watch Winder",
+    "qty": 1,
+    "unit": 560,
+    "image": "assets/images/products/ardent-watch-winder.svg"
+   },
+   {
+    "sku": "RIN-EL-1017",
+    "slug": "carbon-fiber-ring",
+    "name": "Carbon Fiber Ring",
+    "qty": 1,
+    "unit": 280,
+    "image": "assets/images/products/carbon-fiber-ring.svg"
+   }
+  ],
+  "subtotal": 3290,
+  "shipping": 0,
+  "tax": 263,
+  "total": 3553,
+  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "tracking": "LXW865292451"
+ },
+ {
+  "id": "LX-ORD-10555",
+  "customerId": "CU-2127",
+  "customer": "Andre Novak",
+  "email": "andre.novak@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-02-09",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "ACC-AR-1062",
+    "slug": "ardent-document-folio",
+    "name": "Ardent Document Folio",
+    "qty": 1,
+    "unit": 420,
+    "image": "assets/images/products/ardent-document-folio.svg"
+   },
+   {
+    "sku": "WAT-AU-1011",
+    "slug": "aurelius-regent-automatic",
+    "name": "Aurelius Regent Automatic",
+    "qty": 1,
+    "unit": 6575,
+    "image": "assets/images/products/aurelius-regent-automatic.svg"
+   }
+  ],
+  "subtotal": 6995,
+  "shipping": 0,
+  "tax": 560,
+  "total": 7555,
+  "payment": "Google Pay",
+  "tracking": "LXW748744867"
+ },
+ {
+  "id": "LX-ORD-10457",
+  "customerId": "CU-2141",
+  "customer": "Viktor Osei",
+  "email": "viktor.osei@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-02-08",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1058",
+    "slug": "watch-cleaning-kit",
+    "name": "Watch Cleaning Kit",
+    "qty": 1,
+    "unit": 70,
+    "image": "assets/images/products/watch-cleaning-kit.svg"
+   },
+   {
+    "sku": "BRA-AU-1036",
+    "slug": "cuban-link-bracelet",
+    "name": "Cuban Link Bracelet",
+    "qty": 1,
+    "unit": 1645,
+    "image": "assets/images/products/cuban-link-bracelet.svg"
+   }
+  ],
+  "subtotal": 1715,
+  "shipping": 0,
+  "tax": 137,
+  "total": 1852,
+  "payment": "Google Pay",
+  "tracking": "LXW831905515"
+ },
+ {
+  "id": "LX-ORD-10578",
+  "customerId": "CU-2147",
+  "customer": "Julian Lindqvist",
+  "email": "julian.lindqvist@example.com",
+  "city": "Stockholm",
+  "country": "SE",
+  "date": "2026-02-05",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "BRA-EL-1041",
+    "slug": "black-titanium-bracelet",
+    "name": "Black Titanium Bracelet",
+    "qty": 1,
+    "unit": 345,
+    "image": "assets/images/products/black-titanium-bracelet.svg"
+   },
+   {
+    "sku": "NEC-AU-1032",
+    "slug": "cross-necklace",
+    "name": "Cross Necklace",
+    "qty": 2,
+    "unit": 1450,
+    "image": "assets/images/products/cross-necklace.svg"
+   }
+  ],
+  "subtotal": 3245,
+  "shipping": 0,
+  "tax": 260,
+  "total": 3505,
+  "payment": "Google Pay",
+  "tracking": "LXW818705778"
+ },
+ {
+  "id": "LX-ORD-10545",
+  "customerId": "CU-2128",
+  "customer": "Henrik Lindqvist",
+  "email": "henrik.lindqvist@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-02-04",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-CE-1022",
+    "slug": "sapphire-ring",
+    "name": "Sapphire Ring",
+    "qty": 1,
+    "unit": 3200,
+    "image": "assets/images/products/sapphire-ring.svg"
+   },
+   {
+    "sku": "NEC-NO-1033",
+    "slug": "luxury-layered-necklace",
+    "name": "Luxury Layered Necklace",
+    "qty": 2,
+    "unit": 2950,
+    "image": "assets/images/products/luxury-layered-necklace.svg"
+   },
+   {
+    "sku": "EAR-VE-1045",
+    "slug": "diamond-stud-earrings",
+    "name": "Diamond Stud Earrings",
+    "qty": 1,
+    "unit": 2485,
+    "image": "assets/images/products/diamond-stud-earrings.svg"
+   }
+  ],
+  "subtotal": 11585,
+  "shipping": 0,
+  "tax": 927,
+  "total": 12512,
+  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "tracking": "LXW259487672"
+ },
+ {
+  "id": "LX-ORD-10459",
+  "customerId": "CU-2114",
+  "customer": "Mei Nakamura",
+  "email": "mei.nakamura@example.com",
+  "city": "Tokyo",
+  "country": "JP",
+  "date": "2026-02-03",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1056",
+    "slug": "jewelry-organizer",
+    "name": "Jewelry Organizer",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/jewelry-organizer.svg"
+   },
+   {
+    "sku": "EAR-NO-1053",
+    "slug": "novaire-bar-studs",
+    "name": "Novaire Bar Studs",
+    "qty": 2,
+    "unit": 250,
+    "image": "assets/images/products/novaire-bar-studs.svg"
+   },
+   {
+    "sku": "RIN-AU-1015",
+    "slug": "gold-signet-ring",
+    "name": "Gold Signet Ring",
+    "qty": 1,
+    "unit": 1490,
+    "image": "assets/images/products/gold-signet-ring.svg"
+   }
+  ],
+  "subtotal": 2170,
+  "shipping": 0,
+  "tax": 174,
+  "total": 2344,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW434770089"
+ },
+ {
+  "id": "LX-ORD-10474",
+  "customerId": "CU-2118",
+  "customer": "Isabelle Rousseau",
+  "email": "isabelle.rousseau@example.com",
+  "city": "Sydney",
+  "country": "AU",
+  "date": "2026-02-03",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "RIN-EL-1017",
+    "slug": "carbon-fiber-ring",
+    "name": "Carbon Fiber Ring",
+    "qty": 1,
+    "unit": 280,
+    "image": "assets/images/products/carbon-fiber-ring.svg"
+   }
+  ],
+  "subtotal": 280,
+  "shipping": 35,
+  "tax": 22,
+  "total": 337,
+  "payment": "Apple Pay",
+  "tracking": "LXW455417438"
+ },
+ {
+  "id": "LX-ORD-10551",
+  "customerId": "CU-2125",
+  "customer": "Aisha Kaufman",
+  "email": "aisha.kaufman@example.com",
+  "city": "Munich",
+  "country": "DE",
+  "date": "2026-01-28",
+  "status": "Cancelled",
+  "items": [
+   {
+    "sku": "BRA-AR-1039",
+    "slug": "leather-bracelet",
+    "name": "Leather Bracelet",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/leather-bracelet.svg"
+   }
+  ],
+  "subtotal": 180,
+  "shipping": 35,
+  "tax": 14,
+  "total": 229,
+  "payment": "PayPal",
+  "tracking": "LXW947788334"
+ },
+ {
+  "id": "LX-ORD-10556",
+  "customerId": "CU-2124",
+  "customer": "Rafael Bello",
+  "email": "rafael.bello@example.com",
+  "city": "Singapore",
+  "country": "SG",
+  "date": "2026-01-28",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1056",
+    "slug": "jewelry-organizer",
+    "name": "Jewelry Organizer",
+    "qty": 1,
+    "unit": 180,
+    "image": "assets/images/products/jewelry-organizer.svg"
+   }
+  ],
+  "subtotal": 180,
+  "shipping": 35,
+  "tax": 14,
+  "total": 229,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW417728552"
+ },
+ {
+  "id": "LX-ORD-10507",
+  "customerId": "CU-2121",
+  "customer": "Rafael Nakamura",
+  "email": "rafael.nakamura@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-01-27",
+  "status": "Delivered",
+  "items": [
+   {
+    "sku": "ACC-AR-1057",
+    "slug": "luxury-travel-case",
+    "name": "Luxury Travel Case",
+    "qty": 1,
+    "unit": 650,
+    "image": "assets/images/products/luxury-travel-case.svg"
+   },
+   {
+    "sku": "ACC-AR-1063",
+    "slug": "ardent-watch-winder",
+    "name": "Ardent Watch Winder",
+    "qty": 2,
+    "unit": 560,
+    "image": "assets/images/products/ardent-watch-winder.svg"
+   }
+  ],
+  "subtotal": 1770,
+  "shipping": 0,
+  "tax": 142,
+  "total": 1912,
+  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "tracking": "LXW511169390"
+ },
+ {
+  "id": "LX-ORD-10538",
+  "customerId": "CU-2121",
+  "customer": "Rafael Nakamura",
+  "email": "rafael.nakamura@example.com",
+  "city": "New York",
+  "country": "US",
+  "date": "2026-01-25",
+  "status": "Processing",
+  "items": [
+   {
+    "sku": "RIN-EL-1014",
+    "slug": "black-titanium-ring",
+    "name": "Black Titanium Ring",
+    "qty": 1,
+    "unit": 320,
+    "image": "assets/images/products/black-titanium-ring.svg"
+   },
+   {
+    "sku": "WAT-KR-1003",
+    "slug": "luxora-skeleton-edition",
+    "name": "Luxora Skeleton Edition",
+    "qty": 2,
+    "unit": 11800,
+    "image": "assets/images/products/luxora-skeleton-edition.svg"
+   }
+  ],
+  "subtotal": 23920,
+  "shipping": 0,
+  "tax": 1914,
+  "total": 25834,
+  "payment": "Apple Pay",
+  "tracking": "LXW975763385"
+ },
+ {
+  "id": "LX-ORD-10464",
+  "customerId": "CU-2144",
+  "customer": "Omar Lindqvist",
+  "email": "omar.lindqvist@example.com",
+  "city": "Zurich",
+  "country": "CH",
+  "date": "2026-01-24",
+  "status": "Paid",
+  "items": [
+   {
+    "sku": "WAT-NO-1010",
+    "slug": "novaire-slimline-36",
+    "name": "Novaire Slimline 36",
+    "qty": 1,
+    "unit": 1450,
+    "image": "assets/images/products/novaire-slimline-36.svg"
+   },
+   {
+    "sku": "ACC-AR-1061",
+    "slug": "key-holder",
+    "name": "Key Holder",
+    "qty": 1,
+    "unit": 80,
+    "image": "assets/images/products/key-holder.svg"
+   },
+   {
+    "sku": "EAR-NO-1053",
+    "slug": "novaire-bar-studs",
+    "name": "Novaire Bar Studs",
+    "qty": 1,
+    "unit": 250,
+    "image": "assets/images/products/novaire-bar-studs.svg"
+   }
+  ],
+  "subtotal": 1780,
+  "shipping": 0,
+  "tax": 142,
+  "total": 1922,
+  "payment": "Apple Pay",
+  "tracking": "LXW469491275"
+ }
+]

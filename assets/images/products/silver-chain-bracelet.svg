@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="silver-chain-bracelet"><defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0%" stop-color="#1C1B18"/>
+      <stop offset="55%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="44%" r="46%">
+      <stop offset="0%" stop-color="#C6CBD2" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#C6CBD2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" gradientUnits="userSpaceOnUse" x1="150" y1="220" x2="650" y2="790">
+      <stop offset="0%" stop-color="#7E858E"/>
+      <stop offset="26%" stop-color="#F4F7FA"/>
+      <stop offset="52%" stop-color="#C6CBD2"/>
+      <stop offset="74%" stop-color="#F4F7FA"/>
+      <stop offset="100%" stop-color="#7E858E"/>
+    </linearGradient>
+    <linearGradient id="metalv" gradientUnits="userSpaceOnUse" x1="0" y1="240" x2="0" y2="820">
+      <stop offset="0%" stop-color="#F4F7FA"/>
+      <stop offset="45%" stop-color="#C6CBD2"/>
+      <stop offset="100%" stop-color="#7E858E"/>
+    </linearGradient>
+    <linearGradient id="glass" gradientUnits="userSpaceOnUse" x1="240" y1="280" x2="600" y2="700">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".16"/>
+      <stop offset="42%" stop-color="#FFFFFF" stop-opacity=".03"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".10"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs><rect width="800" height="1000" fill="url(#bg)"/><rect width="800" height="1000" fill="url(#halo)"/><rect x="26" y="26" width="748" height="948" fill="none" stroke="#C9A14A" stroke-opacity=".13" stroke-width="1"/><ellipse cx="400" cy="902" rx="236" ry="22" fill="#000" opacity=".45" filter="url(#soft)"/><g transform="translate(650.0,500.0) rotate(90.0)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(642.7,542.1) rotate(103.8)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(621.3,581.8) rotate(117.7)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(587.1,616.7) rotate(131.6)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(542.0,644.9) rotate(145.4)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(488.6,664.6) rotate(159.2)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(430.0,674.7) rotate(173.1)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(369.7,674.7) rotate(186.9)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(311.2,664.5) rotate(200.8)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(257.9,644.8) rotate(214.6)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(212.8,616.6) rotate(228.5)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(178.6,581.7) rotate(242.3)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(157.2,542.0) rotate(256.2)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(150.0,499.8) rotate(270.0)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(157.3,457.7) rotate(283.9)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(178.8,418.1) rotate(297.8)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(213.1,383.1) rotate(311.6)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(258.2,355.0) rotate(325.5)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(311.6,335.4) rotate(339.3)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(370.2,325.3) rotate(353.1)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(430.5,325.3) rotate(367.0)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(489.0,335.5) rotate(380.8)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(542.3,355.3) rotate(394.7)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(587.4,383.5) rotate(408.6)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(621.6,418.5) rotate(422.4)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g><g transform="translate(642.8,458.2) rotate(436.2)"><rect x="-21" y="-15" width="42" height="30" rx="13" fill="none" stroke="url(#metal)" stroke-width="11"/></g></svg>

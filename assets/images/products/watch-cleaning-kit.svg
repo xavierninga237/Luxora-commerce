@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="watch-cleaning-kit"><defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0%" stop-color="#1C1B18"/>
+      <stop offset="55%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="44%" r="46%">
+      <stop offset="0%" stop-color="#C6CBD2" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#C6CBD2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" gradientUnits="userSpaceOnUse" x1="150" y1="220" x2="650" y2="790">
+      <stop offset="0%" stop-color="#7E858E"/>
+      <stop offset="26%" stop-color="#F4F7FA"/>
+      <stop offset="52%" stop-color="#C6CBD2"/>
+      <stop offset="74%" stop-color="#F4F7FA"/>
+      <stop offset="100%" stop-color="#7E858E"/>
+    </linearGradient>
+    <linearGradient id="metalv" gradientUnits="userSpaceOnUse" x1="0" y1="240" x2="0" y2="820">
+      <stop offset="0%" stop-color="#F4F7FA"/>
+      <stop offset="45%" stop-color="#C6CBD2"/>
+      <stop offset="100%" stop-color="#7E858E"/>
+    </linearGradient>
+    <linearGradient id="glass" gradientUnits="userSpaceOnUse" x1="240" y1="280" x2="600" y2="700">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".16"/>
+      <stop offset="42%" stop-color="#FFFFFF" stop-opacity=".03"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".10"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs><rect width="800" height="1000" fill="url(#bg)"/><rect width="800" height="1000" fill="url(#halo)"/><rect x="26" y="26" width="748" height="948" fill="none" stroke="#C9A14A" stroke-opacity=".13" stroke-width="1"/><ellipse cx="400" cy="902" rx="236" ry="22" fill="#000" opacity=".45" filter="url(#soft)"/><rect x="176" y="384" width="448" height="232" rx="116" fill="url(#metalv)"/><ellipse cx="176" cy="500" rx="58" ry="116" fill="#0D0D0D"/><ellipse cx="176" cy="500" rx="58" ry="116" fill="url(#metal)" opacity=".35"/><path d="M400 384 L400 616" stroke="#000" stroke-opacity=".35" stroke-width="10"/><circle cx="400" cy="500" r="24" fill="url(#metal)"/></svg>
