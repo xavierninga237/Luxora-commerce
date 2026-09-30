@@ -10,6 +10,7 @@
   const ICONS = {
     search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
     heart:  '<path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 10-7.8 7.8l8.8 8.8 8.8-8.8a5.5 5.5 0 000-7.8z"/>',
+    home:   '<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/>',
     bag:    '<path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7V5a3 3 0 016 0v2"/>',
     user:   '<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/>',
     compare:'<path d="M4 7h7M4 17h7M17 4v16"/><path d="M14 8l3-4 3 4M14 16l3 4 3-4"/>',

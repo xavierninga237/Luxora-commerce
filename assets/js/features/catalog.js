@@ -133,11 +133,14 @@
     return '<div class="filter-group"><h5>' + title + "</h5>" + rows + "</div>";
   }
 
-  function renderFilters() {
+  function renderFilters(total) {
     const host = LX.$("#shop-filters");
     if (!host) return;
     const d = LX.data();
+    const keepScroll = host.scrollTop;
     host.innerHTML =
+      '<div class="filters__head"><h3>Filters</h3>' +
+        '<button type="button" class="icon-btn" data-close-filters aria-label="Close filters">' + LX.icon("close", 17) + "</button></div>" +
       facetGroup("Category", "categories", d.categories.map((c) => ({ value: c.slug, label: c.name })), (p) => p.category) +
       facetGroup("Collection", "collections", d.collections.map((c) => ({ value: c.slug, label: c.name.replace(" Collection", "") })), (p) => p.collection) +
       facetGroup("Brand", "brands", d.brands.map((b) => ({ value: b.slug, label: b.name })), (p) => p.brand) +
@@ -150,7 +153,39 @@
       '<div class="filter-group"><h5>Availability</h5>' +
         '<label class="check"><input type="checkbox" id="f-stock"' + (state.inStock ? " checked" : "") + "><span>In stock only</span></label>" +
         '<label class="check"><input type="checkbox" id="f-sale"' + (state.onSale ? " checked" : "") + "><span>Reduced</span></label></div>" +
-      '<button class="btn btn--ghost btn--sm btn--block" data-action="clear-filters">Clear all filters</button>';
+      '<button class="btn btn--ghost btn--sm btn--block" data-action="clear-filters">Clear all filters</button>' +
+      '<div class="filters__foot"><button type="button" class="btn btn--primary btn--block" data-close-filters>' +
+        (total === 0 ? "No pieces match" : "Show " + total + (total === 1 ? " piece" : " pieces")) + "</button></div>";
+    host.scrollTop = keepScroll;
+    const n = activeFilterCount();
+    LX.$$("[data-open-filters] em").forEach((em) => { em.textContent = n ? n : ""; });
+  }
+
+  function activeFilterCount() {
+    return state.categories.length + state.collections.length + state.brands.length + state.materials.length +
+      state.colors.length + (state.inStock ? 1 : 0) + (state.onSale ? 1 : 0) + (state.max < 12000 ? 1 : 0);
+  }
+
+  function setFiltersOpen(open) {
+    const host = LX.$("#shop-filters");
+    if (!host) return;
+    host.classList.toggle("is-open", open);
+    document.body.classList.toggle("is-locked", open);
+    let scrim = LX.$(".filters-scrim");
+    if (!scrim) { scrim = LX.el("div", { class: "filters-scrim", "data-close-filters": "" }); document.body.append(scrim); }
+    scrim.classList.toggle("is-open", open);
+  }
+
+  /* Quick category chips above the grid — one tap, no drawer needed. */
+  function renderCats() {
+    const host = LX.$("#shop-cats");
+    if (!host) return;
+    const cur = state.categories.length === 1 ? state.categories[0] : state.categories.length ? "multi" : "";
+    host.innerHTML =
+      '<button type="button" class="cat-chip' + (!cur ? " is-on" : "") + '" data-cat="">All</button>' +
+      LX.data().categories.map((c) =>
+        '<button type="button" class="cat-chip' + (cur === c.slug ? " is-on" : "") + '" data-cat="' + c.slug + '">' +
+          '<img src="' + LX.url(c.image) + '" alt="" loading="lazy">' + LX.esc(c.name) + "</button>").join("");
   }
 
   function renderActive() {
@@ -200,7 +235,8 @@
     const slice = all.slice((state.page - 1) * PER_PAGE, state.page * PER_PAGE);
 
     LX.renderGrid("#shop-grid", slice);
-    renderFilters();
+    renderFilters(all.length);
+    renderCats();
     renderActive();
     renderPager(all.length);
 
@@ -233,6 +269,20 @@
     render();
 
     LX.$("#shop-sort") && LX.$("#shop-sort").addEventListener("change", (e) => update({ sort: e.target.value }));
+
+    document.addEventListener("click", (e) => {
+      const chip = e.target.closest("[data-cat]");
+      if (!chip) return;
+      const slug = chip.getAttribute("data-cat");
+      update({ categories: slug ? [slug] : [] });
+    });
+
+    /* Mobile filter drawer */
+    document.addEventListener("click", (e) => {
+      if (e.target.closest("[data-open-filters]")) { e.preventDefault(); setFiltersOpen(true); }
+      else if (e.target.closest("[data-close-filters]")) { e.preventDefault(); setFiltersOpen(false); window.scrollTo({ top: 0, behavior: "smooth" }); }
+    });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") setFiltersOpen(false); });
 
     document.addEventListener("change", (e) => {
       const facet = e.target.closest("[data-facet]");

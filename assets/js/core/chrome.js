@@ -52,7 +52,7 @@
         d.collections.slice(0, 5).map((c) => '<li><a href="' + U("pages/shop.html?collection=" + c.slug) + '">' + c.name.replace(" Collection", "") + '</a></li>').join("") +
       '</ul></div>' +
       '<a class="mega__promo" href="' + U("pages/ai-assistant.html") + '">' +
-        '<img src="' + U("assets/images/collections/diamond.svg") + '" alt="">' +
+        '<img src="' + U("assets/images/scenes/menu-promo.webp") + '" alt="">' +
         '<div><strong style="color:var(--lux-gold);font-size:var(--step--2);letter-spacing:.1em;text-transform:uppercase">AI Concierge</strong>' +
         '<p style="margin:.4rem 0 0;font-size:var(--step--1)">Describe the occasion. We will find the piece.</p></div></a>' +
     '</div></div></div>';
@@ -106,6 +106,7 @@
     '<div id="search-results"></div>' +
   '</div>' +
 '</aside>' +
+tabbar() +
 '<aside class="drawer drawer--left" id="mobile-nav" aria-label="Menu">' +
   '<div class="drawer__head"><h2 class="drawer__title">Menu</h2>' +
     '<button class="icon-btn" data-action="close-overlays" aria-label="Close">' + LX.icon("close", 17) + '</button></div>' +
@@ -118,6 +119,22 @@
       .map((l) => '<li><a href="' + l[1] + '">' + l[0] + LX.icon("chev", 18) + '</a></li>').join("") +
   '</ul></div>' +
 '</aside>';
+  }
+
+  /* App-style bottom navigation for phones — the pattern shoppers expect. */
+  function tabbar() {
+    const here = location.pathname;
+    const on = (test) => (test ? ' aria-current="page"' : "");
+    const isHome = /\/(index\.html)?$/.test(here) && !/\/(pages|account|auth|admin)\//.test(here);
+    return '<nav class="tabbar" aria-label="Quick navigation">' +
+      '<a href="' + U("index.html") + '"' + on(isHome) + ">" + LX.icon("home", 20) + "<span>Home</span></a>" +
+      '<a href="' + U("pages/shop.html") + '"' + on(/shop\.html|collections\.html|product\.html/.test(here)) + ">" + LX.icon("grid", 20) + "<span>Shop</span></a>" +
+      '<a href="' + U("pages/ai-assistant.html") + '"' + on(/ai-assistant|gift-finder/.test(here)) + ">" + LX.icon("spark", 20) + "<span>Concierge</span></a>" +
+      '<a href="' + U("pages/wishlist.html") + '"' + on(/wishlist/.test(here)) + ">" + LX.icon("heart", 20) +
+        '<span>Wishlist</span><i class="tabbar__count" data-count-for="wishlist-count"></i></a>' +
+      '<button type="button" data-action="open-cart"' + on(/cart\.html|checkout/.test(here)) + ">" + LX.icon("bag", 20) +
+        '<span>Bag</span><i class="tabbar__count" data-count-for="cart-count"></i></button>' +
+    "</nav>";
   }
 
   function inject() {
@@ -138,5 +155,5 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", inject);
   else inject();
 
-  LX.chrome = { header, footer, drawers, inject };
+  LX.chrome = { header, footer, drawers, tabbar, inject };
 })(window.LX);

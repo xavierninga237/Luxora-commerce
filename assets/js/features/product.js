@@ -55,10 +55,15 @@
       const c = LX.$("#gallery-count"); if (c) c.textContent = (current + 1) + " / " + views.length;
     }
 
+    /* Hover-zoom only makes sense with a mouse. On touch screens a tap on the
+       photo just advances to the next one, so the page never jumps. */
+    const canZoom = window.matchMedia("(hover: hover) and (pointer: fine) and (min-width: 901px)").matches;
+    if (!canZoom) main.classList.add("no-zoom");
     main.addEventListener("click", (e) => {
       const nav = e.target.closest(".gallery__nav");
       if (nav) { e.stopPropagation(); main.classList.remove("is-zoomed"); show(current + Number(nav.getAttribute("data-step"))); return; }
-      main.classList.toggle("is-zoomed");
+      if (canZoom) main.classList.toggle("is-zoomed");
+      else if (multi) show(current + 1);
     });
     main.addEventListener("mousemove", (e) => {
       if (!main.classList.contains("is-zoomed")) return;
@@ -201,7 +206,7 @@
         "<div><dt>Colour</dt><dd>" + LX.esc(p.color) + "</dd></div>" +
         "<div><dt>Weight</dt><dd>" + LX.esc(p.weight) + "</dd></div>" +
         "<div><dt>Dimensions</dt><dd>" + LX.esc(p.dimensions) + "</dd></div>" +
-        "<div><dt>Also</dt><dd>" + LX.esc(p.dimensions2) + "</dd></div>" +
+        "<div><dt>Details</dt><dd>" + LX.esc(p.dimensions2) + "</dd></div>" +
       "</dl>" +
       '<div class="accordion" style="margin-top:2rem">' +
         ['<div class="accordion__item"><button class="accordion__btn" aria-expanded="false">Shipping and delivery<i>+</i></button>' +
@@ -233,6 +238,25 @@
     LX.$("#pdp-plus").addEventListener("click", () => { qty.value = Math.min(p.stock || 1, (+qty.value || 1) + 1); });
     const add = LX.$("#pdp-add");
     if (add) add.addEventListener("click", () => LX.Cart.add(p.slug, qty.value));
+
+    /* Mobile buy bar: slides up once the main "Add to bag" scrolls away. */
+    let bar = LX.$("#buybar");
+    if (!bar) { bar = LX.el("div", { class: "buybar", id: "buybar", role: "region", "aria-label": "Buy " + p.name }); document.body.append(bar); }
+    bar.innerHTML =
+      '<img src="' + LX.url(p.images[0]) + '" alt="">' +
+      '<div class="buybar__info"><b>' + LX.esc(p.name) + "</b>" +
+        '<span class="mono">' + LX.money(LX.priceOf(p)) + (sale ? ' <s>' + LX.money(p.price) + "</s>" : "") + "</span></div>" +
+      '<button class="btn btn--primary btn--sm" id="buybar-add"' + (p.stock === 0 ? " disabled" : "") + ">" +
+        (p.stock === 0 ? "Sold out" : "Add to bag") + "</button>";
+    const barBtn = LX.$("#buybar-add");
+    if (barBtn) barBtn.addEventListener("click", () => LX.Cart.add(p.slug, qty.value));
+    document.body.classList.add("has-buybar");
+    if (add && "IntersectionObserver" in window) {
+      new IntersectionObserver((entries) => {
+        const e = entries[0];
+        bar.classList.toggle("is-on", !e.isIntersecting && e.boundingClientRect.top < 0);
+      }).observe(add);
+    }
 
     renderReviews(p);
 

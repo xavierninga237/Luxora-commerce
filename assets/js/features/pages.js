@@ -41,19 +41,28 @@
     if (rail) { rail.innerHTML = arrivals.map((p) => LX.productCard(p)).join(""); LX.revealScan(rail); }
 
     const best = interleave(
-      byFlag("bestseller").sort((a, b) => b.reviewCount - a.reviewCount), "category", 6);
+      byFlag("bestseller").sort((a, b) => b.reviewCount - a.reviewCount), "category", 8);
     LX.renderGrid("#home-bestsellers", best);
 
-    /* Category tiles — every category, so nothing looks like a side line */
+    /* Category shortcuts — compact photo cards, like a shopping app */
     const cats = LX.$("#home-categories");
     if (cats) {
       cats.innerHTML = d.categories.map((c) =>
-        '<a class="tile reveal" href="' + LX.url("pages/shop.html?cat=" + c.slug) + '">' +
-          '<img src="' + LX.url(c.image) + '" alt="' + LX.esc(c.name) + '" loading="lazy">' +
-          '<div class="tile__body"><div class="tile__meta">' +
-            LX.data().products.filter((p) => p.category === c.slug).length + " pieces</div>" +
-            '<h3 class="tile__title">' + LX.esc(c.name) + "</h3></div></a>").join("");
-      LX.revealScan(cats);
+        '<a class="cat-card" href="' + LX.url("pages/shop.html?cat=" + c.slug) + '">' +
+          '<span class="cat-card__img"><img src="' + LX.url(c.image) + '" alt="" loading="lazy"></span>' +
+          "<b>" + LX.esc(c.name) + "</b><span>" +
+          LX.data().products.filter((p) => p.category === c.slug).length + " pieces</span></a>").join("");
+    }
+
+    /* Service bar icons */
+    LX.$$(".trustbar__ic[data-ic]").forEach((n) => { n.innerHTML = LX.icon(n.getAttribute("data-ic"), 22); });
+
+    /* Sale banner copy comes from the live catalogue */
+    const onSale = d.products.filter((p) => p.discountPrice);
+    if (onSale.length && LX.$("#promo-title")) {
+      const best = Math.max.apply(null, onSale.map((p) => Math.round((1 - p.discountPrice / p.price) * 100)));
+      LX.$("#promo-title").textContent = "Up to " + best + "% off";
+      LX.$("#promo-sub").textContent = onSale.length + " watches and jewelry pieces reduced, while stock lasts.";
     }
 
     /* Brand marquee */

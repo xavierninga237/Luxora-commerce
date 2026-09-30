@@ -21,7 +21,7 @@
 <div data-chrome="header"></div>
 <main id="main">
 
-<section class="page-head"><div class="shell">
+<section class="page-head page-head--compact"><div class="shell">
   <div class="breadcrumb"><a href="../index.html">Home</a><span>/</span>Shop</div>
   <h1>The collection</h1>
   <p class="lead">Sixty-four pieces across watches, jewelry and accessories. Filter by category, brand, material or price — every filter is shareable in the URL.</p>
@@ -31,6 +31,7 @@
     <aside class="shop__filters" id="shop-filters" aria-label="Filters"></aside>
     <div>
       <div class="shop__bar">
+        <button type="button" class="btn btn--secondary btn--sm shop__filter-btn" data-open-filters>Filters <em></em></button>
         <span class="shop__count" id="shop-count"></span>
         <label class="cluster" style="gap:.5rem">
           <span class="muted" style="font-size:var(--step--2);letter-spacing:.08em;text-transform:uppercase">Sort</span>
@@ -44,6 +45,7 @@
           </select>
         </label>
       </div>
+      <div class="shop__cats" id="shop-cats" aria-label="Categories"></div>
       <div class="shop__active" id="shop-active"></div>
       <div class="grid grid--3" id="shop-grid"></div>
       <div class="pagination" id="shop-pager"></div>

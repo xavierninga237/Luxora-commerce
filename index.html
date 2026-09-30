@@ -35,35 +35,48 @@
       </div>
     </div>
   </div>
-  <a class="hero__scroll" data-action="scroll-to" data-target="#metrics">Scroll</a>
+  <a class="hero__scroll" data-action="scroll-to" data-target="#trust">Scroll</a>
 </section>
 
-<section class="metrics" id="metrics">
-  <div class="shell"><div class="metrics__grid">
-    <div class="metrics__item"><div class="metrics__value" data-countup="15000" data-suffix="+">0</div><div class="metrics__label">Satisfied clients</div></div>
-    <div class="metrics__item"><div class="metrics__value" data-countup="120" data-suffix="+">0</div><div class="metrics__label">Luxury pieces</div></div>
-    <div class="metrics__item"><div class="metrics__value" data-countup="98" data-suffix="%">0</div><div class="metrics__label">Would recommend</div></div>
-    <div class="metrics__item"><div class="metrics__value">Global</div><div class="metrics__label">Insured shipping</div></div>
-  </div></div>
+<section class="trustbar" id="trust" aria-label="Why shop with us">
+  <div class="shell"><ul class="trustbar__list">
+    <li><span class="trustbar__ic" data-ic="truck"></span><div><b>Free insured shipping</b><span>On orders over $500</span></div></li>
+    <li><span class="trustbar__ic" data-ic="shield"></span><div><b>2-year warranty</b><span>International cover</span></div></li>
+    <li><span class="trustbar__ic" data-ic="rotate"></span><div><b>30-day returns</b><span>Free of charge</span></div></li>
+    <li><span class="trustbar__ic" data-ic="lock"></span><div><b>Secure checkout</b><span>Cards, PayPal, Apple Pay</span></div></li>
+  </ul></div>
 </section>
 
-<section class="section">
+<section class="section section--tight">
   <div class="shell">
-    <div class="section-head section-head--center">
-      <span class="eyebrow eyebrow--center">Shop by category</span>
-      <h2>Six disciplines, one house</h2>
+    <div class="section-head section-head--split">
+      <div><span class="eyebrow">Shop by category</span><h2>Find your piece</h2></div>
+      <a class="link-line" href="pages/shop.html">All products <span>&rarr;</span></a>
     </div>
-    <div class="grid grid--3" id="home-categories"></div>
+    <div class="cat-strip" id="home-categories"></div>
   </div>
 </section>
 
-<section class="section section--deep">
+<section class="section section--tight">
   <div class="shell">
     <div class="section-head section-head--split">
-      <div><span class="eyebrow">The edit</span><h2>Featured pieces</h2></div>
-      <a class="link-line" href="pages/shop.html">View all <span>&rarr;</span></a>
+      <div><span class="eyebrow">Most wanted</span><h2>Bestsellers</h2></div>
+      <a class="link-line" href="pages/shop.html?sort=rating">Top rated <span>&rarr;</span></a>
     </div>
-    <div class="grid grid--4" id="home-featured"></div>
+    <div class="grid grid--4" id="home-bestsellers"></div>
+  </div>
+</section>
+<section class="section section--tight">
+  <div class="shell">
+    <a class="promo" href="pages/shop.html?sale=1">
+      <img src="assets/images/scenes/signature.webp" alt="" loading="lazy">
+      <div class="promo__body">
+        <span class="eyebrow">Limited-time offer</span>
+        <h2 id="promo-title">Selected pieces, reduced</h2>
+        <p id="promo-sub">Save on watches and fine jewelry while stock lasts.</p>
+        <span class="btn btn--primary">Shop the sale</span>
+      </div>
+    </a>
   </div>
 </section>
 
@@ -79,8 +92,16 @@
   </div>
   <div class="shell"><div class="rail" id="home-arrivals"></div></div>
 </section>
-
 <section class="section section--deep">
+  <div class="shell">
+    <div class="section-head section-head--split">
+      <div><span class="eyebrow">The edit</span><h2>Featured pieces</h2></div>
+      <a class="link-line" href="pages/shop.html">View all <span>&rarr;</span></a>
+    </div>
+    <div class="grid grid--4" id="home-featured"></div>
+  </div>
+</section>
+<section class="section">
   <div class="shell">
     <div class="ai-shell" style="align-items:center">
       <div>
@@ -100,31 +121,19 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="shell">
-    <div class="section-head section-head--split">
-      <div><span class="eyebrow">Most wanted</span><h2>Bestsellers</h2></div>
-      <a class="link-line" href="pages/shop.html?sort=rating">Top rated <span>&rarr;</span></a>
-    </div>
-    <div class="grid grid--3" id="home-bestsellers"></div>
-  </div>
-</section>
 
-<section class="section section--deep">
-  <div class="shell">
-    <div class="grid grid--3">
-      <div class="card card--flat"><div class="text-gold">SHIELD</div>
-        <h3 style="font-size:1.5rem;margin-top:1rem">Worldwide shipping</h3>
-        <p>Insured, tracked and signed for, to more than 60 countries. Free over $500.</p></div>
-      <div class="card card--flat"><div class="text-gold">WARRANTY</div>
-        <h3 style="font-size:1.5rem;margin-top:1rem">Two-year warranty</h3>
-        <p>Every piece is covered against manufacturing faults, and built to outlast the paperwork.</p></div>
-      <div class="card card--flat"><div class="text-gold">SECURE</div>
-        <h3 style="font-size:1.5rem;margin-top:1rem">Secure payments</h3>
-        <p>Stripe, PayPal, Apple Pay and Google Pay. Your details never touch our servers.</p></div>
-    </div>
-  </div>
-</section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <section class="section">
   <div class="shell">
@@ -139,7 +148,7 @@
 <section class="section section--deep">
   <div class="shell">
     <div class="editorial">
-      <img src="assets/images/collections/heritage.svg" alt="Craftsmanship" loading="lazy">
+      <img src="assets/images/scenes/about-home.webp" alt="Hand-finished gold bands in a presentation box" loading="lazy">
       <div>
         <span class="eyebrow">The house</span>
         <h2>Every piece tells a story</h2>

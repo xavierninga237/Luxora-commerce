@@ -75,6 +75,13 @@ Two engines behind one chat UI:
 ### Customer account
 Dashboard with order history, wishlist, saved addresses, and profile settings. A lightweight fake session persists in `localStorage`.
 
+### Mobile shopping experience
+- Two-column product grid, compact cards with a one-tap wishlist heart, and "Add to bag" always visible on touch screens.
+- App-style bottom tab bar (Home, Shop, Concierge, Wishlist, Bag with live counts).
+- Shop filters open as a bottom sheet with a live "Show N pieces" button; quick category chips sit above the grid.
+- Product page: swipe or tap through photos (zoom is desktop-only), and a sticky buy bar appears once the main "Add to bag" scrolls away.
+- The concierge chat fills the phone screen, with suggested prompts as a swipeable row.
+
 ### Admin dashboard (public demo)
 A full back-office at **`/admin`** (→ `admin/dashboard.html`). There is **no password on purpose**, so recruiters and clients can open it straight from your portfolio.
 - KPIs with sparklines, revenue/orders/channel/region charts (hand-drawn inline SVG, **no charting library**).
@@ -117,7 +124,7 @@ luxora-commerce/
 - **Shared chrome.** The header, mega-menu, footer and drawers are injected by `core/chrome.js` into `[data-chrome]` slots, so they live in exactly one place.
 - **Product photography.** Each product has 1–3 WebP photos in `assets/images/products/`, named after its slug: `slug.webp` is the default image, then `slug-2.webp`, `slug-3.webp`. The product page gallery shows all of them (arrows, thumbnails, swipe on mobile, click to zoom), and product cards cross-fade to the second photo on hover. Photos were resized to 1400 px and re-encoded (≈108 MB of originals → ≈7.5 MB).
 - **Adding or replacing a photo:** drop the file into `assets/images/products/` using the naming above, then add its path to that product's `images` array in `assets/js/data/luxora-data.js` (and `data/products.json`, which the concierge function reads).
-- **Collection and category art** are still deterministic SVGs generated from the catalogue.
+- **Category, collection, journal and editorial images** live in `assets/images/scenes/` and are cropped from the product photography, so there are no drawn placeholders left.
 
 ---
 
