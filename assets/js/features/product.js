@@ -10,42 +10,54 @@
     return '<span class="stock-line"><i class="stock-dot"></i>In stock — ships in ' + LX.esc(p.shippingTime) + "</span>";
   }
 
-  /* Four framings of one render stand in for a real photo set. Swap the
-     src values for photography and nothing else has to change. */
+  /* One view per product photo: images[0] is the default, then -2, -3… */
   function galleryViews(p) {
-    return [
-      { src: p.images[0], label: "Front" },
-      { src: p.images[0], label: "Detail" },
-      { src: p.images[0], label: "Scale" },
-      { src: p.images[0], label: "Packaging" },
-    ];
+    return (p.images || []).map((src, i) => ({ src: src, label: "Photo " + (i + 1) }));
   }
 
   function renderGallery(p) {
     const host = LX.$("#pdp-gallery");
     if (!host) return;
     const views = galleryViews(p);
+    const multi = views.length > 1;
     host.innerHTML =
       '<div class="gallery__main" id="gallery-main">' +
         (p.limitedEdition ? '<span class="badge gallery__badge">Limited edition</span>'
           : p.discountPrice ? '<span class="badge badge--solid gallery__badge">' +
             Math.round((1 - p.discountPrice / p.price) * 100) + "% off</span>" : "") +
         '<img src="' + LX.url(views[0].src) + '" alt="' + LX.esc(p.name) + '" id="gallery-img" width="800" height="1000">' +
-        '<button class="icon-btn gallery__spin" id="gallery-spin" title="360° view" aria-label="Rotate the piece">' +
-          LX.icon("rotate", 17) + "</button>" +
+        (multi
+          ? '<button class="icon-btn gallery__nav gallery__nav--prev" data-step="-1" aria-label="Previous photo">&#8249;</button>' +
+            '<button class="icon-btn gallery__nav gallery__nav--next" data-step="1" aria-label="Next photo">&#8250;</button>' +
+            '<span class="gallery__count mono" id="gallery-count">1 / ' + views.length + "</span>"
+          : "") +
       "</div>" +
-      '<div class="gallery__thumbs" role="tablist">' +
-        views.map((v, i) =>
-          '<button class="gallery__thumb' + (i === 0 ? " is-on" : "") + '" data-view="' + i +
-            '" role="tab" aria-selected="' + (i === 0) + '" title="' + v.label + '">' +
-            '<img src="' + LX.url(v.src) + '" alt="' + LX.esc(p.name + " — " + v.label) + '"></button>').join("") +
-      "</div>";
+      (multi
+        ? '<div class="gallery__thumbs" role="tablist">' +
+          views.map((v, i) =>
+            '<button class="gallery__thumb' + (i === 0 ? " is-on" : "") + '" data-view="' + i +
+              '" role="tab" aria-selected="' + (i === 0) + '" title="' + v.label + '">' +
+              '<img src="' + LX.url(v.src) + '" alt="' + LX.esc(p.name + " — " + v.label) + '" loading="lazy"></button>').join("") +
+          "</div>"
+        : "");
 
     const main = LX.$("#gallery-main");
     const img = LX.$("#gallery-img");
+    let current = 0;
+
+    function show(i) {
+      current = (i + views.length) % views.length;
+      img.src = LX.url(views[current].src);
+      img.alt = p.name + (current ? " — " + views[current].label : "");
+      LX.$$(".gallery__thumb", host).forEach((b, k) => {
+        b.classList.toggle("is-on", k === current); b.setAttribute("aria-selected", String(k === current));
+      });
+      const c = LX.$("#gallery-count"); if (c) c.textContent = (current + 1) + " / " + views.length;
+    }
 
     main.addEventListener("click", (e) => {
-      if (e.target.closest("#gallery-spin")) return;
+      const nav = e.target.closest(".gallery__nav");
+      if (nav) { e.stopPropagation(); main.classList.remove("is-zoomed"); show(current + Number(nav.getAttribute("data-step"))); return; }
       main.classList.toggle("is-zoomed");
     });
     main.addEventListener("mousemove", (e) => {
@@ -56,25 +68,16 @@
     });
     main.addEventListener("mouseleave", () => main.classList.remove("is-zoomed"));
 
-    LX.$$(".gallery__thumb", host).forEach((btn) => {
-      btn.addEventListener("click", () => {
-        LX.$$(".gallery__thumb", host).forEach((b) => { b.classList.remove("is-on"); b.setAttribute("aria-selected", "false"); });
-        btn.classList.add("is-on"); btn.setAttribute("aria-selected", "true");
-        img.src = LX.url(views[btn.getAttribute("data-view")].src);
-      });
-    });
+    LX.$$(".gallery__thumb", host).forEach((btn) =>
+      btn.addEventListener("click", () => show(Number(btn.getAttribute("data-view")))));
 
-    /* A 360° viewer, stood in for by a rotation sweep of the render. */
-    let spinning = false;
-    LX.$("#gallery-spin").addEventListener("click", () => {
-      if (spinning) return;
-      spinning = true;
-      let deg = 0;
-      const tick = setInterval(() => {
-        deg += 12;
-        img.style.transform = "rotateY(" + deg + "deg)";
-        if (deg >= 360) { clearInterval(tick); img.style.transform = ""; spinning = false; }
-      }, 26);
+    /* Swipe between photos on touch screens. */
+    let x0 = null;
+    main.addEventListener("touchstart", (e) => { x0 = e.touches[0].clientX; }, { passive: true });
+    main.addEventListener("touchend", (e) => {
+      if (x0 == null || !multi) return;
+      const dx = e.changedTouches[0].clientX - x0; x0 = null;
+      if (Math.abs(dx) > 40) show(current + (dx < 0 ? 1 : -1));
     });
   }
 
@@ -252,7 +255,7 @@
       "@context": "https://schema.org", "@type": "Product",
       name: p.name, sku: p.sku, description: p.shortDescription,
       brand: { "@type": "Brand", name: p.brandName },
-      image: [p.images[0]],
+      image: p.images.map((src) => new URL(LX.url(src), location.href).href),
       aggregateRating: { "@type": "AggregateRating", ratingValue: p.rating, reviewCount: p.reviewCount },
       offers: {
         "@type": "Offer", price: LX.priceOf(p), priceCurrency: "USD",

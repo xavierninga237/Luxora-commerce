@@ -2,7 +2,7 @@
 
 **Timeless Luxury. Delivered Worldwide.**
 
-A complete, front-end luxury e-commerce experience for watches and fine jewelry — storefront, customer account area, a full admin dashboard, and an on-device AI shopping concierge. Built as a static site in vanilla HTML, CSS and JavaScript, with no build step and no backend required.
+A complete, front-end luxury e-commerce experience for watches and fine jewelry — storefront, customer account area, a public read-only admin dashboard, and an AI shopping concierge powered by OpenRouter (with an on-device fallback). Built as a static site in vanilla HTML, CSS and JavaScript with no build step; the only server code is one Vercel function for the concierge.
 
 This is a portfolio demonstration. Products, brands, prices, reviews, orders and customers are fictional, and no real payments are processed.
 
@@ -28,6 +28,33 @@ Any static host works too — Netlify, Vercel, GitHub Pages, S3, or a plain ngin
 
 ---
 
+## Deploying to Vercel (with the live AI concierge)
+
+1. Push this folder to a GitHub repo (or run `vercel` from inside it) and import it in Vercel. Framework preset: **Other**. No build command, no output directory — Vercel serves the folder as-is and turns `api/concierge.js` into a serverless function automatically.
+2. In **Project → Settings → Environment Variables**, add:
+
+| Variable | Required | Example | What it does |
+|---|---|---|---|
+| `OPENROUTER_API_KEY` | yes | `sk-or-v1-…` | Your key from [openrouter.ai/keys](https://openrouter.ai/keys). Stays on the server; never sent to the browser. |
+| `OPENROUTER_MODEL` | no | `openai/gpt-4o-mini` | Any model id from [openrouter.ai/models](https://openrouter.ai/models). Defaults to `openai/gpt-4o-mini`. |
+| `OPENROUTER_SITE_URL` | no | `https://luxora.vercel.app` | Sent as `HTTP-Referer` so the app shows up under your site in OpenRouter. |
+| `OPENROUTER_APP_NAME` | no | `Luxora Commerce` | Sent as `X-Title` (the name in your OpenRouter dashboard). |
+
+3. **Redeploy** (environment variables only apply to new deployments).
+4. Open `/pages/ai-assistant.html`. The chat header reads **Live AI · model-name** when the key is picked up, or **Runs on your device** when it isn't.
+
+`.env.example` lists the same variables. For local testing with the real function, copy it to `.env.local` and run `vercel dev`.
+
+**Cost & abuse guard.** Each request is capped (600-character message, 8 turns of history, 500 output tokens) and each server instance allows 12 requests per minute per IP. For a public portfolio, also set a monthly credit limit on the key in OpenRouter.
+
+**If anything fails** — no key, OpenRouter down, rate-limited, or the site opened from `file://` — the chat silently falls back to the built-in rule-based engine, so the concierge never breaks in front of a visitor.
+
+### Links to share
+- Storefront: `https://your-project.vercel.app/`
+- Admin demo (no password, read-only): `https://your-project.vercel.app/admin`
+
+---
+
 ## What's inside
 
 ### Storefront
@@ -38,20 +65,21 @@ Any static host works too — Netlify, Vercel, GitHub Pages, S3, or a plain ngin
 - **Wishlist, compare (up to four, with an AI verdict), collections, journal, about, FAQ and contact** pages.
 
 ### AI concierge (the differentiator)
-A genuine rule-based recommendation engine that runs entirely in the browser — no API key, no network call.
-- **Chat assistant** — parses free-text ("a wedding gift under $4,000", "titanium watch for my husband") into structured intent (category, material, occasion, recipient, budget, tone), scores every product with hard filters plus weighted signals, and explains *why* each piece was chosen.
-- **Gift finder** — a four-question guided quiz that funnels into the same engine.
-- **Comparison verdict** — pros, cons and a recommendation across compared pieces.
-- **Review summariser** — extracts recurring themes from a product's reviews.
+Two engines behind one chat UI:
+- **Live model (on Vercel).** `api/concierge.js` sends the conversation to OpenRouter with the whole catalogue (64 products, compactly encoded), store policies and active coupon codes in the system prompt. The model answers in the house voice and returns product slugs, which the UI renders as product cards. Slugs are validated server-side, so the model can't recommend a piece that doesn't exist.
+- **On-device engine (fallback).** A rule-based recommender that parses free text ("a wedding gift under $4,000", "titanium watch for my husband") into structured intent, scores every product, and explains *why* each piece was chosen. It also powers:
+  - **Gift finder** — a four-question guided quiz.
+  - **Comparison verdict** — pros, cons and a recommendation across compared pieces.
+  - **Review summariser** — recurring themes from a product's reviews.
 
 ### Customer account
 Dashboard with order history, wishlist, saved addresses, and profile settings. A lightweight fake session persists in `localStorage`.
 
-### Admin dashboard
-A full back-office at `admin/dashboard.html`:
-- KPIs with sparklines, revenue/orders/channel/region charts (all hand-drawn inline SVG — **no charting library**).
-- Sortable, searchable, filterable tables for products, inventory, orders, customers, reviews and coupons.
-- An AI-conversations view with usage trend.
+### Admin dashboard (public demo)
+A full back-office at **`/admin`** (→ `admin/dashboard.html`). There is **no password on purpose**, so recruiters and clients can open it straight from your portfolio.
+- KPIs with sparklines, revenue/orders/channel/region charts (hand-drawn inline SVG, **no charting library**).
+- Sortable, searchable, filterable tables for products, inventory, orders, customers, reviews and coupons, each with realistic row actions (Edit, Delete, Refund, Approve, Restock…).
+- **Read-only demo mode.** A banner on every admin page says it's a demo. Every write action — Delete, Edit, Refund, Add product, New coupon, Save settings and any form submit — is intercepted and opens a "This admin is read-only" dialog naming the blocked action. Browsing, search, sorting, filters and charts all work normally. There is no write API behind the admin at all, so nothing a visitor does can change what other visitors see.
 
 ---
 
@@ -75,7 +103,10 @@ luxora-commerce/
 │   │   ├── core/               utils, store, ui, chrome (shared header/footer/drawers)
 │   │   ├── features/           ai, catalog, product, checkout, ai-pages, pages, admin
 │   │   └── data/               luxora-data.js  (the whole catalogue as one JS object)
-│   └── images/                 logos, products (SVG), collections, hero, brands, avatars, textures
+│   └── images/                 logos, products (WebP photos), collections, hero, brands, avatars
+├── api/concierge.js            Vercel serverless function → OpenRouter (AI concierge)
+├── vercel.json                 /admin redirect, function config, cache headers
+├── .env.example                Environment variables to set in Vercel
 ├── data/                       The same seed data as JSON (products, reviews, orders, customers)
 └── tools/                      Python generators used to build the assets, data and pages
 ```
@@ -84,19 +115,17 @@ luxora-commerce/
 - **One data source.** `assets/js/data/luxora-data.js` exposes `window.LUXORA` with every product, review, order, customer, coupon and analytics series. The `data/*.json` files mirror it for anyone who wants to consume it as JSON.
 - **`window.LX` namespace.** All behaviour hangs off a single global (`core/utils.js`), so scripts are plain classic `<script>` tags — no bundler, no modules, works over `file://`.
 - **Shared chrome.** The header, mega-menu, footer and drawers are injected by `core/chrome.js` into `[data-chrome]` slots, so they live in exactly one place.
-- **Product & scene art** are deterministic SVGs generated from the catalogue, so the repo stays small and every image is crisp at any size.
+- **Product photography.** Each product has 1–3 WebP photos in `assets/images/products/`, named after its slug: `slug.webp` is the default image, then `slug-2.webp`, `slug-3.webp`. The product page gallery shows all of them (arrows, thumbnails, swipe on mobile, click to zoom), and product cards cross-fade to the second photo on hover. Photos were resized to 1400 px and re-encoded (≈108 MB of originals → ≈7.5 MB).
+- **Adding or replacing a photo:** drop the file into `assets/images/products/` using the naming above, then add its path to that product's `images` array in `assets/js/data/luxora-data.js` (and `data/products.json`, which the concierge function reads).
+- **Collection and category art** are still deterministic SVGs generated from the catalogue.
 
 ---
 
-## Making the AI concierge "real"
+## How the concierge talks to OpenRouter
 
-The engine lives in `assets/js/features/ai.js`. It's deliberately structured so the presentation layer never needs to change if you swap in a hosted model:
-
-- `parse(text)` → structured intent
-- `score(intent)` → ranked products with explanations
-- `reply(text)` → the chat response object
-
-To go live, keep `parse`/`score` (they're useful for grounding and filtering) and replace the body of `reply()` with a `fetch` to your model endpoint, passing the catalogue (or a retrieved subset) as context and returning the same `{ text, picks }` shape. There's a comment at that exact spot in the file. Nothing else in the UI needs to change.
+- Browser: `LX.AI.replyLive(text, history)` in `assets/js/features/ai.js` checks `GET /api/concierge` once (`{ live, model }`), then `POST`s `{ message, history }`. Any failure resolves to the local `LX.AI.reply()` instead of throwing.
+- Server: `api/concierge.js` builds the system prompt from `data/products.json` and `data/luxora.json`, calls `https://openrouter.ai/api/v1/chat/completions`, and returns `{ text, picks: [slug…], model }`.
+- To change the concierge's personality or rules, edit the `SYSTEM` prompt at the top of `api/concierge.js`.
 
 ---
 
@@ -107,7 +136,7 @@ The `tools/` folder holds the Python scripts that produced the images, seed data
 It also contains two browser tests, run against a real headless Chromium via Playwright:
 
 ```bash
-node tools/smoke_test.js   # loads all 33 pages, asserts chrome renders, fails on any console error
+node tools/smoke_test.js   # loads all 33 pages (web fonts are stubbed so it runs offline), asserts chrome renders, fails on any console error
 node tools/flow_test.js    # drives the AI concierge, PDP, full checkout and the admin tables
 ```
 

@@ -340,5 +340,48 @@
     };
   }
 
-  LX.AI = { parse, recommend, reply, giftFind, compare, summarise, describeIntent };
+  /* ------------------------------------------------ hosted model (live) */
+  /* When the site is deployed on Vercel with OPENROUTER_API_KEY set,
+     /api/concierge answers with a real model grounded in this catalogue.
+     Opened from file://, or with no key, everything stays on-device. */
+  const ENDPOINT = "/api/concierge";
+  let statusPromise = null;
+
+  function liveStatus() {
+    if (!/^https?:$/.test(location.protocol)) return Promise.resolve({ live: false });
+    if (!statusPromise) {
+      statusPromise = fetch(ENDPOINT, { headers: { Accept: "application/json" } })
+        .then((r) => (r.ok ? r.json() : { live: false }))
+        .catch(() => ({ live: false }));
+    }
+    return statusPromise;
+  }
+
+  /* Resolves to { text, picks, live, model } — never rejects. */
+  function replyLive(input, history) {
+    const local = () => Object.assign(reply(input), { live: false });
+    return liveStatus().then((st) => {
+      if (!st.live) return local();
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 28000);
+      return fetch(ENDPOINT, {
+        method: "POST",
+        signal: ctrl.signal,
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({ message: String(input || "").slice(0, 600), history: (history || []).slice(-8) }),
+      })
+        .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+        .then((data) => {
+          const picks = (data.picks || [])
+            .map((slug) => LX.productBySlug(slug)).filter(Boolean)
+            .map((p) => ({ product: p, score: 0, why: [] }));
+          if (!data.text) return local();
+          return { text: data.text, picks: picks, live: true, model: data.model };
+        })
+        .catch(local)
+        .finally(() => clearTimeout(timer));
+    });
+  }
+
+  LX.AI = { parse, recommend, reply, replyLive, liveStatus, giftFind, compare, summarise, describeIntent };
 })(window.LX);

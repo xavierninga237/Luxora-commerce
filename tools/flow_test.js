@@ -1,5 +1,5 @@
-const { chromium } = require('/home/claude/.npm-global/lib/node_modules/playwright');
-const B = 'file:///home/claude/luxora-commerce';
+const { chromium } = require('playwright');
+const B = 'file://' + require('path').resolve(__dirname, '..');
 
 (async () => {
   const browser = await chromium.launch();

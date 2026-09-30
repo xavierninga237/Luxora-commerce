@@ -1,0 +1,11 @@
+{
+  "name": "luxora-commerce",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Luxora Commerce — static luxury e-commerce demo with an OpenRouter-powered AI concierge (Vercel function).",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "vercel dev",
+    "serve": "python3 -m http.server 8000"
+  }
+}

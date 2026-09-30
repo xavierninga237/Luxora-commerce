@@ -28,18 +28,45 @@
       return node;
     }
 
-    function answer(text) {
-      const typing = bubble("ai", '<span class="typing"><i></i><i></i><i></i></span>');
-      setTimeout(() => {
-        const res = LX.AI.reply(text);
-        let html = "<p>" + LX.esc(res.text) + "</p>";
-        if (res.picks && res.picks.length) {
-          html += '<div class="ai-picks">' + res.picks.map((r) => pickCard(r.product)).join("") + "</div>";
-        }
-        typing.querySelector(".msg__bubble").innerHTML = html;
-        log.scrollTop = log.scrollHeight;
-      }, 620);
+    const history = [];
+    let busy = false;
+
+    function paragraphs(text) {
+      return String(text).split(/\n{2,}|\n/).filter((t) => t.trim())
+        .map((t) => "<p>" + LX.esc(t.trim()) + "</p>").join("");
     }
+
+    function answer(text) {
+      if (busy) return;
+      busy = true;
+      const typing = bubble("ai", '<span class="typing"><i></i><i></i><i></i></span>');
+      const started = Date.now();
+      LX.AI.replyLive(text, history).then((res) => {
+        /* Keep the typing indicator up for a beat so instant local answers feel considered. */
+        const wait = Math.max(0, 620 - (Date.now() - started));
+        setTimeout(() => {
+          let html = paragraphs(res.text);
+          if (res.picks && res.picks.length) {
+            html += '<div class="ai-picks">' + res.picks.map((r) => pickCard(r.product)).join("") + "</div>";
+          }
+          typing.querySelector(".msg__bubble").innerHTML = html;
+          log.scrollTop = log.scrollHeight;
+          history.push({ role: "user", content: text });
+          history.push({ role: "assistant", content: res.text +
+            (res.picks && res.picks.length ? " [Showed: " + res.picks.map((r) => r.product.name).join(", ") + "]" : "") });
+          if (history.length > 12) history.splice(0, history.length - 12);
+          busy = false;
+        }, wait);
+      });
+    }
+
+    /* Header badge: say honestly which brain is answering. */
+    const badge = LX.$("#chat-mode");
+    if (badge) LX.AI.liveStatus().then((st) => {
+      badge.textContent = st.live ? "Live AI" + (st.model ? " · " + st.model.split("/").pop() : "") : "Runs on your device";
+      badge.title = st.live ? "Answers come from " + st.model + " via OpenRouter, grounded in the Luxora catalogue."
+        : "Answers come from the built-in recommendation engine. Add OPENROUTER_API_KEY on Vercel to go live.";
+    });
 
     form.addEventListener("submit", (e) => {
       e.preventDefault();

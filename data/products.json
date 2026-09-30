@@ -17,14 +17,16 @@
   "material": "Titanium",
   "color": "Black",
   "weight": "84 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/luxora-chronograph-black.svg"
+   "assets/images/products/luxora-chronograph-black.webp",
+   "assets/images/products/luxora-chronograph-black-2.webp",
+   "assets/images/products/luxora-chronograph-black-3.webp"
   ],
   "rating": 4.3,
   "reviewCount": 302,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -50,14 +52,16 @@
   "material": "18K Gold",
   "color": "Gold",
   "weight": "152 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/luxora-chronograph-gold.svg"
+   "assets/images/products/luxora-chronograph-gold.webp",
+   "assets/images/products/luxora-chronograph-gold-2.webp",
+   "assets/images/products/luxora-chronograph-gold-3.webp"
   ],
   "rating": 4.7,
   "reviewCount": 225,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -83,14 +87,16 @@
   "material": "Stainless Steel",
   "color": "Silver",
   "weight": "157 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/luxora-heritage-automatic.svg"
+   "assets/images/products/luxora-heritage-automatic.webp",
+   "assets/images/products/luxora-heritage-automatic-2.webp",
+   "assets/images/products/luxora-heritage-automatic-3.webp"
   ],
   "rating": 4.3,
   "reviewCount": 270,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -116,14 +122,14 @@
   "material": "18K Gold",
   "color": "Gold",
   "weight": "83 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/luxora-skeleton-edition.svg"
+   "assets/images/products/luxora-skeleton-edition.webp"
   ],
   "rating": 5.0,
   "reviewCount": 102,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -149,14 +155,15 @@
   "material": "White Gold",
   "color": "White",
   "weight": "135 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/luxora-moonphase.svg"
+   "assets/images/products/luxora-moonphase.webp",
+   "assets/images/products/luxora-moonphase-2.webp"
   ],
   "rating": 4.5,
   "reviewCount": 447,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -182,14 +189,15 @@
   "material": "Stainless Steel",
   "color": "Blue",
   "weight": "103 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/luxora-elite-diver.svg"
+   "assets/images/products/luxora-elite-diver.webp",
+   "assets/images/products/luxora-elite-diver-2.webp"
   ],
   "rating": 4.6,
   "reviewCount": 219,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -206,8 +214,8 @@
   "brandName": "Elvaro",
   "category": "watches",
   "collection": "everyday",
-  "shortDescription": "Grade 5 titanium, 78 grams on the wrist \u2014 you stop noticing it by the second day.",
-  "description": "Grade 5 titanium, 78 grams on the wrist \u2014 you stop noticing it by the second day. Made by Elvaro in titanium, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
+  "shortDescription": "Grade 5 titanium, 78 grams on the wrist — you stop noticing it by the second day.",
+  "description": "Grade 5 titanium, 78 grams on the wrist — you stop noticing it by the second day. Made by Elvaro in titanium, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
   "care": "Service every 5 years. Do not operate the crown underwater.",
   "price": 2450,
   "discountPrice": null,
@@ -215,14 +223,16 @@
   "material": "Titanium",
   "color": "Black",
   "weight": "121 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/luxora-titanium-sport.svg"
+   "assets/images/products/luxora-titanium-sport.webp",
+   "assets/images/products/luxora-titanium-sport-2.webp",
+   "assets/images/products/luxora-titanium-sport-3.webp"
   ],
   "rating": 5.0,
   "reviewCount": 415,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -248,14 +258,16 @@
   "material": "Genuine Leather",
   "color": "Brown",
   "weight": "161 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/luxora-classic-leather.svg"
+   "assets/images/products/luxora-classic-leather.webp",
+   "assets/images/products/luxora-classic-leather-2.webp",
+   "assets/images/products/luxora-classic-leather-3.webp"
   ],
   "rating": 4.4,
   "reviewCount": 474,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -281,14 +293,16 @@
   "material": "Stainless Steel",
   "color": "Navy",
   "weight": "118 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/luxora-gmt-traveler.svg"
+   "assets/images/products/luxora-gmt-traveler.webp",
+   "assets/images/products/luxora-gmt-traveler-2.webp",
+   "assets/images/products/luxora-gmt-traveler-3.webp"
   ],
   "rating": 4.4,
   "reviewCount": 457,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -314,14 +328,15 @@
   "material": "Carbon Fiber",
   "color": "Black",
   "weight": "80 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/luxora-carbon-x.svg"
+   "assets/images/products/luxora-carbon-x.webp",
+   "assets/images/products/luxora-carbon-x-2.webp"
   ],
   "rating": 4.6,
   "reviewCount": 40,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -347,14 +362,16 @@
   "material": "Stainless Steel",
   "color": "Silver",
   "weight": "126 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/novaire-slimline-36.svg"
+   "assets/images/products/novaire-slimline-36.webp",
+   "assets/images/products/novaire-slimline-36-2.webp",
+   "assets/images/products/novaire-slimline-36-3.webp"
   ],
   "rating": 4.5,
   "reviewCount": 358,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -380,14 +397,15 @@
   "material": "18K Gold",
   "color": "Gold",
   "weight": "131 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/aurelius-regent-automatic.svg"
+   "assets/images/products/aurelius-regent-automatic.webp",
+   "assets/images/products/aurelius-regent-automatic-2.webp"
   ],
   "rating": 4.5,
   "reviewCount": 98,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -413,14 +431,16 @@
   "material": "Carbon Fiber",
   "color": "Black",
   "weight": "138 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/kronique-tourbillon-noir.svg"
+   "assets/images/products/kronique-tourbillon-noir.webp",
+   "assets/images/products/kronique-tourbillon-noir-2.webp",
+   "assets/images/products/kronique-tourbillon-noir-3.webp"
   ],
   "rating": 5.0,
   "reviewCount": 82,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -437,8 +457,8 @@
   "brandName": "Elvaro",
   "category": "watches",
   "collection": "everyday",
-  "shortDescription": "The entry point to the house \u2014 a sapphire crystal and a real automatic movement.",
-  "description": "The entry point to the house \u2014 a sapphire crystal and a real automatic movement. Made by Elvaro in stainless steel, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
+  "shortDescription": "The entry point to the house — a sapphire crystal and a real automatic movement.",
+  "description": "The entry point to the house — a sapphire crystal and a real automatic movement. Made by Elvaro in stainless steel, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
   "care": "Service every 5 years. Do not operate the crown underwater.",
   "price": 450,
   "discountPrice": null,
@@ -446,14 +466,15 @@
   "material": "Stainless Steel",
   "color": "Green",
   "weight": "107 g",
-  "dimensions": "Case 40 mm \u00d7 11.2 mm",
+  "dimensions": "Case 40 mm × 11.2 mm",
   "dimensions2": "Lug width 20 mm",
   "images": [
-   "assets/images/products/elvaro-field-40.svg"
+   "assets/images/products/elvaro-field-40.webp",
+   "assets/images/products/elvaro-field-40-2.webp"
   ],
   "rating": 4.4,
   "reviewCount": 228,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -480,13 +501,14 @@
   "color": "Black",
   "weight": "7 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/black-titanium-ring.svg"
+   "assets/images/products/black-titanium-ring.webp",
+   "assets/images/products/black-titanium-ring-2.webp"
   ],
   "rating": 4.4,
   "reviewCount": 133,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -513,13 +535,13 @@
   "color": "Gold",
   "weight": "11 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/gold-signet-ring.svg"
+   "assets/images/products/gold-signet-ring.webp"
   ],
   "rating": 4.8,
   "reviewCount": 218,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -546,13 +568,14 @@
   "color": "Silver",
   "weight": "4 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/platinum-band.svg"
+   "assets/images/products/platinum-band.webp",
+   "assets/images/products/platinum-band-2.webp"
   ],
   "rating": 4.9,
   "reviewCount": 95,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -569,8 +592,8 @@
   "brandName": "Elvaro",
   "category": "rings",
   "collection": "black",
-  "shortDescription": "Woven carbon set in a steel channel \u2014 light, and effectively scratch-proof.",
-  "description": "Woven carbon set in a steel channel \u2014 light, and effectively scratch-proof. Made by Elvaro in carbon fiber, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
+  "shortDescription": "Woven carbon set in a steel channel — light, and effectively scratch-proof.",
+  "description": "Woven carbon set in a steel channel — light, and effectively scratch-proof. Made by Elvaro in carbon fiber, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
   "care": "Remove before manual work. Clean with warm water and a soft brush.",
   "price": 280,
   "discountPrice": null,
@@ -579,13 +602,15 @@
   "color": "Black",
   "weight": "4 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/carbon-fiber-ring.svg"
+   "assets/images/products/carbon-fiber-ring.webp",
+   "assets/images/products/carbon-fiber-ring-2.webp",
+   "assets/images/products/carbon-fiber-ring-3.webp"
   ],
   "rating": 4.7,
   "reviewCount": 359,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -612,13 +637,13 @@
   "color": "White",
   "weight": "6 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/diamond-accent-ring.svg"
+   "assets/images/products/diamond-accent-ring.webp"
   ],
   "rating": 4.6,
   "reviewCount": 359,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -645,13 +670,13 @@
   "color": "White",
   "weight": "9 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/solitaire-diamond-ring.svg"
+   "assets/images/products/solitaire-diamond-ring.webp"
   ],
   "rating": 4.7,
   "reviewCount": 404,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -678,13 +703,13 @@
   "color": "Green",
   "weight": "9 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/emerald-halo-ring.svg"
+   "assets/images/products/emerald-halo-ring.webp"
   ],
   "rating": 4.5,
   "reviewCount": 365,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -701,8 +726,8 @@
   "brandName": "Aurelius",
   "category": "rings",
   "collection": "wedding",
-  "shortDescription": "Two bands crossing without a visible join \u2014 one continuous piece of gold.",
-  "description": "Two bands crossing without a visible join \u2014 one continuous piece of gold. Made by Aurelius in rose gold, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
+  "shortDescription": "Two bands crossing without a visible join — one continuous piece of gold.",
+  "description": "Two bands crossing without a visible join — one continuous piece of gold. Made by Aurelius in rose gold, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
   "care": "Remove before manual work. Clean with warm water and a soft brush.",
   "price": 980,
   "discountPrice": null,
@@ -711,13 +736,13 @@
   "color": "Rose Gold",
   "weight": "10 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/rose-gold-infinity-ring.svg"
+   "assets/images/products/rose-gold-infinity-ring.webp"
   ],
   "rating": 4.2,
   "reviewCount": 93,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -744,13 +769,13 @@
   "color": "Blue",
   "weight": "7 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/sapphire-ring.svg"
+   "assets/images/products/sapphire-ring.webp"
   ],
   "rating": 4.3,
   "reviewCount": 214,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -777,13 +802,13 @@
   "color": "White",
   "weight": "10 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/white-gold-eternity-ring.svg"
+   "assets/images/products/white-gold-eternity-ring.webp"
   ],
   "rating": 4.8,
   "reviewCount": 424,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -810,13 +835,13 @@
   "color": "Gold",
   "weight": "12 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/aurelius-roman-band.svg"
+   "assets/images/products/aurelius-roman-band.webp"
   ],
   "rating": 4.7,
   "reviewCount": 45,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -843,13 +868,13 @@
   "color": "Silver",
   "weight": "8 g",
   "dimensions": "Band width 4 mm",
-  "dimensions2": "Sizes 48\u201366",
+  "dimensions2": "Sizes 48–66",
   "images": [
-   "assets/images/products/novaire-facet-ring.svg"
+   "assets/images/products/novaire-facet-ring.webp"
   ],
   "rating": 5.0,
   "reviewCount": 104,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -878,11 +903,11 @@
   "dimensions": "Chain 45 cm",
   "dimensions2": "Adjustable to 50 cm",
   "images": [
-   "assets/images/products/diamond-pendant.svg"
+   "assets/images/products/diamond-pendant.webp"
   ],
   "rating": 5.0,
   "reviewCount": 160,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -899,8 +924,8 @@
   "brandName": "Aurelius",
   "category": "necklaces",
   "collection": "gold",
-  "shortDescription": "A solid \u2014 not hollow \u2014 5 mm curb chain. It has weight, and it should.",
-  "description": "A solid \u2014 not hollow \u2014 5 mm curb chain. It has weight, and it should. Made by Aurelius in 18k gold, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
+  "shortDescription": "A solid — not hollow — 5 mm curb chain. It has weight, and it should.",
+  "description": "A solid — not hollow — 5 mm curb chain. It has weight, and it should. Made by Aurelius in 18k gold, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
   "care": "Store flat. Keep away from perfume and chlorine.",
   "price": 2600,
   "discountPrice": null,
@@ -911,11 +936,12 @@
   "dimensions": "Chain 45 cm",
   "dimensions2": "Adjustable to 50 cm",
   "images": [
-   "assets/images/products/gold-chain.svg"
+   "assets/images/products/gold-chain.webp",
+   "assets/images/products/gold-chain-2.webp"
   ],
   "rating": 4.2,
   "reviewCount": 358,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -944,11 +970,12 @@
   "dimensions": "Chain 45 cm",
   "dimensions2": "Adjustable to 50 cm",
   "images": [
-   "assets/images/products/white-gold-chain.svg"
+   "assets/images/products/white-gold-chain.webp",
+   "assets/images/products/white-gold-chain-2.webp"
   ],
   "rating": 4.8,
   "reviewCount": 359,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -977,11 +1004,12 @@
   "dimensions": "Chain 45 cm",
   "dimensions2": "Adjustable to 50 cm",
   "images": [
-   "assets/images/products/pearl-necklace.svg"
+   "assets/images/products/pearl-necklace.webp",
+   "assets/images/products/pearl-necklace-2.webp"
   ],
   "rating": 4.6,
   "reviewCount": 197,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1010,11 +1038,11 @@
   "dimensions": "Chain 45 cm",
   "dimensions2": "Adjustable to 50 cm",
   "images": [
-   "assets/images/products/emerald-pendant.svg"
+   "assets/images/products/emerald-pendant.webp"
   ],
   "rating": 4.6,
   "reviewCount": 218,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -1043,11 +1071,11 @@
   "dimensions": "Chain 45 cm",
   "dimensions2": "Adjustable to 50 cm",
   "images": [
-   "assets/images/products/sapphire-pendant.svg"
+   "assets/images/products/sapphire-pendant.webp"
   ],
   "rating": 4.4,
   "reviewCount": 132,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1064,8 +1092,8 @@
   "brandName": "Aurelius",
   "category": "necklaces",
   "collection": "heritage",
-  "shortDescription": "A plain gold cross with softened edges \u2014 no stones, no engraving.",
-  "description": "A plain gold cross with softened edges \u2014 no stones, no engraving. Made by Aurelius in 18k gold, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
+  "shortDescription": "A plain gold cross with softened edges — no stones, no engraving.",
+  "description": "A plain gold cross with softened edges — no stones, no engraving. Made by Aurelius in 18k gold, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
   "care": "Store flat. Keep away from perfume and chlorine.",
   "price": 1450,
   "discountPrice": null,
@@ -1076,11 +1104,11 @@
   "dimensions": "Chain 45 cm",
   "dimensions2": "Adjustable to 50 cm",
   "images": [
-   "assets/images/products/cross-necklace.svg"
+   "assets/images/products/cross-necklace.webp"
   ],
   "rating": 4.6,
   "reviewCount": 449,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1109,11 +1137,11 @@
   "dimensions": "Chain 45 cm",
   "dimensions2": "Adjustable to 50 cm",
   "images": [
-   "assets/images/products/luxury-layered-necklace.svg"
+   "assets/images/products/luxury-layered-necklace.webp"
   ],
   "rating": 4.5,
   "reviewCount": 230,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1125,7 +1153,7 @@
   "id": "LX-1034",
   "sku": "NEC-VE-1034",
   "slug": "velmont-rivi-re-necklace",
-  "name": "Velmont Rivi\u00e8re Necklace",
+  "name": "Velmont Rivière Necklace",
   "brand": "velmont",
   "brandName": "Velmont",
   "category": "necklaces",
@@ -1142,11 +1170,11 @@
   "dimensions": "Chain 45 cm",
   "dimensions2": "Adjustable to 50 cm",
   "images": [
-   "assets/images/products/velmont-rivi-re-necklace.svg"
+   "assets/images/products/velmont-rivi-re-necklace.webp"
   ],
   "rating": 4.3,
   "reviewCount": 356,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1175,11 +1203,11 @@
   "dimensions": "Chain 45 cm",
   "dimensions2": "Adjustable to 50 cm",
   "images": [
-   "assets/images/products/novaire-bar-pendant.svg"
+   "assets/images/products/novaire-bar-pendant.webp"
   ],
   "rating": 4.6,
   "reviewCount": 339,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1206,13 +1234,14 @@
   "color": "Gold",
   "weight": "19 g",
   "dimensions": "Length 19 cm",
-  "dimensions2": "Adjustable \u00b11.5 cm",
+  "dimensions2": "Adjustable ±1.5 cm",
   "images": [
-   "assets/images/products/cuban-link-bracelet.svg"
+   "assets/images/products/cuban-link-bracelet.webp",
+   "assets/images/products/cuban-link-bracelet-2.webp"
   ],
   "rating": 4.7,
   "reviewCount": 460,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -1239,13 +1268,14 @@
   "color": "White",
   "weight": "23 g",
   "dimensions": "Length 19 cm",
-  "dimensions2": "Adjustable \u00b11.5 cm",
+  "dimensions2": "Adjustable ±1.5 cm",
   "images": [
-   "assets/images/products/diamond-tennis-bracelet.svg"
+   "assets/images/products/diamond-tennis-bracelet.webp",
+   "assets/images/products/diamond-tennis-bracelet-2.webp"
   ],
   "rating": 4.9,
   "reviewCount": 106,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -1262,8 +1292,8 @@
   "brandName": "Aurelius",
   "category": "bracelets",
   "collection": "gold",
-  "shortDescription": "A hinged bangle \u2014 it opens rather than needing to be forced over the hand.",
-  "description": "A hinged bangle \u2014 it opens rather than needing to be forced over the hand. Made by Aurelius in 18k gold, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
+  "shortDescription": "A hinged bangle — it opens rather than needing to be forced over the hand.",
+  "description": "A hinged bangle — it opens rather than needing to be forced over the hand. Made by Aurelius in 18k gold, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
   "care": "Wipe after wear. Have the clasp checked annually.",
   "price": 1450,
   "discountPrice": null,
@@ -1272,13 +1302,13 @@
   "color": "Gold",
   "weight": "55 g",
   "dimensions": "Length 19 cm",
-  "dimensions2": "Adjustable \u00b11.5 cm",
+  "dimensions2": "Adjustable ±1.5 cm",
   "images": [
-   "assets/images/products/gold-bangle.svg"
+   "assets/images/products/gold-bangle.webp"
   ],
   "rating": 4.9,
   "reviewCount": 250,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1305,13 +1335,13 @@
   "color": "Brown",
   "weight": "51 g",
   "dimensions": "Length 19 cm",
-  "dimensions2": "Adjustable \u00b11.5 cm",
+  "dimensions2": "Adjustable ±1.5 cm",
   "images": [
-   "assets/images/products/leather-bracelet.svg"
+   "assets/images/products/leather-bracelet.webp"
   ],
   "rating": 4.6,
   "reviewCount": 144,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1338,13 +1368,13 @@
   "color": "Silver",
   "weight": "57 g",
   "dimensions": "Length 19 cm",
-  "dimensions2": "Adjustable \u00b11.5 cm",
+  "dimensions2": "Adjustable ±1.5 cm",
   "images": [
-   "assets/images/products/silver-chain-bracelet.svg"
+   "assets/images/products/silver-chain-bracelet.webp"
   ],
   "rating": 4.2,
   "reviewCount": 167,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1371,13 +1401,13 @@
   "color": "Black",
   "weight": "42 g",
   "dimensions": "Length 19 cm",
-  "dimensions2": "Adjustable \u00b11.5 cm",
+  "dimensions2": "Adjustable ±1.5 cm",
   "images": [
-   "assets/images/products/black-titanium-bracelet.svg"
+   "assets/images/products/black-titanium-bracelet.webp"
   ],
   "rating": 4.5,
   "reviewCount": 37,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1404,13 +1434,13 @@
   "color": "Silver",
   "weight": "60 g",
   "dimensions": "Length 19 cm",
-  "dimensions2": "Adjustable \u00b11.5 cm",
+  "dimensions2": "Adjustable ±1.5 cm",
   "images": [
-   "assets/images/products/charm-bracelet.svg"
+   "assets/images/products/charm-bracelet.webp"
   ],
   "rating": 4.5,
   "reviewCount": 415,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1437,13 +1467,13 @@
   "color": "White",
   "weight": "36 g",
   "dimensions": "Length 19 cm",
-  "dimensions2": "Adjustable \u00b11.5 cm",
+  "dimensions2": "Adjustable ±1.5 cm",
   "images": [
-   "assets/images/products/pearl-bracelet.svg"
+   "assets/images/products/pearl-bracelet.webp"
   ],
   "rating": 4.4,
   "reviewCount": 245,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1470,13 +1500,13 @@
   "color": "Black",
   "weight": "19 g",
   "dimensions": "Length 19 cm",
-  "dimensions2": "Adjustable \u00b11.5 cm",
+  "dimensions2": "Adjustable ±1.5 cm",
   "images": [
-   "assets/images/products/elvaro-carbon-cuff.svg"
+   "assets/images/products/elvaro-carbon-cuff.webp"
   ],
   "rating": 4.9,
   "reviewCount": 428,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1505,11 +1535,11 @@
   "dimensions": "Drop 22 mm",
   "dimensions2": "Post 11 mm",
   "images": [
-   "assets/images/products/diamond-stud-earrings.svg"
+   "assets/images/products/diamond-stud-earrings.webp"
   ],
   "rating": 4.2,
   "reviewCount": 146,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -1538,11 +1568,11 @@
   "dimensions": "Drop 22 mm",
   "dimensions2": "Post 11 mm",
   "images": [
-   "assets/images/products/pearl-earrings.svg"
+   "assets/images/products/pearl-earrings.webp"
   ],
   "rating": 4.3,
   "reviewCount": 288,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1571,11 +1601,11 @@
   "dimensions": "Drop 22 mm",
   "dimensions2": "Post 11 mm",
   "images": [
-   "assets/images/products/gold-hoops.svg"
+   "assets/images/products/gold-hoops.webp"
   ],
   "rating": 4.5,
   "reviewCount": 35,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1604,11 +1634,11 @@
   "dimensions": "Drop 22 mm",
   "dimensions2": "Post 11 mm",
   "images": [
-   "assets/images/products/white-gold-hoops.svg"
+   "assets/images/products/white-gold-hoops.webp"
   ],
   "rating": 4.7,
   "reviewCount": 462,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -1637,11 +1667,11 @@
   "dimensions": "Drop 22 mm",
   "dimensions2": "Post 11 mm",
   "images": [
-   "assets/images/products/emerald-earrings.svg"
+   "assets/images/products/emerald-earrings.webp"
   ],
   "rating": 4.9,
   "reviewCount": 227,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1670,11 +1700,11 @@
   "dimensions": "Drop 22 mm",
   "dimensions2": "Post 11 mm",
   "images": [
-   "assets/images/products/sapphire-earrings.svg"
+   "assets/images/products/sapphire-earrings.webp"
   ],
   "rating": 4.4,
   "reviewCount": 484,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1703,11 +1733,11 @@
   "dimensions": "Drop 22 mm",
   "dimensions2": "Post 11 mm",
   "images": [
-   "assets/images/products/rose-gold-drops.svg"
+   "assets/images/products/rose-gold-drops.webp"
   ],
   "rating": 4.8,
   "reviewCount": 195,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1724,8 +1754,8 @@
   "brandName": "Velmont",
   "category": "earrings",
   "collection": "diamond",
-  "shortDescription": "Articulated drops that move independently \u2014 the reason they read as expensive.",
-  "description": "Articulated drops that move independently \u2014 the reason they read as expensive. Made by Velmont in platinum, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
+  "shortDescription": "Articulated drops that move independently — the reason they read as expensive.",
+  "description": "Articulated drops that move independently — the reason they read as expensive. Made by Velmont in platinum, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
   "care": "Put on last, take off first. Store in the pouch supplied.",
   "price": 7400,
   "discountPrice": null,
@@ -1736,11 +1766,11 @@
   "dimensions": "Drop 22 mm",
   "dimensions2": "Post 11 mm",
   "images": [
-   "assets/images/products/luxury-diamond-drops.svg"
+   "assets/images/products/luxury-diamond-drops.webp"
   ],
   "rating": 4.6,
   "reviewCount": 156,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1769,11 +1799,12 @@
   "dimensions": "Drop 22 mm",
   "dimensions2": "Post 11 mm",
   "images": [
-   "assets/images/products/novaire-bar-studs.svg"
+   "assets/images/products/novaire-bar-studs.webp",
+   "assets/images/products/novaire-bar-studs-2.webp"
   ],
   "rating": 4.6,
   "reviewCount": 411,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1799,14 +1830,15 @@
   "material": "Genuine Leather",
   "color": "Brown",
   "weight": "1359 g",
-  "dimensions": "240 \u00d7 160 \u00d7 90 mm",
+  "dimensions": "240 × 160 × 90 mm",
   "dimensions2": "1.1 kg",
   "images": [
-   "assets/images/products/premium-watch-box.svg"
+   "assets/images/products/premium-watch-box.webp",
+   "assets/images/products/premium-watch-box-2.webp"
   ],
   "rating": 4.4,
   "reviewCount": 307,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -1823,8 +1855,8 @@
   "brandName": "Ardent",
   "category": "accessories",
   "collection": "traveler",
-  "shortDescription": "Three padded slots that roll into a tube \u2014 for the carry-on, not the dresser.",
-  "description": "Three padded slots that roll into a tube \u2014 for the carry-on, not the dresser. Made by Ardent in genuine leather, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
+  "shortDescription": "Three padded slots that roll into a tube — for the carry-on, not the dresser.",
+  "description": "Three padded slots that roll into a tube — for the carry-on, not the dresser. Made by Ardent in genuine leather, finished by hand and inspected twice before it leaves the workshop. Supplied in Luxora packaging with a stamped certificate and a two-year international warranty.",
   "care": "Condition leather twice a year. Keep out of direct sun.",
   "price": 220,
   "discountPrice": null,
@@ -1832,14 +1864,14 @@
   "material": "Genuine Leather",
   "color": "Brown",
   "weight": "564 g",
-  "dimensions": "240 \u00d7 160 \u00d7 90 mm",
+  "dimensions": "240 × 160 × 90 mm",
   "dimensions2": "1.1 kg",
   "images": [
-   "assets/images/products/leather-watch-roll.svg"
+   "assets/images/products/leather-watch-roll.webp"
   ],
   "rating": 4.3,
   "reviewCount": 435,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1865,14 +1897,14 @@
   "material": "Genuine Leather",
   "color": "Black",
   "weight": "1394 g",
-  "dimensions": "240 \u00d7 160 \u00d7 90 mm",
+  "dimensions": "240 × 160 × 90 mm",
   "dimensions2": "1.1 kg",
   "images": [
-   "assets/images/products/jewelry-organizer.svg"
+   "assets/images/products/jewelry-organizer.webp"
   ],
   "rating": 4.4,
   "reviewCount": 358,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1898,14 +1930,14 @@
   "material": "Genuine Leather",
   "color": "Navy",
   "weight": "453 g",
-  "dimensions": "240 \u00d7 160 \u00d7 90 mm",
+  "dimensions": "240 × 160 × 90 mm",
   "dimensions2": "1.1 kg",
   "images": [
-   "assets/images/products/luxury-travel-case.svg"
+   "assets/images/products/luxury-travel-case.webp"
   ],
   "rating": 4.6,
   "reviewCount": 358,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": true,
@@ -1931,14 +1963,14 @@
   "material": "Stainless Steel",
   "color": "Silver",
   "weight": "834 g",
-  "dimensions": "240 \u00d7 160 \u00d7 90 mm",
+  "dimensions": "240 × 160 × 90 mm",
   "dimensions2": "1.1 kg",
   "images": [
-   "assets/images/products/watch-cleaning-kit.svg"
+   "assets/images/products/watch-cleaning-kit.webp"
   ],
   "rating": 4.6,
   "reviewCount": 460,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1964,14 +1996,14 @@
   "material": "Genuine Leather",
   "color": "Black",
   "weight": "890 g",
-  "dimensions": "240 \u00d7 160 \u00d7 90 mm",
+  "dimensions": "240 × 160 × 90 mm",
   "dimensions2": "1.1 kg",
   "images": [
-   "assets/images/products/leather-wallet.svg"
+   "assets/images/products/leather-wallet.webp"
   ],
   "rating": 4.5,
   "reviewCount": 350,
-  "shippingTime": "3\u20135 business days",
+  "shippingTime": "3–5 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -1997,14 +2029,14 @@
   "material": "Genuine Leather",
   "color": "Navy",
   "weight": "909 g",
-  "dimensions": "240 \u00d7 160 \u00d7 90 mm",
+  "dimensions": "240 × 160 × 90 mm",
   "dimensions2": "1.1 kg",
   "images": [
-   "assets/images/products/passport-holder.svg"
+   "assets/images/products/passport-holder.webp"
   ],
   "rating": 4.5,
   "reviewCount": 28,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -2030,14 +2062,14 @@
   "material": "Genuine Leather",
   "color": "Brown",
   "weight": "940 g",
-  "dimensions": "240 \u00d7 160 \u00d7 90 mm",
+  "dimensions": "240 × 160 × 90 mm",
   "dimensions2": "1.1 kg",
   "images": [
-   "assets/images/products/key-holder.svg"
+   "assets/images/products/key-holder.webp"
   ],
   "rating": 4.3,
   "reviewCount": 214,
-  "shippingTime": "1\u20132 business days",
+  "shippingTime": "1–2 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -2063,14 +2095,14 @@
   "material": "Genuine Leather",
   "color": "Black",
   "weight": "1336 g",
-  "dimensions": "240 \u00d7 160 \u00d7 90 mm",
+  "dimensions": "240 × 160 × 90 mm",
   "dimensions2": "1.1 kg",
   "images": [
-   "assets/images/products/ardent-document-folio.svg"
+   "assets/images/products/ardent-document-folio.webp"
   ],
   "rating": 4.6,
   "reviewCount": 228,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,
@@ -2096,14 +2128,14 @@
   "material": "Genuine Leather",
   "color": "Black",
   "weight": "1383 g",
-  "dimensions": "240 \u00d7 160 \u00d7 90 mm",
+  "dimensions": "240 × 160 × 90 mm",
   "dimensions2": "1.1 kg",
   "images": [
-   "assets/images/products/ardent-watch-winder.svg"
+   "assets/images/products/ardent-watch-winder.webp"
   ],
   "rating": 4.6,
   "reviewCount": 64,
-  "shippingTime": "2\u20134 business days",
+  "shippingTime": "2–4 business days",
   "warranty": "2-year international warranty",
   "returnPolicy": "30-day returns, free of charge",
   "featured": false,

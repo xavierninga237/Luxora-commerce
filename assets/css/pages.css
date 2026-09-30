@@ -51,7 +51,12 @@
 .gallery__thumb { flex: 0 0 84px; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; cursor: pointer; background: var(--surface); }
 .gallery__thumb.is-on { border-color: var(--lux-gold); }
 .gallery__badge { position: absolute; top: var(--sp-4); left: var(--sp-4); z-index: 2; }
-.gallery__spin { position: absolute; bottom: var(--sp-4); right: var(--sp-4); z-index: 2; }
+.gallery__nav { position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; font-size: 1.6rem; line-height: 1; background: rgba(11,11,11,.55); backdrop-filter: blur(6px); opacity: .85; }
+.gallery__nav:hover { opacity: 1; }
+.gallery__nav--prev { left: var(--sp-3); }
+.gallery__nav--next { right: var(--sp-3); }
+.gallery__count { position: absolute; bottom: var(--sp-4); right: var(--sp-4); z-index: 2; font-size: var(--step--2); padding: .25rem .6rem; border-radius: 999px; background: rgba(11,11,11,.6); color: #fff; }
+.gallery__thumb img { width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block; }
 
 .pdp__brand { font-size: var(--step--2); letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--lux-gold); }
 .pdp__title { font-size: var(--step-3); margin: var(--sp-2) 0 var(--sp-3); }

@@ -181,6 +181,13 @@
   function tableController(cfg) {
     const host = LX.$(cfg.mount);
     if (!host) return;
+    if (cfg.actions) {
+      const headRow = LX.$(cfg.mount + " thead tr");
+      if (headRow && !headRow.querySelector(".th-actions")) headRow.insertAdjacentHTML("beforeend", "<th class='th-actions'>Actions</th>");
+      const render = cfg.render;
+      cfg.render = (r) => render(r).replace(/<\/tr>\s*$/, "<td class='td-actions'>" + rowActions(cfg.actions(r)) + "</td></tr>");
+      cfg.cols += 1;
+    }
     let rows = cfg.rows();
     let sortKey = cfg.defaultSort || null;
     let sortDir = -1;
@@ -241,6 +248,9 @@
       mount: "#admin-products-table", counter: "#admin-products-count",
       searchInput: "#admin-products-search", filterSelect: "#admin-products-filter",
       cols: 7, defaultSort: null,
+      actions: (p) => isPage("inventory")
+        ? [["Restock", "Restock " + p.name], ["Adjust", "Adjust stock for " + p.name]]
+        : [["Edit", "Edit " + p.name], ["Delete", "Delete " + p.name, "danger"]],
       rows: () => LX.data().products.slice(),
       search: (p) => p.name + " " + p.brandName + " " + p.sku + " " + p.category,
       filter: (p, f) => f === "low" ? p.stock > 0 && p.stock <= 5 : f === "out" ? p.stock === 0 : f === "sale" ? !!p.discountPrice : true,
@@ -268,6 +278,7 @@
       mount: "#admin-orders-table", counter: "#admin-orders-count",
       searchInput: "#admin-orders-search", filterSelect: "#admin-orders-filter",
       cols: 6, defaultSort: "date",
+      actions: (o) => [["Update", "Update the status of order " + o.id], ["Refund", "Refund order " + o.id, "danger"]],
       rows: () => LX.data().orders.slice(),
       search: (o) => o.id + " " + o.customer + " " + o.email + " " + o.status,
       filter: (o, f) => o.status.toLowerCase() === f,
@@ -287,6 +298,7 @@
       mount: "#admin-customers-table", counter: "#admin-customers-count",
       searchInput: "#admin-customers-search", filterSelect: "#admin-customers-filter",
       cols: 6, defaultSort: "spent",
+      actions: (c) => [["Email", "Email " + c.name], ["Delete", "Delete the customer " + c.name, "danger"]],
       rows: () => LX.data().customers.slice(),
       search: (c) => c.name + " " + c.email + " " + c.city + " " + c.tier,
       filter: (c, f) => c.tier === f,
@@ -309,6 +321,7 @@
       mount: "#admin-reviews-table", counter: "#admin-reviews-count",
       searchInput: "#admin-reviews-search", filterSelect: "#admin-reviews-filter",
       cols: 6, defaultSort: "date",
+      actions: (r) => [["Approve", "Approve a review of " + r.product], ["Delete", "Delete a review by " + r.author, "danger"]],
       rows: () => LX.data().reviews.slice(),
       search: (r) => r.product + " " + r.author + " " + r.title,
       filter: (r, f) => r.status.toLowerCase() === f,
@@ -335,7 +348,12 @@
       "<td>" + LX.dateShort(c.expires) + "</td>" +
       "<td>" + (c.status === "Active" ? "<span class='badge badge--success'>Active</span>" :
         c.status === "Paused" ? "<span class='badge badge--warn'>Paused</span>" :
-        "<span class='badge badge--muted'>Expired</span>") + "</td></tr>").join("");
+        "<span class='badge badge--muted'>Expired</span>") + "</td>" +
+      "<td class='td-actions'>" + rowActions([["Edit", "Edit coupon " + c.code],
+        [c.status === "Paused" ? "Resume" : "Pause", (c.status === "Paused" ? "Resume" : "Pause") + " coupon " + c.code],
+        ["Delete", "Delete coupon " + c.code, "danger"]]) + "</td></tr>").join("");
+    const headRow = host.closest("table") && host.closest("table").querySelector("thead tr");
+    if (headRow && !headRow.querySelector(".th-actions")) headRow.insertAdjacentHTML("beforeend", "<th class='th-actions'>Actions</th>");
   }
 
   function buildAiConversations() {
@@ -361,6 +379,80 @@
       "<td class='num'>" + (Math.random() * 2 + 0.4).toFixed(1) + "s</td></tr>").join("");
   }
 
+  /* ---------------------------------------------------------- demo mode */
+  /* The admin is public for portfolio visitors: everything can be browsed,
+     searched, sorted and filtered, but nothing can be changed. Any control
+     that would write data carries data-admin-action and lands here instead. */
+  function isPage(name) { return location.pathname.indexOf("/admin/" + name) > -1; }
+
+  function rowActions(list) {
+    return "<div class='row-actions'>" + list.map((a) =>
+      "<button type='button' class='row-btn" + (a[2] === "danger" ? " row-btn--danger" : "") +
+      "' data-admin-action='" + LX.esc(a[1]) + "'>" + LX.esc(a[0]) + "</button>").join("") + "</div>";
+  }
+
+  function demoNotice(action) {
+    let modal = LX.$("#demo-modal");
+    if (!modal) {
+      modal = LX.el("div", { class: "modal", id: "demo-modal", role: "alertdialog", "aria-modal": "true", "aria-labelledby": "demo-modal-title" });
+      modal.innerHTML =
+        '<div class="modal__panel demo-modal">' +
+          '<button class="icon-btn modal__close" data-action="close-overlays" aria-label="Close">' + LX.icon("close", 17) + "</button>" +
+          '<span class="demo-modal__seal" aria-hidden="true">' + LX.icon("lock", 22) + "</span>" +
+          '<span class="eyebrow">Demo mode</span>' +
+          '<h3 id="demo-modal-title">This admin is read-only</h3>' +
+          '<p class="demo-modal__action" id="demo-modal-action"></p>' +
+          "<p class='muted'>You are exploring a public portfolio demo of the Luxora back-office. " +
+          "Products, orders, customers, reviews, coupons and settings can’t be created, edited or deleted here — " +
+          "but search, sorting, filters and every chart are fully working.</p>" +
+          '<div class="demo-modal__row">' +
+            '<button class="btn btn--primary" data-action="close-overlays">Got it, keep exploring</button>' +
+            '<a class="btn btn--ghost" href="' + LX.url("index.html") + '">Visit the storefront</a>' +
+          "</div>" +
+        "</div>";
+      document.body.append(modal);
+    }
+    LX.$("#demo-modal-action").innerHTML = action
+      ? "“" + LX.esc(action) + "” is disabled in this demo."
+      : "Changes are disabled in this demo.";
+    const scrim = LX.$(".scrim") || (function () {
+      const s = LX.el("div", { class: "scrim", "data-action": "close-overlays" }); document.body.append(s); return s;
+    })();
+    modal.classList.add("is-open"); scrim.classList.add("is-open"); document.body.classList.add("is-locked");
+    setTimeout(() => { const b = modal.querySelector(".btn--primary"); if (b) b.focus(); }, 80);
+  }
+
+  function bindDemoMode() {
+    const main = LX.$(".admin__main");
+    if (!main) return;
+    document.documentElement.classList.add("is-demo");
+
+    const top = LX.$(".admin__top", main);
+    if (top && !LX.$(".demo-banner")) {
+      top.insertAdjacentHTML("afterend",
+        '<div class="demo-banner" role="status">' +
+          '<span class="demo-banner__dot"></span>' +
+          "<span><b>Demo mode</b> — public, read-only preview of the admin. Browse everything; changes are disabled.</span>" +
+        "</div>");
+    }
+
+    const user = LX.$(".admin__user");
+    if (user) user.innerHTML = '<div class="avatar" style="width:36px;height:36px">GV</div>' +
+      "<div><b>Guest visitor</b><span>Read-only access</span></div>";
+
+    /* Capture phase, so nothing further down the page ever sees the click. */
+    document.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-admin-action]");
+      if (!btn) return;
+      e.preventDefault(); e.stopImmediatePropagation();
+      demoNotice(btn.getAttribute("data-admin-action"));
+    }, true);
+    document.addEventListener("submit", (e) => {
+      if (!e.target.closest(".admin__main")) return;
+      e.preventDefault(); demoNotice("Saving this form");
+    }, true);
+  }
+
   /* ---------------------------------------------------- sidebar toggle */
   function bindShell() {
     const burger = LX.$("#admin-burger");
@@ -378,6 +470,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     bindShell();
+    bindDemoMode();
     buildOverview();
     buildProducts();
     buildOrders();
@@ -387,5 +480,5 @@
     buildAiConversations();
   });
 
-  LX.Admin = { lineChart, barChart, donut };
+  LX.Admin = { lineChart, barChart, donut, demoNotice };
 })(window.LX);

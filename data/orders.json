@@ -15,7 +15,7 @@
     "name": "Luxora GMT Traveler",
     "qty": 2,
     "unit": 4720,
-    "image": "assets/images/products/luxora-gmt-traveler.svg"
+    "image": "assets/images/products/luxora-gmt-traveler.webp"
    },
    {
     "sku": "WAT-KR-1012",
@@ -23,7 +23,7 @@
     "name": "Kronique Tourbillon Noir",
     "qty": 1,
     "unit": 9350,
-    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+    "image": "assets/images/products/kronique-tourbillon-noir.webp"
    },
    {
     "sku": "WAT-LU-1001",
@@ -31,14 +31,14 @@
     "name": "Luxora Chronograph Gold",
     "qty": 2,
     "unit": 7900,
-    "image": "assets/images/products/luxora-chronograph-gold.svg"
+    "image": "assets/images/products/luxora-chronograph-gold.webp"
    }
   ],
   "subtotal": 34590,
   "shipping": 0,
   "tax": 2767,
   "total": 37357,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW126292343"
  },
  {
@@ -57,7 +57,7 @@
     "name": "Passport Holder",
     "qty": 1,
     "unit": 160,
-    "image": "assets/images/products/passport-holder.svg"
+    "image": "assets/images/products/passport-holder.webp"
    },
    {
     "sku": "BRA-AU-1036",
@@ -65,7 +65,7 @@
     "name": "Cuban Link Bracelet",
     "qty": 1,
     "unit": 1645,
-    "image": "assets/images/products/cuban-link-bracelet.svg"
+    "image": "assets/images/products/cuban-link-bracelet.webp"
    },
    {
     "sku": "ACC-AR-1062",
@@ -73,14 +73,14 @@
     "name": "Ardent Document Folio",
     "qty": 1,
     "unit": 420,
-    "image": "assets/images/products/ardent-document-folio.svg"
+    "image": "assets/images/products/ardent-document-folio.webp"
    }
   ],
   "subtotal": 2225,
   "shipping": 0,
   "tax": 178,
   "total": 2403,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW144446407"
  },
  {
@@ -99,14 +99,14 @@
     "name": "Elvaro Field 40",
     "qty": 1,
     "unit": 450,
-    "image": "assets/images/products/elvaro-field-40.svg"
+    "image": "assets/images/products/elvaro-field-40.webp"
    }
   ],
   "subtotal": 450,
   "shipping": 35,
   "tax": 36,
   "total": 521,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW369743691"
  },
  {
@@ -125,7 +125,7 @@
     "name": "Novaire Facet Ring",
     "qty": 2,
     "unit": 640,
-    "image": "assets/images/products/novaire-facet-ring.svg"
+    "image": "assets/images/products/novaire-facet-ring.webp"
    },
    {
     "sku": "RIN-EL-1014",
@@ -133,14 +133,14 @@
     "name": "Black Titanium Ring",
     "qty": 2,
     "unit": 320,
-    "image": "assets/images/products/black-titanium-ring.svg"
+    "image": "assets/images/products/black-titanium-ring.webp"
    }
   ],
   "subtotal": 1920,
   "shipping": 0,
   "tax": 154,
   "total": 2074,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW321651842"
  },
  {
@@ -159,14 +159,14 @@
     "name": "Carbon Fiber Ring",
     "qty": 1,
     "unit": 280,
-    "image": "assets/images/products/carbon-fiber-ring.svg"
+    "image": "assets/images/products/carbon-fiber-ring.webp"
    }
   ],
   "subtotal": 280,
   "shipping": 35,
   "tax": 22,
   "total": 337,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW105672531"
  },
  {
@@ -185,7 +185,7 @@
     "name": "Luxora Heritage Automatic",
     "qty": 1,
     "unit": 6200,
-    "image": "assets/images/products/luxora-heritage-automatic.svg"
+    "image": "assets/images/products/luxora-heritage-automatic.webp"
    },
    {
     "sku": "BRA-AU-1036",
@@ -193,14 +193,14 @@
     "name": "Cuban Link Bracelet",
     "qty": 1,
     "unit": 1645,
-    "image": "assets/images/products/cuban-link-bracelet.svg"
+    "image": "assets/images/products/cuban-link-bracelet.webp"
    }
   ],
   "subtotal": 7845,
   "shipping": 0,
   "tax": 628,
   "total": 8473,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW280233956"
  },
  {
@@ -219,14 +219,14 @@
     "name": "Black Titanium Ring",
     "qty": 1,
     "unit": 320,
-    "image": "assets/images/products/black-titanium-ring.svg"
+    "image": "assets/images/products/black-titanium-ring.webp"
    }
   ],
   "subtotal": 320,
   "shipping": 35,
   "tax": 26,
   "total": 381,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW996879320"
  },
  {
@@ -245,7 +245,7 @@
     "name": "Leather Bracelet",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/leather-bracelet.svg"
+    "image": "assets/images/products/leather-bracelet.webp"
    },
    {
     "sku": "ACC-AR-1060",
@@ -253,7 +253,7 @@
     "name": "Passport Holder",
     "qty": 1,
     "unit": 160,
-    "image": "assets/images/products/passport-holder.svg"
+    "image": "assets/images/products/passport-holder.webp"
    },
    {
     "sku": "WAT-EL-1013",
@@ -261,7 +261,7 @@
     "name": "Elvaro Field 40",
     "qty": 2,
     "unit": 450,
-    "image": "assets/images/products/elvaro-field-40.svg"
+    "image": "assets/images/products/elvaro-field-40.webp"
    }
   ],
   "subtotal": 1240,
@@ -287,7 +287,7 @@
     "name": "Passport Holder",
     "qty": 1,
     "unit": 160,
-    "image": "assets/images/products/passport-holder.svg"
+    "image": "assets/images/products/passport-holder.webp"
    },
    {
     "sku": "NEC-CE-1031",
@@ -295,14 +295,14 @@
     "name": "Sapphire Pendant",
     "qty": 1,
     "unit": 4400,
-    "image": "assets/images/products/sapphire-pendant.svg"
+    "image": "assets/images/products/sapphire-pendant.webp"
    }
   ],
   "subtotal": 4560,
   "shipping": 0,
   "tax": 365,
   "total": 4925,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW562977732"
  },
  {
@@ -321,7 +321,7 @@
     "name": "Gold Signet Ring",
     "qty": 1,
     "unit": 1490,
-    "image": "assets/images/products/gold-signet-ring.svg"
+    "image": "assets/images/products/gold-signet-ring.webp"
    },
    {
     "sku": "BRA-EL-1044",
@@ -329,7 +329,7 @@
     "name": "Elvaro Carbon Cuff",
     "qty": 1,
     "unit": 405,
-    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+    "image": "assets/images/products/elvaro-carbon-cuff.webp"
    },
    {
     "sku": "ACC-AR-1054",
@@ -337,14 +337,14 @@
     "name": "Premium Watch Box",
     "qty": 2,
     "unit": 380,
-    "image": "assets/images/products/premium-watch-box.svg"
+    "image": "assets/images/products/premium-watch-box.webp"
    }
   ],
   "subtotal": 2655,
   "shipping": 0,
   "tax": 212,
   "total": 2867,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW587903579"
  },
  {
@@ -363,14 +363,14 @@
     "name": "Luxury Diamond Drops",
     "qty": 2,
     "unit": 7400,
-    "image": "assets/images/products/luxury-diamond-drops.svg"
+    "image": "assets/images/products/luxury-diamond-drops.webp"
    }
   ],
   "subtotal": 14800,
   "shipping": 0,
   "tax": 1184,
   "total": 15984,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW268763534"
  },
  {
@@ -389,7 +389,7 @@
     "name": "White Gold Hoops",
     "qty": 2,
     "unit": 1050,
-    "image": "assets/images/products/white-gold-hoops.svg"
+    "image": "assets/images/products/white-gold-hoops.webp"
    },
    {
     "sku": "ACC-AR-1059",
@@ -397,7 +397,7 @@
     "name": "Leather Wallet",
     "qty": 1,
     "unit": 240,
-    "image": "assets/images/products/leather-wallet.svg"
+    "image": "assets/images/products/leather-wallet.webp"
    }
   ],
   "subtotal": 2340,
@@ -423,7 +423,7 @@
     "name": "Luxury Layered Necklace",
     "qty": 1,
     "unit": 2950,
-    "image": "assets/images/products/luxury-layered-necklace.svg"
+    "image": "assets/images/products/luxury-layered-necklace.webp"
    }
   ],
   "subtotal": 2950,
@@ -449,7 +449,7 @@
     "name": "Carbon Fiber Ring",
     "qty": 1,
     "unit": 280,
-    "image": "assets/images/products/carbon-fiber-ring.svg"
+    "image": "assets/images/products/carbon-fiber-ring.webp"
    },
    {
     "sku": "RIN-AU-1024",
@@ -457,7 +457,7 @@
     "name": "Aurelius Roman Band",
     "qty": 1,
     "unit": 1240,
-    "image": "assets/images/products/aurelius-roman-band.svg"
+    "image": "assets/images/products/aurelius-roman-band.webp"
    },
    {
     "sku": "BRA-AU-1038",
@@ -465,14 +465,14 @@
     "name": "Gold Bangle",
     "qty": 1,
     "unit": 1450,
-    "image": "assets/images/products/gold-bangle.svg"
+    "image": "assets/images/products/gold-bangle.webp"
    }
   ],
   "subtotal": 2970,
   "shipping": 0,
   "tax": 238,
   "total": 3208,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW404413462"
  },
  {
@@ -491,7 +491,7 @@
     "name": "Aurelius Roman Band",
     "qty": 1,
     "unit": 1240,
-    "image": "assets/images/products/aurelius-roman-band.svg"
+    "image": "assets/images/products/aurelius-roman-band.webp"
    }
   ],
   "subtotal": 1240,
@@ -517,7 +517,7 @@
     "name": "Passport Holder",
     "qty": 1,
     "unit": 160,
-    "image": "assets/images/products/passport-holder.svg"
+    "image": "assets/images/products/passport-holder.webp"
    },
    {
     "sku": "BRA-EL-1044",
@@ -525,7 +525,7 @@
     "name": "Elvaro Carbon Cuff",
     "qty": 1,
     "unit": 405,
-    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+    "image": "assets/images/products/elvaro-carbon-cuff.webp"
    }
   ],
   "subtotal": 565,
@@ -551,7 +551,7 @@
     "name": "Gold Hoops",
     "qty": 1,
     "unit": 1150,
-    "image": "assets/images/products/gold-hoops.svg"
+    "image": "assets/images/products/gold-hoops.webp"
    },
    {
     "sku": "WAT-EL-1005",
@@ -559,7 +559,7 @@
     "name": "Luxora Elite Diver",
     "qty": 1,
     "unit": 3300,
-    "image": "assets/images/products/luxora-elite-diver.svg"
+    "image": "assets/images/products/luxora-elite-diver.webp"
    },
    {
     "sku": "BRA-EL-1044",
@@ -567,7 +567,7 @@
     "name": "Elvaro Carbon Cuff",
     "qty": 1,
     "unit": 405,
-    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+    "image": "assets/images/products/elvaro-carbon-cuff.webp"
    }
   ],
   "subtotal": 4855,
@@ -593,7 +593,7 @@
     "name": "Emerald Halo Ring",
     "qty": 1,
     "unit": 4300,
-    "image": "assets/images/products/emerald-halo-ring.svg"
+    "image": "assets/images/products/emerald-halo-ring.webp"
    },
    {
     "sku": "NEC-AU-1032",
@@ -601,7 +601,7 @@
     "name": "Cross Necklace",
     "qty": 1,
     "unit": 1450,
-    "image": "assets/images/products/cross-necklace.svg"
+    "image": "assets/images/products/cross-necklace.webp"
    }
   ],
   "subtotal": 5750,
@@ -627,7 +627,7 @@
     "name": "Kronique Tourbillon Noir",
     "qty": 1,
     "unit": 9350,
-    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+    "image": "assets/images/products/kronique-tourbillon-noir.webp"
    },
    {
     "sku": "EAR-CE-1050",
@@ -635,14 +635,14 @@
     "name": "Sapphire Earrings",
     "qty": 1,
     "unit": 3665,
-    "image": "assets/images/products/sapphire-earrings.svg"
+    "image": "assets/images/products/sapphire-earrings.webp"
    }
   ],
   "subtotal": 13015,
   "shipping": 0,
   "tax": 1041,
   "total": 14056,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW636382138"
  },
  {
@@ -661,7 +661,7 @@
     "name": "Elvaro Carbon Cuff",
     "qty": 1,
     "unit": 405,
-    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+    "image": "assets/images/products/elvaro-carbon-cuff.webp"
    },
    {
     "sku": "RIN-EL-1017",
@@ -669,7 +669,7 @@
     "name": "Carbon Fiber Ring",
     "qty": 2,
     "unit": 280,
-    "image": "assets/images/products/carbon-fiber-ring.svg"
+    "image": "assets/images/products/carbon-fiber-ring.webp"
    },
    {
     "sku": "ACC-AR-1056",
@@ -677,14 +677,14 @@
     "name": "Jewelry Organizer",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/jewelry-organizer.svg"
+    "image": "assets/images/products/jewelry-organizer.webp"
    }
   ],
   "subtotal": 1145,
   "shipping": 0,
   "tax": 92,
   "total": 1237,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW316229554"
  },
  {
@@ -703,14 +703,14 @@
     "name": "Charm Bracelet",
     "qty": 1,
     "unit": 660,
-    "image": "assets/images/products/charm-bracelet.svg"
+    "image": "assets/images/products/charm-bracelet.webp"
    }
   ],
   "subtotal": 660,
   "shipping": 0,
   "tax": 53,
   "total": 713,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW628066694"
  },
  {
@@ -729,7 +729,7 @@
     "name": "Luxora Titanium Sport",
     "qty": 2,
     "unit": 2450,
-    "image": "assets/images/products/luxora-titanium-sport.svg"
+    "image": "assets/images/products/luxora-titanium-sport.webp"
    },
    {
     "sku": "BRA-CE-1043",
@@ -737,7 +737,7 @@
     "name": "Pearl Bracelet",
     "qty": 1,
     "unit": 760,
-    "image": "assets/images/products/pearl-bracelet.svg"
+    "image": "assets/images/products/pearl-bracelet.webp"
    }
   ],
   "subtotal": 5660,
@@ -763,7 +763,7 @@
     "name": "Cross Necklace",
     "qty": 1,
     "unit": 1450,
-    "image": "assets/images/products/cross-necklace.svg"
+    "image": "assets/images/products/cross-necklace.webp"
    },
    {
     "sku": "EAR-VE-1045",
@@ -771,7 +771,7 @@
     "name": "Diamond Stud Earrings",
     "qty": 1,
     "unit": 2485,
-    "image": "assets/images/products/diamond-stud-earrings.svg"
+    "image": "assets/images/products/diamond-stud-earrings.webp"
    }
   ],
   "subtotal": 3935,
@@ -797,7 +797,7 @@
     "name": "Jewelry Organizer",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/jewelry-organizer.svg"
+    "image": "assets/images/products/jewelry-organizer.webp"
    },
    {
     "sku": "RIN-AU-1015",
@@ -805,7 +805,7 @@
     "name": "Gold Signet Ring",
     "qty": 1,
     "unit": 1490,
-    "image": "assets/images/products/gold-signet-ring.svg"
+    "image": "assets/images/products/gold-signet-ring.webp"
    },
    {
     "sku": "BRA-VE-1037",
@@ -813,14 +813,14 @@
     "name": "Diamond Tennis Bracelet",
     "qty": 1,
     "unit": 4900,
-    "image": "assets/images/products/diamond-tennis-bracelet.svg"
+    "image": "assets/images/products/diamond-tennis-bracelet.webp"
    }
   ],
   "subtotal": 6570,
   "shipping": 0,
   "tax": 526,
   "total": 7096,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW295620207"
  },
  {
@@ -839,14 +839,14 @@
     "name": "Diamond Accent Ring",
     "qty": 1,
     "unit": 1650,
-    "image": "assets/images/products/diamond-accent-ring.svg"
+    "image": "assets/images/products/diamond-accent-ring.webp"
    }
   ],
   "subtotal": 1650,
   "shipping": 0,
   "tax": 132,
   "total": 1782,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW896288108"
  },
  {
@@ -865,14 +865,14 @@
     "name": "Diamond Pendant",
     "qty": 1,
     "unit": 3900,
-    "image": "assets/images/products/diamond-pendant.svg"
+    "image": "assets/images/products/diamond-pendant.webp"
    }
   ],
   "subtotal": 3900,
   "shipping": 0,
   "tax": 312,
   "total": 4212,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW728077363"
  },
  {
@@ -891,7 +891,7 @@
     "name": "Solitaire Diamond Ring",
     "qty": 1,
     "unit": 5900,
-    "image": "assets/images/products/solitaire-diamond-ring.svg"
+    "image": "assets/images/products/solitaire-diamond-ring.webp"
    },
    {
     "sku": "RIN-NO-1016",
@@ -899,7 +899,7 @@
     "name": "Platinum Band",
     "qty": 2,
     "unit": 2400,
-    "image": "assets/images/products/platinum-band.svg"
+    "image": "assets/images/products/platinum-band.webp"
    },
    {
     "sku": "BRA-NO-1040",
@@ -907,14 +907,14 @@
     "name": "Silver Chain Bracelet",
     "qty": 1,
     "unit": 380,
-    "image": "assets/images/products/silver-chain-bracelet.svg"
+    "image": "assets/images/products/silver-chain-bracelet.webp"
    }
   ],
   "subtotal": 11080,
   "shipping": 0,
   "tax": 886,
   "total": 11966,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW832487075"
  },
  {
@@ -933,7 +933,7 @@
     "name": "Elvaro Carbon Cuff",
     "qty": 1,
     "unit": 405,
-    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+    "image": "assets/images/products/elvaro-carbon-cuff.webp"
    }
   ],
   "subtotal": 405,
@@ -959,7 +959,7 @@
     "name": "Luxora Heritage Automatic",
     "qty": 2,
     "unit": 6200,
-    "image": "assets/images/products/luxora-heritage-automatic.svg"
+    "image": "assets/images/products/luxora-heritage-automatic.webp"
    }
   ],
   "subtotal": 12400,
@@ -985,7 +985,7 @@
     "name": "Novaire Bar Studs",
     "qty": 2,
     "unit": 250,
-    "image": "assets/images/products/novaire-bar-studs.svg"
+    "image": "assets/images/products/novaire-bar-studs.webp"
    }
   ],
   "subtotal": 500,
@@ -1011,7 +1011,7 @@
     "name": "Elvaro Carbon Cuff",
     "qty": 1,
     "unit": 405,
-    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+    "image": "assets/images/products/elvaro-carbon-cuff.webp"
    },
    {
     "sku": "WAT-AU-1011",
@@ -1019,7 +1019,7 @@
     "name": "Aurelius Regent Automatic",
     "qty": 1,
     "unit": 6575,
-    "image": "assets/images/products/aurelius-regent-automatic.svg"
+    "image": "assets/images/products/aurelius-regent-automatic.webp"
    },
    {
     "sku": "WAT-KR-1003",
@@ -1027,7 +1027,7 @@
     "name": "Luxora Skeleton Edition",
     "qty": 2,
     "unit": 11800,
-    "image": "assets/images/products/luxora-skeleton-edition.svg"
+    "image": "assets/images/products/luxora-skeleton-edition.webp"
    }
   ],
   "subtotal": 30580,
@@ -1050,10 +1050,10 @@
    {
     "sku": "NEC-VE-1034",
     "slug": "velmont-rivi-re-necklace",
-    "name": "Velmont Rivi\u00e8re Necklace",
+    "name": "Velmont Rivière Necklace",
     "qty": 1,
     "unit": 7415,
-    "image": "assets/images/products/velmont-rivi-re-necklace.svg"
+    "image": "assets/images/products/velmont-rivi-re-necklace.webp"
    },
    {
     "sku": "WAT-KR-1004",
@@ -1061,7 +1061,7 @@
     "name": "Luxora Moonphase",
     "qty": 1,
     "unit": 9400,
-    "image": "assets/images/products/luxora-moonphase.svg"
+    "image": "assets/images/products/luxora-moonphase.webp"
    }
   ],
   "subtotal": 16815,
@@ -1087,7 +1087,7 @@
     "name": "Charm Bracelet",
     "qty": 1,
     "unit": 660,
-    "image": "assets/images/products/charm-bracelet.svg"
+    "image": "assets/images/products/charm-bracelet.webp"
    },
    {
     "sku": "ACC-AR-1056",
@@ -1095,14 +1095,14 @@
     "name": "Jewelry Organizer",
     "qty": 2,
     "unit": 180,
-    "image": "assets/images/products/jewelry-organizer.svg"
+    "image": "assets/images/products/jewelry-organizer.webp"
    }
   ],
   "subtotal": 1020,
   "shipping": 0,
   "tax": 82,
   "total": 1102,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW848634809"
  },
  {
@@ -1121,7 +1121,7 @@
     "name": "White Gold Chain",
     "qty": 2,
     "unit": 2100,
-    "image": "assets/images/products/white-gold-chain.svg"
+    "image": "assets/images/products/white-gold-chain.webp"
    },
    {
     "sku": "RIN-VE-1023",
@@ -1129,7 +1129,7 @@
     "name": "White Gold Eternity Ring",
     "qty": 2,
     "unit": 4600,
-    "image": "assets/images/products/white-gold-eternity-ring.svg"
+    "image": "assets/images/products/white-gold-eternity-ring.webp"
    },
    {
     "sku": "ACC-AR-1062",
@@ -1137,14 +1137,14 @@
     "name": "Ardent Document Folio",
     "qty": 1,
     "unit": 420,
-    "image": "assets/images/products/ardent-document-folio.svg"
+    "image": "assets/images/products/ardent-document-folio.webp"
    }
   ],
   "subtotal": 13820,
   "shipping": 0,
   "tax": 1106,
   "total": 14926,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW991043151"
  },
  {
@@ -1163,7 +1163,7 @@
     "name": "Ardent Document Folio",
     "qty": 2,
     "unit": 420,
-    "image": "assets/images/products/ardent-document-folio.svg"
+    "image": "assets/images/products/ardent-document-folio.webp"
    },
    {
     "sku": "RIN-NO-1016",
@@ -1171,14 +1171,14 @@
     "name": "Platinum Band",
     "qty": 2,
     "unit": 2400,
-    "image": "assets/images/products/platinum-band.svg"
+    "image": "assets/images/products/platinum-band.webp"
    }
   ],
   "subtotal": 5640,
   "shipping": 0,
   "tax": 451,
   "total": 6091,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW288388465"
  },
  {
@@ -1197,7 +1197,7 @@
     "name": "Premium Watch Box",
     "qty": 1,
     "unit": 380,
-    "image": "assets/images/products/premium-watch-box.svg"
+    "image": "assets/images/products/premium-watch-box.webp"
    },
    {
     "sku": "WAT-KR-1003",
@@ -1205,14 +1205,14 @@
     "name": "Luxora Skeleton Edition",
     "qty": 2,
     "unit": 11800,
-    "image": "assets/images/products/luxora-skeleton-edition.svg"
+    "image": "assets/images/products/luxora-skeleton-edition.webp"
    }
   ],
   "subtotal": 23980,
   "shipping": 0,
   "tax": 1918,
   "total": 25898,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW982168426"
  },
  {
@@ -1231,7 +1231,7 @@
     "name": "Rose Gold Drops",
     "qty": 2,
     "unit": 1350,
-    "image": "assets/images/products/rose-gold-drops.svg"
+    "image": "assets/images/products/rose-gold-drops.webp"
    },
    {
     "sku": "WAT-LU-1001",
@@ -1239,7 +1239,7 @@
     "name": "Luxora Chronograph Gold",
     "qty": 1,
     "unit": 7900,
-    "image": "assets/images/products/luxora-chronograph-gold.svg"
+    "image": "assets/images/products/luxora-chronograph-gold.webp"
    },
    {
     "sku": "RIN-AU-1015",
@@ -1247,7 +1247,7 @@
     "name": "Gold Signet Ring",
     "qty": 1,
     "unit": 1490,
-    "image": "assets/images/products/gold-signet-ring.svg"
+    "image": "assets/images/products/gold-signet-ring.webp"
    }
   ],
   "subtotal": 12090,
@@ -1273,7 +1273,7 @@
     "name": "White Gold Chain",
     "qty": 2,
     "unit": 2100,
-    "image": "assets/images/products/white-gold-chain.svg"
+    "image": "assets/images/products/white-gold-chain.webp"
    }
   ],
   "subtotal": 4200,
@@ -1299,7 +1299,7 @@
     "name": "Luxora Classic Leather",
     "qty": 2,
     "unit": 1850,
-    "image": "assets/images/products/luxora-classic-leather.svg"
+    "image": "assets/images/products/luxora-classic-leather.webp"
    },
    {
     "sku": "RIN-VE-1018",
@@ -1307,7 +1307,7 @@
     "name": "Diamond Accent Ring",
     "qty": 1,
     "unit": 1650,
-    "image": "assets/images/products/diamond-accent-ring.svg"
+    "image": "assets/images/products/diamond-accent-ring.webp"
    },
    {
     "sku": "ACC-AR-1055",
@@ -1315,7 +1315,7 @@
     "name": "Leather Watch Roll",
     "qty": 2,
     "unit": 220,
-    "image": "assets/images/products/leather-watch-roll.svg"
+    "image": "assets/images/products/leather-watch-roll.webp"
    }
   ],
   "subtotal": 5790,
@@ -1341,7 +1341,7 @@
     "name": "Luxora Chronograph Gold",
     "qty": 1,
     "unit": 7900,
-    "image": "assets/images/products/luxora-chronograph-gold.svg"
+    "image": "assets/images/products/luxora-chronograph-gold.webp"
    },
    {
     "sku": "EAR-AU-1047",
@@ -1349,22 +1349,22 @@
     "name": "Gold Hoops",
     "qty": 1,
     "unit": 1150,
-    "image": "assets/images/products/gold-hoops.svg"
+    "image": "assets/images/products/gold-hoops.webp"
    },
    {
     "sku": "NEC-VE-1034",
     "slug": "velmont-rivi-re-necklace",
-    "name": "Velmont Rivi\u00e8re Necklace",
+    "name": "Velmont Rivière Necklace",
     "qty": 2,
     "unit": 7415,
-    "image": "assets/images/products/velmont-rivi-re-necklace.svg"
+    "image": "assets/images/products/velmont-rivi-re-necklace.webp"
    }
   ],
   "subtotal": 23880,
   "shipping": 0,
   "tax": 1910,
   "total": 25790,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW830297069"
  },
  {
@@ -1383,7 +1383,7 @@
     "name": "Luxora Chronograph Black",
     "qty": 1,
     "unit": 4850,
-    "image": "assets/images/products/luxora-chronograph-black.svg"
+    "image": "assets/images/products/luxora-chronograph-black.webp"
    }
   ],
   "subtotal": 4850,
@@ -1409,14 +1409,14 @@
     "name": "Kronique Tourbillon Noir",
     "qty": 2,
     "unit": 9350,
-    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+    "image": "assets/images/products/kronique-tourbillon-noir.webp"
    }
   ],
   "subtotal": 18700,
   "shipping": 0,
   "tax": 1496,
   "total": 20196,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW834493057"
  },
  {
@@ -1435,7 +1435,7 @@
     "name": "Diamond Accent Ring",
     "qty": 1,
     "unit": 1650,
-    "image": "assets/images/products/diamond-accent-ring.svg"
+    "image": "assets/images/products/diamond-accent-ring.webp"
    }
   ],
   "subtotal": 1650,
@@ -1461,7 +1461,7 @@
     "name": "Key Holder",
     "qty": 2,
     "unit": 80,
-    "image": "assets/images/products/key-holder.svg"
+    "image": "assets/images/products/key-holder.webp"
    },
    {
     "sku": "NEC-VE-1026",
@@ -1469,7 +1469,7 @@
     "name": "Diamond Pendant",
     "qty": 2,
     "unit": 3900,
-    "image": "assets/images/products/diamond-pendant.svg"
+    "image": "assets/images/products/diamond-pendant.webp"
    },
    {
     "sku": "RIN-EL-1017",
@@ -1477,14 +1477,14 @@
     "name": "Carbon Fiber Ring",
     "qty": 1,
     "unit": 280,
-    "image": "assets/images/products/carbon-fiber-ring.svg"
+    "image": "assets/images/products/carbon-fiber-ring.webp"
    }
   ],
   "subtotal": 8240,
   "shipping": 0,
   "tax": 659,
   "total": 8899,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW851623145"
  },
  {
@@ -1500,10 +1500,10 @@
    {
     "sku": "NEC-VE-1034",
     "slug": "velmont-rivi-re-necklace",
-    "name": "Velmont Rivi\u00e8re Necklace",
+    "name": "Velmont Rivière Necklace",
     "qty": 2,
     "unit": 7415,
-    "image": "assets/images/products/velmont-rivi-re-necklace.svg"
+    "image": "assets/images/products/velmont-rivi-re-necklace.webp"
    },
    {
     "sku": "BRA-NO-1040",
@@ -1511,7 +1511,7 @@
     "name": "Silver Chain Bracelet",
     "qty": 2,
     "unit": 380,
-    "image": "assets/images/products/silver-chain-bracelet.svg"
+    "image": "assets/images/products/silver-chain-bracelet.webp"
    },
    {
     "sku": "BRA-AR-1039",
@@ -1519,7 +1519,7 @@
     "name": "Leather Bracelet",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/leather-bracelet.svg"
+    "image": "assets/images/products/leather-bracelet.webp"
    }
   ],
   "subtotal": 15770,
@@ -1545,7 +1545,7 @@
     "name": "Platinum Band",
     "qty": 1,
     "unit": 2400,
-    "image": "assets/images/products/platinum-band.svg"
+    "image": "assets/images/products/platinum-band.webp"
    },
    {
     "sku": "WAT-KR-1012",
@@ -1553,7 +1553,7 @@
     "name": "Kronique Tourbillon Noir",
     "qty": 2,
     "unit": 9350,
-    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+    "image": "assets/images/products/kronique-tourbillon-noir.webp"
    }
   ],
   "subtotal": 21100,
@@ -1579,7 +1579,7 @@
     "name": "Jewelry Organizer",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/jewelry-organizer.svg"
+    "image": "assets/images/products/jewelry-organizer.webp"
    },
    {
     "sku": "RIN-NO-1025",
@@ -1587,7 +1587,7 @@
     "name": "Novaire Facet Ring",
     "qty": 1,
     "unit": 640,
-    "image": "assets/images/products/novaire-facet-ring.svg"
+    "image": "assets/images/products/novaire-facet-ring.webp"
    }
   ],
   "subtotal": 820,
@@ -1613,14 +1613,14 @@
     "name": "Diamond Pendant",
     "qty": 1,
     "unit": 3900,
-    "image": "assets/images/products/diamond-pendant.svg"
+    "image": "assets/images/products/diamond-pendant.webp"
    }
   ],
   "subtotal": 3900,
   "shipping": 0,
   "tax": 312,
   "total": 4212,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW437080262"
  },
  {
@@ -1639,7 +1639,7 @@
     "name": "White Gold Eternity Ring",
     "qty": 1,
     "unit": 4600,
-    "image": "assets/images/products/white-gold-eternity-ring.svg"
+    "image": "assets/images/products/white-gold-eternity-ring.webp"
    },
    {
     "sku": "ACC-AR-1059",
@@ -1647,14 +1647,14 @@
     "name": "Leather Wallet",
     "qty": 1,
     "unit": 240,
-    "image": "assets/images/products/leather-wallet.svg"
+    "image": "assets/images/products/leather-wallet.webp"
    }
   ],
   "subtotal": 4840,
   "shipping": 0,
   "tax": 387,
   "total": 5227,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW821412608"
  },
  {
@@ -1673,7 +1673,7 @@
     "name": "White Gold Chain",
     "qty": 1,
     "unit": 2100,
-    "image": "assets/images/products/white-gold-chain.svg"
+    "image": "assets/images/products/white-gold-chain.webp"
    },
    {
     "sku": "BRA-CE-1043",
@@ -1681,7 +1681,7 @@
     "name": "Pearl Bracelet",
     "qty": 1,
     "unit": 760,
-    "image": "assets/images/products/pearl-bracelet.svg"
+    "image": "assets/images/products/pearl-bracelet.webp"
    },
    {
     "sku": "ACC-AR-1058",
@@ -1689,7 +1689,7 @@
     "name": "Watch Cleaning Kit",
     "qty": 1,
     "unit": 70,
-    "image": "assets/images/products/watch-cleaning-kit.svg"
+    "image": "assets/images/products/watch-cleaning-kit.webp"
    }
   ],
   "subtotal": 2930,
@@ -1712,10 +1712,10 @@
    {
     "sku": "NEC-VE-1034",
     "slug": "velmont-rivi-re-necklace",
-    "name": "Velmont Rivi\u00e8re Necklace",
+    "name": "Velmont Rivière Necklace",
     "qty": 1,
     "unit": 7415,
-    "image": "assets/images/products/velmont-rivi-re-necklace.svg"
+    "image": "assets/images/products/velmont-rivi-re-necklace.webp"
    }
   ],
   "subtotal": 7415,
@@ -1741,7 +1741,7 @@
     "name": "Cross Necklace",
     "qty": 1,
     "unit": 1450,
-    "image": "assets/images/products/cross-necklace.svg"
+    "image": "assets/images/products/cross-necklace.webp"
    }
   ],
   "subtotal": 1450,
@@ -1767,7 +1767,7 @@
     "name": "Diamond Stud Earrings",
     "qty": 2,
     "unit": 2485,
-    "image": "assets/images/products/diamond-stud-earrings.svg"
+    "image": "assets/images/products/diamond-stud-earrings.webp"
    },
    {
     "sku": "ACC-AR-1057",
@@ -1775,14 +1775,14 @@
     "name": "Luxury Travel Case",
     "qty": 1,
     "unit": 650,
-    "image": "assets/images/products/luxury-travel-case.svg"
+    "image": "assets/images/products/luxury-travel-case.webp"
    }
   ],
   "subtotal": 5620,
   "shipping": 0,
   "tax": 450,
   "total": 6070,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW415023324"
  },
  {
@@ -1801,22 +1801,22 @@
     "name": "Platinum Band",
     "qty": 1,
     "unit": 2400,
-    "image": "assets/images/products/platinum-band.svg"
+    "image": "assets/images/products/platinum-band.webp"
    },
    {
     "sku": "NEC-VE-1034",
     "slug": "velmont-rivi-re-necklace",
-    "name": "Velmont Rivi\u00e8re Necklace",
+    "name": "Velmont Rivière Necklace",
     "qty": 1,
     "unit": 7415,
-    "image": "assets/images/products/velmont-rivi-re-necklace.svg"
+    "image": "assets/images/products/velmont-rivi-re-necklace.webp"
    }
   ],
   "subtotal": 9815,
   "shipping": 0,
   "tax": 785,
   "total": 10600,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW263978542"
  },
  {
@@ -1835,7 +1835,7 @@
     "name": "Novaire Slimline 36",
     "qty": 2,
     "unit": 1450,
-    "image": "assets/images/products/novaire-slimline-36.svg"
+    "image": "assets/images/products/novaire-slimline-36.webp"
    },
    {
     "sku": "RIN-NO-1025",
@@ -1843,7 +1843,7 @@
     "name": "Novaire Facet Ring",
     "qty": 1,
     "unit": 640,
-    "image": "assets/images/products/novaire-facet-ring.svg"
+    "image": "assets/images/products/novaire-facet-ring.webp"
    },
    {
     "sku": "RIN-VE-1023",
@@ -1851,7 +1851,7 @@
     "name": "White Gold Eternity Ring",
     "qty": 1,
     "unit": 4600,
-    "image": "assets/images/products/white-gold-eternity-ring.svg"
+    "image": "assets/images/products/white-gold-eternity-ring.webp"
    }
   ],
   "subtotal": 8140,
@@ -1877,7 +1877,7 @@
     "name": "Carbon Fiber Ring",
     "qty": 1,
     "unit": 280,
-    "image": "assets/images/products/carbon-fiber-ring.svg"
+    "image": "assets/images/products/carbon-fiber-ring.webp"
    }
   ],
   "subtotal": 280,
@@ -1903,14 +1903,14 @@
     "name": "Black Titanium Bracelet",
     "qty": 1,
     "unit": 345,
-    "image": "assets/images/products/black-titanium-bracelet.svg"
+    "image": "assets/images/products/black-titanium-bracelet.webp"
    }
   ],
   "subtotal": 345,
   "shipping": 35,
   "tax": 28,
   "total": 408,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW281567923"
  },
  {
@@ -1929,14 +1929,14 @@
     "name": "Black Titanium Bracelet",
     "qty": 1,
     "unit": 345,
-    "image": "assets/images/products/black-titanium-bracelet.svg"
+    "image": "assets/images/products/black-titanium-bracelet.webp"
    }
   ],
   "subtotal": 345,
   "shipping": 35,
   "tax": 28,
   "total": 408,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW338769970"
  },
  {
@@ -1955,7 +1955,7 @@
     "name": "Ardent Watch Winder",
     "qty": 2,
     "unit": 560,
-    "image": "assets/images/products/ardent-watch-winder.svg"
+    "image": "assets/images/products/ardent-watch-winder.webp"
    }
   ],
   "subtotal": 1120,
@@ -1981,7 +1981,7 @@
     "name": "Cross Necklace",
     "qty": 1,
     "unit": 1450,
-    "image": "assets/images/products/cross-necklace.svg"
+    "image": "assets/images/products/cross-necklace.webp"
    },
    {
     "sku": "ACC-AR-1062",
@@ -1989,7 +1989,7 @@
     "name": "Ardent Document Folio",
     "qty": 1,
     "unit": 420,
-    "image": "assets/images/products/ardent-document-folio.svg"
+    "image": "assets/images/products/ardent-document-folio.webp"
    },
    {
     "sku": "RIN-CE-1022",
@@ -1997,14 +1997,14 @@
     "name": "Sapphire Ring",
     "qty": 1,
     "unit": 3200,
-    "image": "assets/images/products/sapphire-ring.svg"
+    "image": "assets/images/products/sapphire-ring.webp"
    }
   ],
   "subtotal": 5070,
   "shipping": 0,
   "tax": 406,
   "total": 5476,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW488265194"
  },
  {
@@ -2023,7 +2023,7 @@
     "name": "Pearl Necklace",
     "qty": 1,
     "unit": 1585,
-    "image": "assets/images/products/pearl-necklace.svg"
+    "image": "assets/images/products/pearl-necklace.webp"
    },
    {
     "sku": "RIN-VE-1019",
@@ -2031,7 +2031,7 @@
     "name": "Solitaire Diamond Ring",
     "qty": 1,
     "unit": 5900,
-    "image": "assets/images/products/solitaire-diamond-ring.svg"
+    "image": "assets/images/products/solitaire-diamond-ring.webp"
    },
    {
     "sku": "BRA-CE-1042",
@@ -2039,14 +2039,14 @@
     "name": "Charm Bracelet",
     "qty": 1,
     "unit": 660,
-    "image": "assets/images/products/charm-bracelet.svg"
+    "image": "assets/images/products/charm-bracelet.webp"
    }
   ],
   "subtotal": 8145,
   "shipping": 0,
   "tax": 652,
   "total": 8797,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW287306861"
  },
  {
@@ -2065,7 +2065,7 @@
     "name": "Emerald Pendant",
     "qty": 1,
     "unit": 4105,
-    "image": "assets/images/products/emerald-pendant.svg"
+    "image": "assets/images/products/emerald-pendant.webp"
    },
    {
     "sku": "BRA-CE-1043",
@@ -2073,14 +2073,14 @@
     "name": "Pearl Bracelet",
     "qty": 1,
     "unit": 760,
-    "image": "assets/images/products/pearl-bracelet.svg"
+    "image": "assets/images/products/pearl-bracelet.webp"
    }
   ],
   "subtotal": 4865,
   "shipping": 0,
   "tax": 389,
   "total": 5254,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW941261070"
  },
  {
@@ -2099,14 +2099,14 @@
     "name": "White Gold Eternity Ring",
     "qty": 2,
     "unit": 4600,
-    "image": "assets/images/products/white-gold-eternity-ring.svg"
+    "image": "assets/images/products/white-gold-eternity-ring.webp"
    }
   ],
   "subtotal": 9200,
   "shipping": 0,
   "tax": 736,
   "total": 9936,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW809344603"
  },
  {
@@ -2125,7 +2125,7 @@
     "name": "Diamond Accent Ring",
     "qty": 1,
     "unit": 1650,
-    "image": "assets/images/products/diamond-accent-ring.svg"
+    "image": "assets/images/products/diamond-accent-ring.webp"
    }
   ],
   "subtotal": 1650,
@@ -2151,7 +2151,7 @@
     "name": "Cross Necklace",
     "qty": 1,
     "unit": 1450,
-    "image": "assets/images/products/cross-necklace.svg"
+    "image": "assets/images/products/cross-necklace.webp"
    }
   ],
   "subtotal": 1450,
@@ -2177,7 +2177,7 @@
     "name": "Sapphire Earrings",
     "qty": 2,
     "unit": 3665,
-    "image": "assets/images/products/sapphire-earrings.svg"
+    "image": "assets/images/products/sapphire-earrings.webp"
    },
    {
     "sku": "ACC-AR-1055",
@@ -2185,7 +2185,7 @@
     "name": "Leather Watch Roll",
     "qty": 1,
     "unit": 220,
-    "image": "assets/images/products/leather-watch-roll.svg"
+    "image": "assets/images/products/leather-watch-roll.webp"
    }
   ],
   "subtotal": 7550,
@@ -2211,7 +2211,7 @@
     "name": "Solitaire Diamond Ring",
     "qty": 1,
     "unit": 5900,
-    "image": "assets/images/products/solitaire-diamond-ring.svg"
+    "image": "assets/images/products/solitaire-diamond-ring.webp"
    }
   ],
   "subtotal": 5900,
@@ -2237,7 +2237,7 @@
     "name": "Luxora Moonphase",
     "qty": 1,
     "unit": 9400,
-    "image": "assets/images/products/luxora-moonphase.svg"
+    "image": "assets/images/products/luxora-moonphase.webp"
    }
   ],
   "subtotal": 9400,
@@ -2263,7 +2263,7 @@
     "name": "Rose Gold Infinity Ring",
     "qty": 1,
     "unit": 980,
-    "image": "assets/images/products/rose-gold-infinity-ring.svg"
+    "image": "assets/images/products/rose-gold-infinity-ring.webp"
    },
    {
     "sku": "NEC-CE-1031",
@@ -2271,14 +2271,14 @@
     "name": "Sapphire Pendant",
     "qty": 1,
     "unit": 4400,
-    "image": "assets/images/products/sapphire-pendant.svg"
+    "image": "assets/images/products/sapphire-pendant.webp"
    }
   ],
   "subtotal": 5380,
   "shipping": 0,
   "tax": 430,
   "total": 5810,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW727965204"
  },
  {
@@ -2297,7 +2297,7 @@
     "name": "Carbon Fiber Ring",
     "qty": 2,
     "unit": 280,
-    "image": "assets/images/products/carbon-fiber-ring.svg"
+    "image": "assets/images/products/carbon-fiber-ring.webp"
    },
    {
     "sku": "RIN-VE-1023",
@@ -2305,7 +2305,7 @@
     "name": "White Gold Eternity Ring",
     "qty": 2,
     "unit": 4600,
-    "image": "assets/images/products/white-gold-eternity-ring.svg"
+    "image": "assets/images/products/white-gold-eternity-ring.webp"
    },
    {
     "sku": "EAR-CE-1046",
@@ -2313,7 +2313,7 @@
     "name": "Pearl Earrings",
     "qty": 1,
     "unit": 680,
-    "image": "assets/images/products/pearl-earrings.svg"
+    "image": "assets/images/products/pearl-earrings.webp"
    }
   ],
   "subtotal": 10440,
@@ -2339,7 +2339,7 @@
     "name": "Cuban Link Bracelet",
     "qty": 1,
     "unit": 1645,
-    "image": "assets/images/products/cuban-link-bracelet.svg"
+    "image": "assets/images/products/cuban-link-bracelet.webp"
    },
    {
     "sku": "ACC-AR-1063",
@@ -2347,7 +2347,7 @@
     "name": "Ardent Watch Winder",
     "qty": 1,
     "unit": 560,
-    "image": "assets/images/products/ardent-watch-winder.svg"
+    "image": "assets/images/products/ardent-watch-winder.webp"
    }
   ],
   "subtotal": 2205,
@@ -2373,7 +2373,7 @@
     "name": "Luxora Elite Diver",
     "qty": 1,
     "unit": 3300,
-    "image": "assets/images/products/luxora-elite-diver.svg"
+    "image": "assets/images/products/luxora-elite-diver.webp"
    },
    {
     "sku": "EAR-VE-1045",
@@ -2381,7 +2381,7 @@
     "name": "Diamond Stud Earrings",
     "qty": 1,
     "unit": 2485,
-    "image": "assets/images/products/diamond-stud-earrings.svg"
+    "image": "assets/images/products/diamond-stud-earrings.webp"
    }
   ],
   "subtotal": 5785,
@@ -2407,7 +2407,7 @@
     "name": "Jewelry Organizer",
     "qty": 2,
     "unit": 180,
-    "image": "assets/images/products/jewelry-organizer.svg"
+    "image": "assets/images/products/jewelry-organizer.webp"
    },
    {
     "sku": "RIN-EL-1017",
@@ -2415,7 +2415,7 @@
     "name": "Carbon Fiber Ring",
     "qty": 1,
     "unit": 280,
-    "image": "assets/images/products/carbon-fiber-ring.svg"
+    "image": "assets/images/products/carbon-fiber-ring.webp"
    }
   ],
   "subtotal": 640,
@@ -2441,7 +2441,7 @@
     "name": "Novaire Bar Studs",
     "qty": 1,
     "unit": 250,
-    "image": "assets/images/products/novaire-bar-studs.svg"
+    "image": "assets/images/products/novaire-bar-studs.webp"
    },
    {
     "sku": "RIN-AU-1024",
@@ -2449,14 +2449,14 @@
     "name": "Aurelius Roman Band",
     "qty": 1,
     "unit": 1240,
-    "image": "assets/images/products/aurelius-roman-band.svg"
+    "image": "assets/images/products/aurelius-roman-band.webp"
    }
   ],
   "subtotal": 1490,
   "shipping": 0,
   "tax": 119,
   "total": 1609,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW383440601"
  },
  {
@@ -2475,7 +2475,7 @@
     "name": "Luxury Diamond Drops",
     "qty": 1,
     "unit": 7400,
-    "image": "assets/images/products/luxury-diamond-drops.svg"
+    "image": "assets/images/products/luxury-diamond-drops.webp"
    }
   ],
   "subtotal": 7400,
@@ -2501,14 +2501,14 @@
     "name": "Luxora Elite Diver",
     "qty": 1,
     "unit": 3300,
-    "image": "assets/images/products/luxora-elite-diver.svg"
+    "image": "assets/images/products/luxora-elite-diver.webp"
    }
   ],
   "subtotal": 3300,
   "shipping": 0,
   "tax": 264,
   "total": 3564,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW187489014"
  },
  {
@@ -2527,7 +2527,7 @@
     "name": "Luxora Chronograph Black",
     "qty": 1,
     "unit": 4850,
-    "image": "assets/images/products/luxora-chronograph-black.svg"
+    "image": "assets/images/products/luxora-chronograph-black.webp"
    },
    {
     "sku": "BRA-AR-1039",
@@ -2535,7 +2535,7 @@
     "name": "Leather Bracelet",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/leather-bracelet.svg"
+    "image": "assets/images/products/leather-bracelet.webp"
    },
    {
     "sku": "ACC-AR-1062",
@@ -2543,7 +2543,7 @@
     "name": "Ardent Document Folio",
     "qty": 1,
     "unit": 420,
-    "image": "assets/images/products/ardent-document-folio.svg"
+    "image": "assets/images/products/ardent-document-folio.webp"
    }
   ],
   "subtotal": 5450,
@@ -2569,7 +2569,7 @@
     "name": "Gold Hoops",
     "qty": 1,
     "unit": 1150,
-    "image": "assets/images/products/gold-hoops.svg"
+    "image": "assets/images/products/gold-hoops.webp"
    },
    {
     "sku": "RIN-VE-1023",
@@ -2577,14 +2577,14 @@
     "name": "White Gold Eternity Ring",
     "qty": 1,
     "unit": 4600,
-    "image": "assets/images/products/white-gold-eternity-ring.svg"
+    "image": "assets/images/products/white-gold-eternity-ring.webp"
    }
   ],
   "subtotal": 5750,
   "shipping": 0,
   "tax": 460,
   "total": 6210,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW823433738"
  },
  {
@@ -2603,7 +2603,7 @@
     "name": "Sapphire Earrings",
     "qty": 1,
     "unit": 3665,
-    "image": "assets/images/products/sapphire-earrings.svg"
+    "image": "assets/images/products/sapphire-earrings.webp"
    },
    {
     "sku": "ACC-AR-1061",
@@ -2611,14 +2611,14 @@
     "name": "Key Holder",
     "qty": 1,
     "unit": 80,
-    "image": "assets/images/products/key-holder.svg"
+    "image": "assets/images/products/key-holder.webp"
    }
   ],
   "subtotal": 3745,
   "shipping": 0,
   "tax": 300,
   "total": 4045,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW318849855"
  },
  {
@@ -2637,14 +2637,14 @@
     "name": "White Gold Hoops",
     "qty": 2,
     "unit": 1050,
-    "image": "assets/images/products/white-gold-hoops.svg"
+    "image": "assets/images/products/white-gold-hoops.webp"
    }
   ],
   "subtotal": 2100,
   "shipping": 0,
   "tax": 168,
   "total": 2268,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW980764794"
  },
  {
@@ -2663,7 +2663,7 @@
     "name": "Luxora Classic Leather",
     "qty": 1,
     "unit": 1850,
-    "image": "assets/images/products/luxora-classic-leather.svg"
+    "image": "assets/images/products/luxora-classic-leather.webp"
    },
    {
     "sku": "BRA-AR-1039",
@@ -2671,7 +2671,7 @@
     "name": "Leather Bracelet",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/leather-bracelet.svg"
+    "image": "assets/images/products/leather-bracelet.webp"
    }
   ],
   "subtotal": 2030,
@@ -2697,14 +2697,14 @@
     "name": "Black Titanium Ring",
     "qty": 1,
     "unit": 320,
-    "image": "assets/images/products/black-titanium-ring.svg"
+    "image": "assets/images/products/black-titanium-ring.webp"
    }
   ],
   "subtotal": 320,
   "shipping": 35,
   "tax": 26,
   "total": 381,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW801935146"
  },
  {
@@ -2723,7 +2723,7 @@
     "name": "Ardent Watch Winder",
     "qty": 1,
     "unit": 560,
-    "image": "assets/images/products/ardent-watch-winder.svg"
+    "image": "assets/images/products/ardent-watch-winder.webp"
    }
   ],
   "subtotal": 560,
@@ -2749,7 +2749,7 @@
     "name": "Key Holder",
     "qty": 2,
     "unit": 80,
-    "image": "assets/images/products/key-holder.svg"
+    "image": "assets/images/products/key-holder.webp"
    },
    {
     "sku": "RIN-CE-1020",
@@ -2757,7 +2757,7 @@
     "name": "Emerald Halo Ring",
     "qty": 1,
     "unit": 4300,
-    "image": "assets/images/products/emerald-halo-ring.svg"
+    "image": "assets/images/products/emerald-halo-ring.webp"
    },
    {
     "sku": "WAT-EL-1005",
@@ -2765,7 +2765,7 @@
     "name": "Luxora Elite Diver",
     "qty": 2,
     "unit": 3300,
-    "image": "assets/images/products/luxora-elite-diver.svg"
+    "image": "assets/images/products/luxora-elite-diver.webp"
    }
   ],
   "subtotal": 11060,
@@ -2791,14 +2791,14 @@
     "name": "Elvaro Carbon Cuff",
     "qty": 1,
     "unit": 405,
-    "image": "assets/images/products/elvaro-carbon-cuff.svg"
+    "image": "assets/images/products/elvaro-carbon-cuff.webp"
    }
   ],
   "subtotal": 405,
   "shipping": 35,
   "tax": 32,
   "total": 472,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW763688934"
  },
  {
@@ -2817,7 +2817,7 @@
     "name": "Sapphire Ring",
     "qty": 1,
     "unit": 3200,
-    "image": "assets/images/products/sapphire-ring.svg"
+    "image": "assets/images/products/sapphire-ring.webp"
    },
    {
     "sku": "BRA-NO-1040",
@@ -2825,7 +2825,7 @@
     "name": "Silver Chain Bracelet",
     "qty": 1,
     "unit": 380,
-    "image": "assets/images/products/silver-chain-bracelet.svg"
+    "image": "assets/images/products/silver-chain-bracelet.webp"
    },
    {
     "sku": "NEC-NO-1028",
@@ -2833,14 +2833,14 @@
     "name": "White Gold Chain",
     "qty": 1,
     "unit": 2100,
-    "image": "assets/images/products/white-gold-chain.svg"
+    "image": "assets/images/products/white-gold-chain.webp"
    }
   ],
   "subtotal": 5680,
   "shipping": 0,
   "tax": 454,
   "total": 6134,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW110735296"
  },
  {
@@ -2859,7 +2859,7 @@
     "name": "Luxora Elite Diver",
     "qty": 2,
     "unit": 3300,
-    "image": "assets/images/products/luxora-elite-diver.svg"
+    "image": "assets/images/products/luxora-elite-diver.webp"
    },
    {
     "sku": "WAT-EL-1006",
@@ -2867,7 +2867,7 @@
     "name": "Luxora Titanium Sport",
     "qty": 2,
     "unit": 2450,
-    "image": "assets/images/products/luxora-titanium-sport.svg"
+    "image": "assets/images/products/luxora-titanium-sport.webp"
    },
    {
     "sku": "RIN-AU-1015",
@@ -2875,7 +2875,7 @@
     "name": "Gold Signet Ring",
     "qty": 1,
     "unit": 1490,
-    "image": "assets/images/products/gold-signet-ring.svg"
+    "image": "assets/images/products/gold-signet-ring.webp"
    }
   ],
   "subtotal": 12990,
@@ -2901,14 +2901,14 @@
     "name": "Sapphire Earrings",
     "qty": 1,
     "unit": 3665,
-    "image": "assets/images/products/sapphire-earrings.svg"
+    "image": "assets/images/products/sapphire-earrings.webp"
    }
   ],
   "subtotal": 3665,
   "shipping": 0,
   "tax": 293,
   "total": 3958,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW331894154"
  },
  {
@@ -2927,7 +2927,7 @@
     "name": "Carbon Fiber Ring",
     "qty": 1,
     "unit": 280,
-    "image": "assets/images/products/carbon-fiber-ring.svg"
+    "image": "assets/images/products/carbon-fiber-ring.webp"
    },
    {
     "sku": "RIN-AU-1015",
@@ -2935,14 +2935,14 @@
     "name": "Gold Signet Ring",
     "qty": 1,
     "unit": 1490,
-    "image": "assets/images/products/gold-signet-ring.svg"
+    "image": "assets/images/products/gold-signet-ring.webp"
    }
   ],
   "subtotal": 1770,
   "shipping": 0,
   "tax": 142,
   "total": 1912,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW390765689"
  },
  {
@@ -2961,7 +2961,7 @@
     "name": "Luxora GMT Traveler",
     "qty": 1,
     "unit": 4720,
-    "image": "assets/images/products/luxora-gmt-traveler.svg"
+    "image": "assets/images/products/luxora-gmt-traveler.webp"
    },
    {
     "sku": "WAT-EL-1013",
@@ -2969,14 +2969,14 @@
     "name": "Elvaro Field 40",
     "qty": 1,
     "unit": 450,
-    "image": "assets/images/products/elvaro-field-40.svg"
+    "image": "assets/images/products/elvaro-field-40.webp"
    }
   ],
   "subtotal": 5170,
   "shipping": 0,
   "tax": 414,
   "total": 5584,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW264013673"
  },
  {
@@ -2995,7 +2995,7 @@
     "name": "Solitaire Diamond Ring",
     "qty": 1,
     "unit": 5900,
-    "image": "assets/images/products/solitaire-diamond-ring.svg"
+    "image": "assets/images/products/solitaire-diamond-ring.webp"
    },
    {
     "sku": "ACC-AR-1063",
@@ -3003,14 +3003,14 @@
     "name": "Ardent Watch Winder",
     "qty": 1,
     "unit": 560,
-    "image": "assets/images/products/ardent-watch-winder.svg"
+    "image": "assets/images/products/ardent-watch-winder.webp"
    }
   ],
   "subtotal": 6460,
   "shipping": 0,
   "tax": 517,
   "total": 6977,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW885232932"
  },
  {
@@ -3029,7 +3029,7 @@
     "name": "Premium Watch Box",
     "qty": 1,
     "unit": 380,
-    "image": "assets/images/products/premium-watch-box.svg"
+    "image": "assets/images/products/premium-watch-box.webp"
    },
    {
     "sku": "ACC-AR-1058",
@@ -3037,7 +3037,7 @@
     "name": "Watch Cleaning Kit",
     "qty": 1,
     "unit": 70,
-    "image": "assets/images/products/watch-cleaning-kit.svg"
+    "image": "assets/images/products/watch-cleaning-kit.webp"
    },
    {
     "sku": "RIN-NO-1016",
@@ -3045,14 +3045,14 @@
     "name": "Platinum Band",
     "qty": 1,
     "unit": 2400,
-    "image": "assets/images/products/platinum-band.svg"
+    "image": "assets/images/products/platinum-band.webp"
    }
   ],
   "subtotal": 2850,
   "shipping": 0,
   "tax": 228,
   "total": 3078,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW883053354"
  },
  {
@@ -3071,7 +3071,7 @@
     "name": "Leather Bracelet",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/leather-bracelet.svg"
+    "image": "assets/images/products/leather-bracelet.webp"
    },
    {
     "sku": "ACC-AR-1056",
@@ -3079,7 +3079,7 @@
     "name": "Jewelry Organizer",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/jewelry-organizer.svg"
+    "image": "assets/images/products/jewelry-organizer.webp"
    },
    {
     "sku": "WAT-EL-1006",
@@ -3087,7 +3087,7 @@
     "name": "Luxora Titanium Sport",
     "qty": 2,
     "unit": 2450,
-    "image": "assets/images/products/luxora-titanium-sport.svg"
+    "image": "assets/images/products/luxora-titanium-sport.webp"
    }
   ],
   "subtotal": 5260,
@@ -3113,7 +3113,7 @@
     "name": "Passport Holder",
     "qty": 1,
     "unit": 160,
-    "image": "assets/images/products/passport-holder.svg"
+    "image": "assets/images/products/passport-holder.webp"
    },
    {
     "sku": "EAR-AU-1047",
@@ -3121,14 +3121,14 @@
     "name": "Gold Hoops",
     "qty": 1,
     "unit": 1150,
-    "image": "assets/images/products/gold-hoops.svg"
+    "image": "assets/images/products/gold-hoops.webp"
    }
   ],
   "subtotal": 1310,
   "shipping": 0,
   "tax": 105,
   "total": 1415,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW219602564"
  },
  {
@@ -3147,7 +3147,7 @@
     "name": "Cuban Link Bracelet",
     "qty": 1,
     "unit": 1645,
-    "image": "assets/images/products/cuban-link-bracelet.svg"
+    "image": "assets/images/products/cuban-link-bracelet.webp"
    },
    {
     "sku": "WAT-NO-1010",
@@ -3155,7 +3155,7 @@
     "name": "Novaire Slimline 36",
     "qty": 2,
     "unit": 1450,
-    "image": "assets/images/products/novaire-slimline-36.svg"
+    "image": "assets/images/products/novaire-slimline-36.webp"
    }
   ],
   "subtotal": 4545,
@@ -3181,7 +3181,7 @@
     "name": "Emerald Pendant",
     "qty": 1,
     "unit": 4105,
-    "image": "assets/images/products/emerald-pendant.svg"
+    "image": "assets/images/products/emerald-pendant.webp"
    },
    {
     "sku": "ACC-AR-1060",
@@ -3189,14 +3189,14 @@
     "name": "Passport Holder",
     "qty": 1,
     "unit": 160,
-    "image": "assets/images/products/passport-holder.svg"
+    "image": "assets/images/products/passport-holder.webp"
    }
   ],
   "subtotal": 4265,
   "shipping": 0,
   "tax": 341,
   "total": 4606,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW692559983"
  },
  {
@@ -3215,7 +3215,7 @@
     "name": "Emerald Earrings",
     "qty": 1,
     "unit": 4335,
-    "image": "assets/images/products/emerald-earrings.svg"
+    "image": "assets/images/products/emerald-earrings.webp"
    },
    {
     "sku": "RIN-AU-1021",
@@ -3223,14 +3223,14 @@
     "name": "Rose Gold Infinity Ring",
     "qty": 1,
     "unit": 980,
-    "image": "assets/images/products/rose-gold-infinity-ring.svg"
+    "image": "assets/images/products/rose-gold-infinity-ring.webp"
    }
   ],
   "subtotal": 5315,
   "shipping": 0,
   "tax": 425,
   "total": 5740,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW272393941"
  },
  {
@@ -3249,7 +3249,7 @@
     "name": "Pearl Necklace",
     "qty": 2,
     "unit": 1585,
-    "image": "assets/images/products/pearl-necklace.svg"
+    "image": "assets/images/products/pearl-necklace.webp"
    },
    {
     "sku": "ACC-AR-1054",
@@ -3257,7 +3257,7 @@
     "name": "Premium Watch Box",
     "qty": 1,
     "unit": 380,
-    "image": "assets/images/products/premium-watch-box.svg"
+    "image": "assets/images/products/premium-watch-box.webp"
    }
   ],
   "subtotal": 3550,
@@ -3283,7 +3283,7 @@
     "name": "Rose Gold Infinity Ring",
     "qty": 1,
     "unit": 980,
-    "image": "assets/images/products/rose-gold-infinity-ring.svg"
+    "image": "assets/images/products/rose-gold-infinity-ring.webp"
    },
    {
     "sku": "EAR-NO-1053",
@@ -3291,7 +3291,7 @@
     "name": "Novaire Bar Studs",
     "qty": 1,
     "unit": 250,
-    "image": "assets/images/products/novaire-bar-studs.svg"
+    "image": "assets/images/products/novaire-bar-studs.webp"
    }
   ],
   "subtotal": 1230,
@@ -3317,7 +3317,7 @@
     "name": "Novaire Bar Studs",
     "qty": 1,
     "unit": 250,
-    "image": "assets/images/products/novaire-bar-studs.svg"
+    "image": "assets/images/products/novaire-bar-studs.webp"
    },
    {
     "sku": "BRA-AR-1039",
@@ -3325,14 +3325,14 @@
     "name": "Leather Bracelet",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/leather-bracelet.svg"
+    "image": "assets/images/products/leather-bracelet.webp"
    }
   ],
   "subtotal": 430,
   "shipping": 35,
   "tax": 34,
   "total": 499,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW904858604"
  },
  {
@@ -3351,7 +3351,7 @@
     "name": "Luxury Travel Case",
     "qty": 2,
     "unit": 650,
-    "image": "assets/images/products/luxury-travel-case.svg"
+    "image": "assets/images/products/luxury-travel-case.webp"
    },
    {
     "sku": "RIN-CE-1022",
@@ -3359,7 +3359,7 @@
     "name": "Sapphire Ring",
     "qty": 2,
     "unit": 3200,
-    "image": "assets/images/products/sapphire-ring.svg"
+    "image": "assets/images/products/sapphire-ring.webp"
    }
   ],
   "subtotal": 7700,
@@ -3385,14 +3385,14 @@
     "name": "Emerald Halo Ring",
     "qty": 1,
     "unit": 4300,
-    "image": "assets/images/products/emerald-halo-ring.svg"
+    "image": "assets/images/products/emerald-halo-ring.webp"
    }
   ],
   "subtotal": 4300,
   "shipping": 0,
   "tax": 344,
   "total": 4644,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW421259186"
  },
  {
@@ -3411,7 +3411,7 @@
     "name": "Kronique Tourbillon Noir",
     "qty": 1,
     "unit": 9350,
-    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+    "image": "assets/images/products/kronique-tourbillon-noir.webp"
    },
    {
     "sku": "NEC-NO-1035",
@@ -3419,7 +3419,7 @@
     "name": "Novaire Bar Pendant",
     "qty": 2,
     "unit": 340,
-    "image": "assets/images/products/novaire-bar-pendant.svg"
+    "image": "assets/images/products/novaire-bar-pendant.webp"
    }
   ],
   "subtotal": 10030,
@@ -3445,7 +3445,7 @@
     "name": "Aurelius Regent Automatic",
     "qty": 1,
     "unit": 6575,
-    "image": "assets/images/products/aurelius-regent-automatic.svg"
+    "image": "assets/images/products/aurelius-regent-automatic.webp"
    },
    {
     "sku": "EAR-CE-1050",
@@ -3453,7 +3453,7 @@
     "name": "Sapphire Earrings",
     "qty": 2,
     "unit": 3665,
-    "image": "assets/images/products/sapphire-earrings.svg"
+    "image": "assets/images/products/sapphire-earrings.webp"
    },
    {
     "sku": "NEC-CE-1031",
@@ -3461,14 +3461,14 @@
     "name": "Sapphire Pendant",
     "qty": 2,
     "unit": 4400,
-    "image": "assets/images/products/sapphire-pendant.svg"
+    "image": "assets/images/products/sapphire-pendant.webp"
    }
   ],
   "subtotal": 22705,
   "shipping": 0,
   "tax": 1816,
   "total": 24521,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW783570348"
  },
  {
@@ -3487,14 +3487,14 @@
     "name": "Platinum Band",
     "qty": 1,
     "unit": 2400,
-    "image": "assets/images/products/platinum-band.svg"
+    "image": "assets/images/products/platinum-band.webp"
    }
   ],
   "subtotal": 2400,
   "shipping": 0,
   "tax": 192,
   "total": 2592,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW871275970"
  },
  {
@@ -3513,7 +3513,7 @@
     "name": "Emerald Earrings",
     "qty": 1,
     "unit": 4335,
-    "image": "assets/images/products/emerald-earrings.svg"
+    "image": "assets/images/products/emerald-earrings.webp"
    },
    {
     "sku": "ACC-AR-1054",
@@ -3521,14 +3521,14 @@
     "name": "Premium Watch Box",
     "qty": 1,
     "unit": 380,
-    "image": "assets/images/products/premium-watch-box.svg"
+    "image": "assets/images/products/premium-watch-box.webp"
    }
   ],
   "subtotal": 4715,
   "shipping": 0,
   "tax": 377,
   "total": 5092,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW117605073"
  },
  {
@@ -3547,7 +3547,7 @@
     "name": "Emerald Halo Ring",
     "qty": 1,
     "unit": 4300,
-    "image": "assets/images/products/emerald-halo-ring.svg"
+    "image": "assets/images/products/emerald-halo-ring.webp"
    },
    {
     "sku": "ACC-AR-1060",
@@ -3555,14 +3555,14 @@
     "name": "Passport Holder",
     "qty": 1,
     "unit": 160,
-    "image": "assets/images/products/passport-holder.svg"
+    "image": "assets/images/products/passport-holder.webp"
    }
   ],
   "subtotal": 4460,
   "shipping": 0,
   "tax": 357,
   "total": 4817,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW321759671"
  },
  {
@@ -3581,7 +3581,7 @@
     "name": "Emerald Earrings",
     "qty": 1,
     "unit": 4335,
-    "image": "assets/images/products/emerald-earrings.svg"
+    "image": "assets/images/products/emerald-earrings.webp"
    },
    {
     "sku": "RIN-AU-1021",
@@ -3589,7 +3589,7 @@
     "name": "Rose Gold Infinity Ring",
     "qty": 1,
     "unit": 980,
-    "image": "assets/images/products/rose-gold-infinity-ring.svg"
+    "image": "assets/images/products/rose-gold-infinity-ring.webp"
    },
    {
     "sku": "EAR-CE-1049",
@@ -3597,14 +3597,14 @@
     "name": "Emerald Earrings",
     "qty": 1,
     "unit": 4335,
-    "image": "assets/images/products/emerald-earrings.svg"
+    "image": "assets/images/products/emerald-earrings.webp"
    }
   ],
   "subtotal": 9650,
   "shipping": 0,
   "tax": 772,
   "total": 10422,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW342620588"
  },
  {
@@ -3623,7 +3623,7 @@
     "name": "Charm Bracelet",
     "qty": 2,
     "unit": 660,
-    "image": "assets/images/products/charm-bracelet.svg"
+    "image": "assets/images/products/charm-bracelet.webp"
    }
   ],
   "subtotal": 1320,
@@ -3649,7 +3649,7 @@
     "name": "Jewelry Organizer",
     "qty": 2,
     "unit": 180,
-    "image": "assets/images/products/jewelry-organizer.svg"
+    "image": "assets/images/products/jewelry-organizer.webp"
    },
    {
     "sku": "BRA-CE-1043",
@@ -3657,7 +3657,7 @@
     "name": "Pearl Bracelet",
     "qty": 1,
     "unit": 760,
-    "image": "assets/images/products/pearl-bracelet.svg"
+    "image": "assets/images/products/pearl-bracelet.webp"
    },
    {
     "sku": "WAT-KR-1004",
@@ -3665,7 +3665,7 @@
     "name": "Luxora Moonphase",
     "qty": 1,
     "unit": 9400,
-    "image": "assets/images/products/luxora-moonphase.svg"
+    "image": "assets/images/products/luxora-moonphase.webp"
    }
   ],
   "subtotal": 10520,
@@ -3691,14 +3691,14 @@
     "name": "Luxora GMT Traveler",
     "qty": 1,
     "unit": 4720,
-    "image": "assets/images/products/luxora-gmt-traveler.svg"
+    "image": "assets/images/products/luxora-gmt-traveler.webp"
    }
   ],
   "subtotal": 4720,
   "shipping": 0,
   "tax": 378,
   "total": 5098,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW152785208"
  },
  {
@@ -3717,7 +3717,7 @@
     "name": "Luxora Classic Leather",
     "qty": 1,
     "unit": 1850,
-    "image": "assets/images/products/luxora-classic-leather.svg"
+    "image": "assets/images/products/luxora-classic-leather.webp"
    },
    {
     "sku": "NEC-AU-1027",
@@ -3725,14 +3725,14 @@
     "name": "Gold Chain",
     "qty": 1,
     "unit": 2600,
-    "image": "assets/images/products/gold-chain.svg"
+    "image": "assets/images/products/gold-chain.webp"
    }
   ],
   "subtotal": 4450,
   "shipping": 0,
   "tax": 356,
   "total": 4806,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW980062171"
  },
  {
@@ -3751,7 +3751,7 @@
     "name": "Silver Chain Bracelet",
     "qty": 1,
     "unit": 380,
-    "image": "assets/images/products/silver-chain-bracelet.svg"
+    "image": "assets/images/products/silver-chain-bracelet.webp"
    }
   ],
   "subtotal": 380,
@@ -3777,7 +3777,7 @@
     "name": "Gold Chain",
     "qty": 1,
     "unit": 2600,
-    "image": "assets/images/products/gold-chain.svg"
+    "image": "assets/images/products/gold-chain.webp"
    },
    {
     "sku": "BRA-CE-1043",
@@ -3785,14 +3785,14 @@
     "name": "Pearl Bracelet",
     "qty": 1,
     "unit": 760,
-    "image": "assets/images/products/pearl-bracelet.svg"
+    "image": "assets/images/products/pearl-bracelet.webp"
    }
   ],
   "subtotal": 3360,
   "shipping": 0,
   "tax": 269,
   "total": 3629,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW574659625"
  },
  {
@@ -3811,14 +3811,14 @@
     "name": "Elvaro Field 40",
     "qty": 1,
     "unit": 450,
-    "image": "assets/images/products/elvaro-field-40.svg"
+    "image": "assets/images/products/elvaro-field-40.webp"
    }
   ],
   "subtotal": 450,
   "shipping": 35,
   "tax": 36,
   "total": 521,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW839609961"
  },
  {
@@ -3837,7 +3837,7 @@
     "name": "Pearl Earrings",
     "qty": 1,
     "unit": 680,
-    "image": "assets/images/products/pearl-earrings.svg"
+    "image": "assets/images/products/pearl-earrings.webp"
    },
    {
     "sku": "EAR-CE-1046",
@@ -3845,7 +3845,7 @@
     "name": "Pearl Earrings",
     "qty": 1,
     "unit": 680,
-    "image": "assets/images/products/pearl-earrings.svg"
+    "image": "assets/images/products/pearl-earrings.webp"
    }
   ],
   "subtotal": 1360,
@@ -3871,7 +3871,7 @@
     "name": "White Gold Hoops",
     "qty": 1,
     "unit": 1050,
-    "image": "assets/images/products/white-gold-hoops.svg"
+    "image": "assets/images/products/white-gold-hoops.webp"
    },
    {
     "sku": "ACC-AR-1058",
@@ -3879,7 +3879,7 @@
     "name": "Watch Cleaning Kit",
     "qty": 1,
     "unit": 70,
-    "image": "assets/images/products/watch-cleaning-kit.svg"
+    "image": "assets/images/products/watch-cleaning-kit.webp"
    }
   ],
   "subtotal": 1120,
@@ -3905,7 +3905,7 @@
     "name": "Aurelius Regent Automatic",
     "qty": 1,
     "unit": 6575,
-    "image": "assets/images/products/aurelius-regent-automatic.svg"
+    "image": "assets/images/products/aurelius-regent-automatic.webp"
    },
    {
     "sku": "RIN-VE-1019",
@@ -3913,7 +3913,7 @@
     "name": "Solitaire Diamond Ring",
     "qty": 1,
     "unit": 5900,
-    "image": "assets/images/products/solitaire-diamond-ring.svg"
+    "image": "assets/images/products/solitaire-diamond-ring.webp"
    },
    {
     "sku": "WAT-KR-1012",
@@ -3921,14 +3921,14 @@
     "name": "Kronique Tourbillon Noir",
     "qty": 1,
     "unit": 9350,
-    "image": "assets/images/products/kronique-tourbillon-noir.svg"
+    "image": "assets/images/products/kronique-tourbillon-noir.webp"
    }
   ],
   "subtotal": 21825,
   "shipping": 0,
   "tax": 1746,
   "total": 23571,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW590427640"
  },
  {
@@ -3947,7 +3947,7 @@
     "name": "Aurelius Regent Automatic",
     "qty": 1,
     "unit": 6575,
-    "image": "assets/images/products/aurelius-regent-automatic.svg"
+    "image": "assets/images/products/aurelius-regent-automatic.webp"
    },
    {
     "sku": "WAT-EL-1006",
@@ -3955,14 +3955,14 @@
     "name": "Luxora Titanium Sport",
     "qty": 1,
     "unit": 2450,
-    "image": "assets/images/products/luxora-titanium-sport.svg"
+    "image": "assets/images/products/luxora-titanium-sport.webp"
    }
   ],
   "subtotal": 9025,
   "shipping": 0,
   "tax": 722,
   "total": 9747,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW524746351"
  },
  {
@@ -3981,7 +3981,7 @@
     "name": "Pearl Bracelet",
     "qty": 2,
     "unit": 760,
-    "image": "assets/images/products/pearl-bracelet.svg"
+    "image": "assets/images/products/pearl-bracelet.webp"
    }
   ],
   "subtotal": 1520,
@@ -4007,7 +4007,7 @@
     "name": "Aurelius Roman Band",
     "qty": 1,
     "unit": 1240,
-    "image": "assets/images/products/aurelius-roman-band.svg"
+    "image": "assets/images/products/aurelius-roman-band.webp"
    },
    {
     "sku": "NEC-NO-1033",
@@ -4015,14 +4015,14 @@
     "name": "Luxury Layered Necklace",
     "qty": 1,
     "unit": 2950,
-    "image": "assets/images/products/luxury-layered-necklace.svg"
+    "image": "assets/images/products/luxury-layered-necklace.webp"
    }
   ],
   "subtotal": 4190,
   "shipping": 0,
   "tax": 335,
   "total": 4525,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW394552954"
  },
  {
@@ -4041,7 +4041,7 @@
     "name": "Novaire Slimline 36",
     "qty": 2,
     "unit": 1450,
-    "image": "assets/images/products/novaire-slimline-36.svg"
+    "image": "assets/images/products/novaire-slimline-36.webp"
    },
    {
     "sku": "WAT-LU-1007",
@@ -4049,7 +4049,7 @@
     "name": "Luxora Classic Leather",
     "qty": 1,
     "unit": 1850,
-    "image": "assets/images/products/luxora-classic-leather.svg"
+    "image": "assets/images/products/luxora-classic-leather.webp"
    }
   ],
   "subtotal": 4750,
@@ -4075,7 +4075,7 @@
     "name": "Watch Cleaning Kit",
     "qty": 1,
     "unit": 70,
-    "image": "assets/images/products/watch-cleaning-kit.svg"
+    "image": "assets/images/products/watch-cleaning-kit.webp"
    }
   ],
   "subtotal": 70,
@@ -4101,7 +4101,7 @@
     "name": "Premium Watch Box",
     "qty": 2,
     "unit": 380,
-    "image": "assets/images/products/premium-watch-box.svg"
+    "image": "assets/images/products/premium-watch-box.webp"
    },
    {
     "sku": "EAR-VE-1045",
@@ -4109,7 +4109,7 @@
     "name": "Diamond Stud Earrings",
     "qty": 1,
     "unit": 2485,
-    "image": "assets/images/products/diamond-stud-earrings.svg"
+    "image": "assets/images/products/diamond-stud-earrings.webp"
    },
    {
     "sku": "WAT-LU-1008",
@@ -4117,14 +4117,14 @@
     "name": "Luxora GMT Traveler",
     "qty": 1,
     "unit": 4720,
-    "image": "assets/images/products/luxora-gmt-traveler.svg"
+    "image": "assets/images/products/luxora-gmt-traveler.webp"
    }
   ],
   "subtotal": 7965,
   "shipping": 0,
   "tax": 637,
   "total": 8602,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW778603877"
  },
  {
@@ -4143,7 +4143,7 @@
     "name": "Emerald Earrings",
     "qty": 2,
     "unit": 4335,
-    "image": "assets/images/products/emerald-earrings.svg"
+    "image": "assets/images/products/emerald-earrings.webp"
    },
    {
     "sku": "ACC-AR-1061",
@@ -4151,7 +4151,7 @@
     "name": "Key Holder",
     "qty": 1,
     "unit": 80,
-    "image": "assets/images/products/key-holder.svg"
+    "image": "assets/images/products/key-holder.webp"
    },
    {
     "sku": "RIN-AU-1024",
@@ -4159,7 +4159,7 @@
     "name": "Aurelius Roman Band",
     "qty": 1,
     "unit": 1240,
-    "image": "assets/images/products/aurelius-roman-band.svg"
+    "image": "assets/images/products/aurelius-roman-band.webp"
    }
   ],
   "subtotal": 9990,
@@ -4185,14 +4185,14 @@
     "name": "Cuban Link Bracelet",
     "qty": 1,
     "unit": 1645,
-    "image": "assets/images/products/cuban-link-bracelet.svg"
+    "image": "assets/images/products/cuban-link-bracelet.webp"
    }
   ],
   "subtotal": 1645,
   "shipping": 0,
   "tax": 132,
   "total": 1777,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW425832088"
  },
  {
@@ -4211,7 +4211,7 @@
     "name": "Platinum Band",
     "qty": 1,
     "unit": 2400,
-    "image": "assets/images/products/platinum-band.svg"
+    "image": "assets/images/products/platinum-band.webp"
    },
    {
     "sku": "ACC-AR-1060",
@@ -4219,7 +4219,7 @@
     "name": "Passport Holder",
     "qty": 1,
     "unit": 160,
-    "image": "assets/images/products/passport-holder.svg"
+    "image": "assets/images/products/passport-holder.webp"
    }
   ],
   "subtotal": 2560,
@@ -4245,7 +4245,7 @@
     "name": "Watch Cleaning Kit",
     "qty": 1,
     "unit": 70,
-    "image": "assets/images/products/watch-cleaning-kit.svg"
+    "image": "assets/images/products/watch-cleaning-kit.webp"
    }
   ],
   "subtotal": 70,
@@ -4271,7 +4271,7 @@
     "name": "Luxora Titanium Sport",
     "qty": 1,
     "unit": 2450,
-    "image": "assets/images/products/luxora-titanium-sport.svg"
+    "image": "assets/images/products/luxora-titanium-sport.webp"
    },
    {
     "sku": "ACC-AR-1063",
@@ -4279,7 +4279,7 @@
     "name": "Ardent Watch Winder",
     "qty": 1,
     "unit": 560,
-    "image": "assets/images/products/ardent-watch-winder.svg"
+    "image": "assets/images/products/ardent-watch-winder.webp"
    },
    {
     "sku": "RIN-EL-1017",
@@ -4287,14 +4287,14 @@
     "name": "Carbon Fiber Ring",
     "qty": 1,
     "unit": 280,
-    "image": "assets/images/products/carbon-fiber-ring.svg"
+    "image": "assets/images/products/carbon-fiber-ring.webp"
    }
   ],
   "subtotal": 3290,
   "shipping": 0,
   "tax": 263,
   "total": 3553,
-  "payment": "Amex \u2022\u2022\u2022\u2022 1005",
+  "payment": "Amex •••• 1005",
   "tracking": "LXW865292451"
  },
  {
@@ -4313,7 +4313,7 @@
     "name": "Ardent Document Folio",
     "qty": 1,
     "unit": 420,
-    "image": "assets/images/products/ardent-document-folio.svg"
+    "image": "assets/images/products/ardent-document-folio.webp"
    },
    {
     "sku": "WAT-AU-1011",
@@ -4321,7 +4321,7 @@
     "name": "Aurelius Regent Automatic",
     "qty": 1,
     "unit": 6575,
-    "image": "assets/images/products/aurelius-regent-automatic.svg"
+    "image": "assets/images/products/aurelius-regent-automatic.webp"
    }
   ],
   "subtotal": 6995,
@@ -4347,7 +4347,7 @@
     "name": "Watch Cleaning Kit",
     "qty": 1,
     "unit": 70,
-    "image": "assets/images/products/watch-cleaning-kit.svg"
+    "image": "assets/images/products/watch-cleaning-kit.webp"
    },
    {
     "sku": "BRA-AU-1036",
@@ -4355,7 +4355,7 @@
     "name": "Cuban Link Bracelet",
     "qty": 1,
     "unit": 1645,
-    "image": "assets/images/products/cuban-link-bracelet.svg"
+    "image": "assets/images/products/cuban-link-bracelet.webp"
    }
   ],
   "subtotal": 1715,
@@ -4381,7 +4381,7 @@
     "name": "Black Titanium Bracelet",
     "qty": 1,
     "unit": 345,
-    "image": "assets/images/products/black-titanium-bracelet.svg"
+    "image": "assets/images/products/black-titanium-bracelet.webp"
    },
    {
     "sku": "NEC-AU-1032",
@@ -4389,7 +4389,7 @@
     "name": "Cross Necklace",
     "qty": 2,
     "unit": 1450,
-    "image": "assets/images/products/cross-necklace.svg"
+    "image": "assets/images/products/cross-necklace.webp"
    }
   ],
   "subtotal": 3245,
@@ -4415,7 +4415,7 @@
     "name": "Sapphire Ring",
     "qty": 1,
     "unit": 3200,
-    "image": "assets/images/products/sapphire-ring.svg"
+    "image": "assets/images/products/sapphire-ring.webp"
    },
    {
     "sku": "NEC-NO-1033",
@@ -4423,7 +4423,7 @@
     "name": "Luxury Layered Necklace",
     "qty": 2,
     "unit": 2950,
-    "image": "assets/images/products/luxury-layered-necklace.svg"
+    "image": "assets/images/products/luxury-layered-necklace.webp"
    },
    {
     "sku": "EAR-VE-1045",
@@ -4431,14 +4431,14 @@
     "name": "Diamond Stud Earrings",
     "qty": 1,
     "unit": 2485,
-    "image": "assets/images/products/diamond-stud-earrings.svg"
+    "image": "assets/images/products/diamond-stud-earrings.webp"
    }
   ],
   "subtotal": 11585,
   "shipping": 0,
   "tax": 927,
   "total": 12512,
-  "payment": "Mastercard \u2022\u2022\u2022\u2022 8813",
+  "payment": "Mastercard •••• 8813",
   "tracking": "LXW259487672"
  },
  {
@@ -4457,7 +4457,7 @@
     "name": "Jewelry Organizer",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/jewelry-organizer.svg"
+    "image": "assets/images/products/jewelry-organizer.webp"
    },
    {
     "sku": "EAR-NO-1053",
@@ -4465,7 +4465,7 @@
     "name": "Novaire Bar Studs",
     "qty": 2,
     "unit": 250,
-    "image": "assets/images/products/novaire-bar-studs.svg"
+    "image": "assets/images/products/novaire-bar-studs.webp"
    },
    {
     "sku": "RIN-AU-1015",
@@ -4473,14 +4473,14 @@
     "name": "Gold Signet Ring",
     "qty": 1,
     "unit": 1490,
-    "image": "assets/images/products/gold-signet-ring.svg"
+    "image": "assets/images/products/gold-signet-ring.webp"
    }
   ],
   "subtotal": 2170,
   "shipping": 0,
   "tax": 174,
   "total": 2344,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW434770089"
  },
  {
@@ -4499,7 +4499,7 @@
     "name": "Carbon Fiber Ring",
     "qty": 1,
     "unit": 280,
-    "image": "assets/images/products/carbon-fiber-ring.svg"
+    "image": "assets/images/products/carbon-fiber-ring.webp"
    }
   ],
   "subtotal": 280,
@@ -4525,7 +4525,7 @@
     "name": "Leather Bracelet",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/leather-bracelet.svg"
+    "image": "assets/images/products/leather-bracelet.webp"
    }
   ],
   "subtotal": 180,
@@ -4551,14 +4551,14 @@
     "name": "Jewelry Organizer",
     "qty": 1,
     "unit": 180,
-    "image": "assets/images/products/jewelry-organizer.svg"
+    "image": "assets/images/products/jewelry-organizer.webp"
    }
   ],
   "subtotal": 180,
   "shipping": 35,
   "tax": 14,
   "total": 229,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW417728552"
  },
  {
@@ -4577,7 +4577,7 @@
     "name": "Luxury Travel Case",
     "qty": 1,
     "unit": 650,
-    "image": "assets/images/products/luxury-travel-case.svg"
+    "image": "assets/images/products/luxury-travel-case.webp"
    },
    {
     "sku": "ACC-AR-1063",
@@ -4585,14 +4585,14 @@
     "name": "Ardent Watch Winder",
     "qty": 2,
     "unit": 560,
-    "image": "assets/images/products/ardent-watch-winder.svg"
+    "image": "assets/images/products/ardent-watch-winder.webp"
    }
   ],
   "subtotal": 1770,
   "shipping": 0,
   "tax": 142,
   "total": 1912,
-  "payment": "Visa \u2022\u2022\u2022\u2022 4242",
+  "payment": "Visa •••• 4242",
   "tracking": "LXW511169390"
  },
  {
@@ -4611,7 +4611,7 @@
     "name": "Black Titanium Ring",
     "qty": 1,
     "unit": 320,
-    "image": "assets/images/products/black-titanium-ring.svg"
+    "image": "assets/images/products/black-titanium-ring.webp"
    },
    {
     "sku": "WAT-KR-1003",
@@ -4619,7 +4619,7 @@
     "name": "Luxora Skeleton Edition",
     "qty": 2,
     "unit": 11800,
-    "image": "assets/images/products/luxora-skeleton-edition.svg"
+    "image": "assets/images/products/luxora-skeleton-edition.webp"
    }
   ],
   "subtotal": 23920,
@@ -4645,7 +4645,7 @@
     "name": "Novaire Slimline 36",
     "qty": 1,
     "unit": 1450,
-    "image": "assets/images/products/novaire-slimline-36.svg"
+    "image": "assets/images/products/novaire-slimline-36.webp"
    },
    {
     "sku": "ACC-AR-1061",
@@ -4653,7 +4653,7 @@
     "name": "Key Holder",
     "qty": 1,
     "unit": 80,
-    "image": "assets/images/products/key-holder.svg"
+    "image": "assets/images/products/key-holder.webp"
    },
    {
     "sku": "EAR-NO-1053",
@@ -4661,7 +4661,7 @@
     "name": "Novaire Bar Studs",
     "qty": 1,
     "unit": 250,
-    "image": "assets/images/products/novaire-bar-studs.svg"
+    "image": "assets/images/products/novaire-bar-studs.webp"
    }
   ],
   "subtotal": 1780,

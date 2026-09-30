@@ -1,8 +1,8 @@
-const { chromium } = require('/home/claude/.npm-global/lib/node_modules/playwright');
+const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = '/home/claude/luxora-commerce';
+const ROOT = path.resolve(__dirname, '..');
 
 function allPages(dir, out = []) {
   for (const f of fs.readdirSync(dir)) {
@@ -23,6 +23,8 @@ function allPages(dir, out = []) {
 
   for (const file of pages) {
     const ctx = await browser.newContext();
+    // Stub web fonts so the test runs offline; a missing font is not a site bug.
+    await ctx.route(/fonts\.(googleapis|gstatic)\.com/, (r) => r.fulfill({ status: 200, body: '' }));
     const page = await ctx.newPage();
     const errors = [];
     page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); });

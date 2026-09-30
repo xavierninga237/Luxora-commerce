@@ -32,7 +32,7 @@
   <select class="select" id="admin-products-filter"><option value="all">All stock</option><option value="low">Low stock</option><option value="out">Out of stock</option><option value="sale">On sale</option></select>
   <div class="toolbar__spacer"></div>
   <span class="muted" style="font-size:var(--step--2)" id="admin-products-count"></span>
-  <button class="btn btn--primary btn--sm" onclick="window.LX.toast('New product','This would open the product editor.')">Add product</button>
+  <button class="btn btn--primary btn--sm" type="button" data-admin-action="Add a new product">Add product</button>
 </div>
 <div class="table-wrap"><table class="table" id="admin-products-table">
   <thead><tr><th class="table__sort" data-sort="name">Product</th><th>Brand</th><th>Category</th>

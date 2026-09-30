@@ -112,3 +112,32 @@
 .stock-meter__fill { height: 100%; background: var(--success); }
 .stock-meter__fill.low { background: var(--warning); }
 .stock-meter__fill.out { background: var(--error); }
+
+/* ------------------------------------------------------------ demo mode */
+.demo-banner {
+  display: flex; align-items: center; gap: .7rem;
+  margin: var(--sp-4) clamp(1rem, 3vw, 2rem) 0; padding: .7rem 1rem;
+  border: 1px solid var(--gold-line); border-radius: var(--radius);
+  background: linear-gradient(90deg, rgba(201,162,74,.12), rgba(201,162,74,.03));
+  font-size: var(--step--2); color: var(--text-2);
+}
+.demo-banner b { color: var(--lux-gold); font-weight: 600; }
+.demo-banner__dot { width: 8px; height: 8px; border-radius: 50%; background: var(--lux-gold); flex: none; box-shadow: 0 0 0 4px rgba(201,162,74,.18); animation: demoPulse 2.4s ease-in-out infinite; }
+@keyframes demoPulse { 50% { box-shadow: 0 0 0 7px rgba(201,162,74,0); } }
+@media (prefers-reduced-motion: reduce) { .demo-banner__dot { animation: none; } }
+
+.th-actions, .td-actions { text-align: left; white-space: nowrap; }
+.row-actions { display: inline-flex; gap: .35rem; }
+.row-btn {
+  font: inherit; font-size: var(--step--2); line-height: 1; padding: .45rem .65rem; cursor: pointer;
+  border-radius: 6px; border: 1px solid var(--border); background: transparent; color: var(--text-2);
+  transition: border-color .2s, color .2s, background .2s;
+}
+.row-btn:hover, .row-btn:focus-visible { border-color: var(--gold-line); color: var(--text); }
+.row-btn--danger:hover, .row-btn--danger:focus-visible { border-color: rgba(255,138,128,.55); color: #FF8A80; background: rgba(255,138,128,.06); }
+
+.demo-modal { max-width: 460px; text-align: left; }
+.demo-modal h3 { margin: .35rem 0 .75rem; }
+.demo-modal__seal { display: inline-grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; margin-bottom: 1rem; color: var(--lux-gold); border: 1px solid var(--gold-line); background: rgba(201,162,74,.08); }
+.demo-modal__action { color: var(--text); font-weight: 500; margin-bottom: .6rem; }
+.demo-modal__row { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.4rem; }

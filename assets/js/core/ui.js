@@ -74,6 +74,7 @@
         '<div class="product-card__media">' +
           '<a href="' + href + '" aria-label="' + LX.esc(p.name) + '">' +
             '<img src="' + LX.url(p.images[0]) + '" alt="' + LX.esc(p.name) + '" loading="lazy" width="800" height="1000">' +
+            (p.images[1] ? '<img class="product-card__alt" src="' + LX.url(p.images[1]) + '" alt="" aria-hidden="true" loading="lazy" width="800" height="1000">' : "") +
           "</a>" +
           '<div class="product-card__flags">' + flags.join("") + "</div>" +
           '<div class="product-card__tools">' +
