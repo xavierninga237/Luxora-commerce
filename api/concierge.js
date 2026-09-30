@@ -7,13 +7,20 @@
    The OpenRouter key never reaches the browser. Configure it in
    Vercel → Project → Settings → Environment Variables:
 
-     OPENROUTER_API_KEY   required  sk-or-v1-…
-     OPENROUTER_MODEL     optional  any OpenRouter model id (default below)
-     OPENROUTER_SITE_URL  optional  your deployed URL, sent as HTTP-Referer
-     OPENROUTER_APP_NAME  optional  shown in your OpenRouter dashboard
+     OPENROUTER_API_KEY          required  sk-or-v1-…
+     OPENROUTER_MODEL            optional  main model (default below)
+     OPENROUTER_FALLBACK_MODELS  optional  comma-separated backups, tried in
+                                           order (default: openrouter/free)
+     OPENROUTER_SITE_URL         optional  your deployed URL (HTTP-Referer)
+     OPENROUTER_APP_NAME         optional  shown in your OpenRouter dashboard
 
-   If the key is missing or the call fails, the browser falls back to the
-   on-device recommendation engine, so the concierge never goes dark.
+   Fallback chain, per message:
+     1. OPENROUTER_MODEL
+     2. each model in OPENROUTER_FALLBACK_MODELS — by default "openrouter/free",
+        OpenRouter's router that picks whichever free model is available now
+     3. if every model fails, the browser uses the on-device engine
+   So the concierge keeps answering even with no credit on the key, a model
+   outage, or a rate limit.
    ========================================================================= */
 "use strict";
 
@@ -25,9 +32,11 @@ const COUPONS = (luxora.coupons || []).filter((c) => c.status === "Active").map(
   (c.minSpend ? ", min. spend $" + c.minSpend : "") + ")").join(", ");
 
 const DEFAULT_MODEL = "openai/gpt-4o-mini";
+const DEFAULT_FALLBACKS = ["openrouter/free"];
 const MAX_MESSAGE = 600;
 const MAX_HISTORY = 8;
-const TIMEOUT_MS = 25000;
+const TOTAL_BUDGET_MS = 26000;   // stay under the function's 30 s limit
+const PER_MODEL_MS = 14000;
 
 /* Best-effort per-instance rate limit: plenty for a portfolio demo, and it
    stops one visitor from burning through your OpenRouter credit. */
@@ -44,6 +53,16 @@ function limited(ip) {
 }
 
 const env = (k) => (process.env[k] || "").trim();
+
+/* Main model first, then the fallbacks, without duplicates. */
+function modelChain() {
+  const main = env("OPENROUTER_MODEL") || DEFAULT_MODEL;
+  const raw = env("OPENROUTER_FALLBACK_MODELS");
+  const backups = raw ? raw.split(",").map((m) => m.trim()).filter(Boolean) : DEFAULT_FALLBACKS;
+  return Array.from(new Set([main].concat(backups)));
+}
+
+const isFree = (m) => /:free$/.test(m) || m === "openrouter/free";
 
 /* One compact line per product keeps the whole catalogue in context. */
 const CATALOGUE = products.map((p) => {
@@ -120,11 +139,46 @@ function parseModelReply(content) {
   return { text: text.slice(0, 1500), picks: Array.from(new Set(picks)).slice(0, 4) };
 }
 
+/* One attempt against one model. Resolves to a parsed reply or throws. */
+async function ask(model, messages, key, req, ms) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), ms);
+  try {
+    const r = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      method: "POST",
+      signal: ctrl.signal,
+      headers: {
+        "Authorization": "Bearer " + key,
+        "Content-Type": "application/json",
+        "HTTP-Referer": env("OPENROUTER_SITE_URL") || "https://" + (req.headers.host || "luxora.example"),
+        "X-Title": env("OPENROUTER_APP_NAME") || "Luxora Commerce",
+      },
+      body: JSON.stringify({ model: model, temperature: 0.4, max_tokens: 500, messages: messages }),
+    });
+    const data = await r.json().catch(() => ({}));
+    if (!r.ok || data.error) {
+      const e = new Error((data.error && data.error.message) || "HTTP " + r.status);
+      e.status = r.status || (data.error && data.error.code);
+      throw e;
+    }
+    const msg = data.choices && data.choices[0] && data.choices[0].message;
+    const content = msg && typeof msg.content === "string" ? msg.content.trim() : "";
+    if (!content) throw Object.assign(new Error("empty reply"), { status: "empty" });
+    const out = parseModelReply(content);
+    if (!out.text) throw Object.assign(new Error("unparseable reply"), { status: "empty" });
+    return Object.assign(out, { model: data.model || model });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 module.exports = async function handler(req, res) {
   const key = env("OPENROUTER_API_KEY");
-  const model = env("OPENROUTER_MODEL") || DEFAULT_MODEL;
+  const chain = modelChain();
 
-  if (req.method === "GET") return send(res, 200, { live: !!key, model: key ? model : null });
+  if (req.method === "GET") {
+    return send(res, 200, { live: !!key, model: key ? chain[0] : null, fallbacks: key ? chain.slice(1) : [] });
+  }
   if (req.method !== "POST") { res.setHeader("Allow", "GET, POST"); return send(res, 405, { error: "method_not_allowed" }); }
   if (!key) return send(res, 503, { error: "not_configured" });
 
@@ -141,38 +195,23 @@ module.exports = async function handler(req, res) {
     .filter((m) => m && (m.role === "user" || m.role === "assistant") && typeof m.content === "string")
     .slice(-MAX_HISTORY)
     .map((m) => ({ role: m.role, content: m.content.slice(0, 1200) }));
+  const messages = [{ role: "system", content: SYSTEM }].concat(history, [{ role: "user", content: message }]);
 
-  const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
-  try {
-    const r = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-      method: "POST",
-      signal: ctrl.signal,
-      headers: {
-        "Authorization": "Bearer " + key,
-        "Content-Type": "application/json",
-        "HTTP-Referer": env("OPENROUTER_SITE_URL") || "https://" + (req.headers.host || "luxora.example"),
-        "X-Title": env("OPENROUTER_APP_NAME") || "Luxora Commerce",
-      },
-      body: JSON.stringify({
-        model: model,
-        temperature: 0.4,
-        max_tokens: 500,
-        messages: [{ role: "system", content: SYSTEM }].concat(history, [{ role: "user", content: message }]),
-      }),
-    });
-    const data = await r.json().catch(() => ({}));
-    if (!r.ok) {
-      console.error("OpenRouter error", r.status, data && data.error);
-      return send(res, 502, { error: "upstream", status: r.status });
+  const started = Date.now();
+  const tried = [];
+  for (const model of chain) {
+    const left = TOTAL_BUDGET_MS - (Date.now() - started);
+    if (left < 3000) break;
+    try {
+      const out = await ask(model, messages, key, req, Math.min(PER_MODEL_MS, left));
+      return send(res, 200, Object.assign(out, { fallback: tried.length > 0, free: isFree(model) }));
+    } catch (err) {
+      const why = err && err.name === "AbortError" ? "timeout" : String((err && err.status) || (err && err.message) || "error");
+      tried.push(model + " → " + why);
+      /* A bad key fails the same way on every model — stop early. */
+      if (err && err.status === 401) break;
     }
-    const content = data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content;
-    if (!content) return send(res, 502, { error: "empty_upstream" });
-    return send(res, 200, Object.assign(parseModelReply(content), { model: data.model || model }));
-  } catch (err) {
-    console.error("Concierge failure", err && err.name, err && err.message);
-    return send(res, err && err.name === "AbortError" ? 504 : 500, { error: "failed" });
-  } finally {
-    clearTimeout(timer);
   }
+  console.error("Concierge: every model failed —", tried.join(" | "));
+  return send(res, 502, { error: "all_models_failed", tried: tried.length });
 };

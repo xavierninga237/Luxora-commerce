@@ -376,7 +376,7 @@
             .map((slug) => LX.productBySlug(slug)).filter(Boolean)
             .map((p) => ({ product: p, score: 0, why: [] }));
           if (!data.text) return local();
-          return { text: data.text, picks: picks, live: true, model: data.model };
+          return { text: data.text, picks: picks, live: true, model: data.model, free: !!data.free, fallback: !!data.fallback };
         })
         .catch(local)
         .finally(() => clearTimeout(timer));

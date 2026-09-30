@@ -55,6 +55,10 @@
           history.push({ role: "assistant", content: res.text +
             (res.picks && res.picks.length ? " [Showed: " + res.picks.map((r) => r.product.name).join(", ") + "]" : "") });
           if (history.length > 12) history.splice(0, history.length - 12);
+          if (badge && res.live && res.model) {
+            badge.textContent = "Live AI · " + String(res.model).split("/").pop().replace(/:free$/, "") + (res.free ? " (free)" : "");
+            badge.title = res.fallback ? "The main model was unavailable, so a backup model answered." : "Answered by " + res.model + " via OpenRouter.";
+          }
           busy = false;
         }, wait);
       });

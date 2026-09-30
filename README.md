@@ -37,6 +37,7 @@ Any static host works too — Netlify, Vercel, GitHub Pages, S3, or a plain ngin
 |---|---|---|---|
 | `OPENROUTER_API_KEY` | yes | `sk-or-v1-…` | Your key from [openrouter.ai/keys](https://openrouter.ai/keys). Stays on the server; never sent to the browser. |
 | `OPENROUTER_MODEL` | no | `openai/gpt-4o-mini` | Any model id from [openrouter.ai/models](https://openrouter.ai/models). Defaults to `openai/gpt-4o-mini`. |
+| `OPENROUTER_FALLBACK_MODELS` | no | `openrouter/free` | Comma-separated backups tried in order when the main model fails (no credits, rate limit, outage, empty reply). Defaults to `openrouter/free`, which picks whichever free model is available. |
 | `OPENROUTER_SITE_URL` | no | `https://luxora.vercel.app` | Sent as `HTTP-Referer` so the app shows up under your site in OpenRouter. |
 | `OPENROUTER_APP_NAME` | no | `Luxora Commerce` | Sent as `X-Title` (the name in your OpenRouter dashboard). |
 
@@ -47,7 +48,9 @@ Any static host works too — Netlify, Vercel, GitHub Pages, S3, or a plain ngin
 
 **Cost & abuse guard.** Each request is capped (600-character message, 8 turns of history, 500 output tokens) and each server instance allows 12 requests per minute per IP. For a public portfolio, also set a monthly credit limit on the key in OpenRouter.
 
-**If anything fails** — no key, OpenRouter down, rate-limited, or the site opened from `file://` — the chat silently falls back to the built-in rule-based engine, so the concierge never breaks in front of a visitor.
+**Fallback chain.** Each message tries `OPENROUTER_MODEL`, then each model in `OPENROUTER_FALLBACK_MODELS` (default `openrouter/free`). If all of them fail — or there's no key, or the site is opened from `file://` — the chat silently uses the built-in rule-based engine, so the concierge never breaks in front of a visitor. The chat header shows which model answered, with "(free)" when a free model did.
+
+**Running completely free:** set `OPENROUTER_MODEL=openrouter/free`. Free models are rate-limited by OpenRouter (roughly 20 requests/minute and a daily cap that rises once you've bought credits), and free providers may log prompts — fine for a demo store with no personal data.
 
 ### Links to share
 - Storefront: `https://your-project.vercel.app/`
